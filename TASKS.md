@@ -4,14 +4,14 @@ Este archivo detalla las tareas secuenciales para evolucionar Code Carol hacia u
 
 ## Fase 1: Estructura de Datos y Perfilamiento
 
-- [ ] **1.1. Refactorización de JSONs Maestros (i18n)**
-    - [ ] Modificar la estructura JSON actual: De `{"pregunta": "Texto"}` a `{"question": {"es": "Texto", "en": "Text", ...}}`.
-    - [ ] Actualizar los scripts de generación de documentación (`generate_docs.py`) para leer el nuevo formato.
+- [x] **1.1. Refactorización de JSONs Maestros (i18n)**
+    - [x] Modificar la estructura JSON actual: De `{"pregunta": "Texto"}` a `{"question": {"es": "Texto", "en": "Text", ...}}`.
+    - [x] Actualizar los scripts de generación de documentación (`generate_docs.py`) para leer el nuevo formato.
     
-- [ ] **1.2. Desarrollo del 'Funnel' de Registro**
+- [x] **1.2. Desarrollo del 'Funnel' de Registro**
     - [x] Crear `master_assesment/json/funnel_registration.json`.
-    - [ ] Definir campos: Nombre, No. Empleado, Departamento, Puesto, Autoevaluación (%), Años de Experiencia.
-    - [ ] Validar tipos de datos (Select, Slider, Input).
+    - [x] Definir campos: Nombre, No. Empleado, Departamento, Puesto, Autoevaluación (%), Años de Experiencia.
+    - [x] Validar tipos de datos (Select, Slider, Input).
 
 ## Fase 2: Localización y Contenido Multilingüe
 

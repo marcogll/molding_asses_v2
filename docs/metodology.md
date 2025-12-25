@@ -1,162 +1,90 @@
-# Assessment Evaluation Guide
+# Guía de Evaluación del Assessment (Code Carol)
 
-## Overview
-This document describes the evaluation methodology for the Molding Assessment system. The assessments evaluate the knowledge and skills of operators in injection molding processes through multiple-choice questions across different difficulty levels.
+## Descripción General
+Este documento describe la metodología de evaluación para el sistema **Code Carol**. Las evaluaciones miden el conocimiento y las habilidades del personal en procesos de moldeo por inyección a través de preguntas de opción múltiple organizadas en diferentes niveles de dificultad.
 
-## Assessment Structure
+## Estructura del Assessment
 
-### Master Data (JSON)
-These files contain the "source of truth", including questions, correct answers, reasoning, and scoring values. They are used for automated processing and API synchronization.
-- `master_assesment/json/basic_assesment.json`: Basic level master data.
-- `master_assesment/json/medium_assesment.json`: Medium level master data.
-- `master_assesment/json/advanced_assesment.json`: Advanced level master data.
+### Datos Maestros (JSON)
+Estos archivos contienen la "fuente de verdad", incluyendo las preguntas, respuestas correctas, razonamientos técnicos y valores de puntuación. Se utilizan para el procesamiento automatizado y la sincronización con la API.
+- `master_assesment/json/basic_assesment.json`: Datos maestros del Nivel Básico.
+- `master_assesment/json/medium_assesment.json`: Datos maestros del Nivel Medio.
+- `master_assesment/json/advanced_assesment.json`: Datos maestros del Nivel Avanzado.
 
-### Study Guides (Markdown)
-Clean versions of the assessments intended for study or manual review. They include the questions and options but **exclude** the correct answers and reasoning.
-- `docs/questions/LEVEL_1_BASIC_ASSESSMENT.md`: Basic Level Guide.
-- `docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md`: Medium Level Guide.
-- `docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md`: Advanced Level Guide.
+### Guías de Estudio (Markdown)
+Versiones limpias de las evaluaciones destinadas al estudio o revisión manual. Incluyen las preguntas y opciones, pero **excluyen** las respuestas correctas y el razonamiento para permitir su distribución.
+- `docs/questions/LEVEL_1_BASIC_ASSESSMENT.md`: Guía del Nivel Básico.
+- `docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md`: Guía del Nivel Medio.
+- `docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md`: Guía del Nivel Avanzado.
 
-### Question Categories
-- Máquina (Machine)
-- Plásticos (Plastics)
-- Seguridad (Safety)
-- Molde (Mold)
-- Calidad (Quality)
-- Operaciones (Operations)
-- Desperdicios (Waste)
-- Procesos (Processes)
+### Categorías de Evaluación
+- **Máquina**: Hardware, componentes y funciones de la inyectora.
+- **Plásticos**: Propiedades químicas, reología y comportamiento de polímeros.
+- **Seguridad**: Protocolos LOTO, resguardos y prevención de accidentes.
+- **Molde**: Componentes del herramental, enfriamiento y mecánica del molde.
+- **Calidad**: Identificación y solución de defectos estéticos y estructurales.
+- **Operaciones**: Modos de operación, SMED y tiempos de ciclo.
+- **Desperdicios (Waste)**: Gestión de scrap, purgas y eficiencia de material.
+- **Procesos**: Variables de inyección, empaque, enfriamiento y moldeo científico.
 
-### Question Types
-- Teórico: Theoretical knowledge
-- Práctico: Practical application
+## Método de Puntuación
 
-## Scoring Method
+### Valor por Pregunta (est_score)
+Cada pregunta tiene un valor asignado basado en su nivel y tipo:
 
-### Individual Question Scoring (est_score)
-Each question has an `est_score` value based on difficulty:
+| Nivel | Teórica | Práctica |
+|-------|---------|----------|
+| Básico | 1.0 | 1.5 |
+| Medio | 2.0 | 2.5 |
+| Avanzado | 3.0 | 3.5 |
 
-| Level | Theoretical | Practical |
-|-------|-------------|-----------|
-| Basic | 1.0 | 1.5 |
-| Medium | 2.0 | 2.5 |
-| Advanced | 3.0 | 3.5 |
+- **Teórica**: Evalúa el conocimiento conceptual y técnico.
+- **Práctica**: Evalúa la aplicación de criterios para resolver problemas en piso o cálculos de ingeniería.
 
-- **Theoretical**: Knowledge-based questions
-- **Practical**: Application-oriented questions requiring problem-solving
+### Cálculo del Puntaje Total
+El puntaje final es la suma de los valores (`est_score`) de todas las respuestas correctas.
 
-### Total Score Calculation
-The total score for an assessment is the sum of `est_score` values for correctly answered questions.
-
-**Formula:**
+**Fórmula:**
 ```
-Total Score = Σ(est_score of correct answers)
+Puntaje Total = Σ(est_score de respuestas correctas)
 ```
 
-### Maximum Possible Scores
-- Basic: 50 questions × average ~1.25 = ~62.5 points
-- Medium: 60 questions × average ~2.25 = ~135 points
-- Advanced: 60 questions × average ~3.25 = ~195 points
+### Puntajes Máximos Estimados
+- **Básico**: 50 preguntas → ~62.5 puntos.
+- **Medio**: 60 preguntas → ~135 puntos.
+- **Avanzado**: 60 preguntas → ~195 puntos.
 
-## Evaluation Process
+## Proceso de Evaluación
 
-1. **Question Presentation**: Questions are presented in randomized order to prevent cheating.
+1. **Presentación**: Las preguntas se presentan en orden aleatorio (vía API) para asegurar la integridad de la prueba.
+2. **Selección**: El usuario selecciona una opción de las disponibles.
+3. **Retroalimentación**: El sistema muestra el razonamiento técnico después de cada respuesta (si se configura el modo aprendizaje).
+4. **Reporte Final**: Se genera un porcentaje de aciertos y un desglose por categoría.
 
-2. **Answer Selection**: User selects one answer from three options.
+## Racional de Ponderación
+- **Niveles**: El incremento de puntos en niveles avanzados refleja la mayor responsabilidad y experiencia requerida.
+- **Ajuste por Tipo**: Las preguntas prácticas reciben +0.5 puntos adicionales por requerir análisis de situaciones reales, lo cual se considera de mayor complejidad que la teoría pura.
 
-3. **Immediate Feedback**: Show correct answer and reasoning after each question.
+## Procesamiento de Datos para Analistas
 
-4. **Score Accumulation**: Add `est_score` to total only if answer is correct.
-
-5. **Final Report**: Display total score, percentage correct, and breakdown by category.
-
-## Weighting Rationale
-- **Difficulty Levels**: Higher scores for advanced questions reflect greater expertise required.
-- **Type Adjustment**: Practical questions receive +0.5 points as they test real-world application, considered slightly harder than theoretical knowledge.
-- **Expert Determination**: Scores assigned based on subject matter expert analysis of question complexity and operator skill requirements.
-
-## Data Processing for Data Scientists
-
-### Data Format
-Each assessment file is a JSON array of question objects:
+### Formato de Datos
+Cada archivo JSON sigue este esquema:
 
 ```json
 {
-  "id": "unique_question_id",
-  "categoria": "Category",
+  "id": "id_unico_pregunta",
+  "categoria": "Categoría",
   "tipo": "Teórico|Práctico",
-  "pregunta": "Question text",
-  "respuestas": ["Option A", "Option B", "Option C"],
-  "respuesta_correcta": "Correct Option",
-  "razonamiento": "Explanation",
+  "pregunta": "Texto de la pregunta",
+  "respuestas": ["Opción A", "Opción B", "Opción C"],
+  "respuesta_correcta": "Opción Correcta",
+  "razonamiento": "Explicación técnica",
   "est_score": 1.0
 }
 ```
 
-### Processing Workflow
-
-1. **Load Assessment Data**
-   ```python
-   import json
-   with open('basic_assesment.json', 'r') as f:
-       questions = json.load(f)
-   ```
-
-2. **User Response Collection**
-   - Collect user answers as list of selected options
-   - Match against `respuesta_correcta`
-
-3. **Score Calculation**
-   ```python
-   def calculate_score(questions, user_answers):
-       total_score = 0
-       correct_count = 0
-       for i, q in enumerate(questions):
-           if user_answers[i] == q['respuesta_correcta']:
-               total_score += q['est_score']
-               correct_count += 1
-       return total_score, correct_count
-   ```
-
-4. **Analytics Data Structure**
-   ```python
-   result = {
-       'user_id': 'user123',
-       'assessment_level': 'basic',
-       'total_score': 45.5,
-       'max_score': 62.5,
-       'percentage': 72.8,
-       'correct_answers': 35,
-       'total_questions': 50,
-       'category_breakdown': {
-           'Máquina': {'correct': 5, 'total': 7, 'score': 6.5},
-           'Plásticos': {'correct': 4, 'total': 6, 'score': 5.0},
-           # ... other categories
-       },
-       'timestamp': '2024-12-25T12:00:00Z'
-   }
-   ```
-
-5. **Key Metrics for Analysis**
-   - Overall competency score
-   - Category-specific strengths/weaknesses
-   - Theoretical vs Practical performance
-   - Learning progress over time
-
-### Database Schema Suggestion
-```sql
-CREATE TABLE assessment_results (
-    id SERIAL PRIMARY KEY,
-    user_id VARCHAR(255),
-    assessment_level VARCHAR(50),
-    total_score DECIMAL(5,2),
-    max_score DECIMAL(5,2),
-    percentage DECIMAL(5,2),
-    correct_answers INT,
-    total_questions INT,
-    category_breakdown JSONB,
-    completed_at TIMESTAMP
-);
-```
-
-This scoring system ensures fair evaluation while allowing data scientists to perform detailed analytics on operator performance and training effectiveness.
+### Métricas Clave para Análisis
+- **Puntaje de competencia general**: Capacidad técnica global.
+- **Fortalezas/Debilidades por Categoría**: Identifica si el gap está en seguridad, procesos, etc.
+- **Desempeño Teórico vs. Práctico**: Determina si el evaluado tiene la base técnica o la habilidad de aplicación.
+- **Progreso de Aprendizaje**: Evolución del score tras periodos de capacitación.

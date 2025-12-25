@@ -1,4 +1,4 @@
-# Molding Assessment Hub V2
+# Code Carol
 
 > **Hub de evaluación integral para medir, estandarizar y potenciar el conocimiento técnico en moldeo por inyección.**
 > Soluciona la falta de métricas objetivas en la competencia del personal, transformando el "sentimiento" operativo en datos accionables para reducir scrap, mejorar el OEE y garantizar la seguridad.
@@ -12,8 +12,9 @@
 5. [KPIs Relevantes](#-kpis-relevantes)
 6. [Documentación Vinculada](#-documentación-vinculada)
 7. [Contribución](#-contribución)
-8. [Licencia y Ética](#-licencia-y-ética)
-9. [Actualizaciones](#-actualizaciones)
+8. [Créditos y Autores](#-créditos-y-autores)
+9. [Licencia y Ética](#-licencia-y-ética)
+10. [Actualizaciones](#-actualizaciones)
 
 ---
 
@@ -146,6 +147,15 @@ Para profundizar en áreas específicas, consulta:
 5.  Abre un **Pull Request**.
 
 Por favor, asegúrate de que las nuevas preguntas tengan una respuesta técnica verificable y un razonamiento claro.
+
+---
+
+## 👥 Créditos y Autores
+
+Este proyecto ha sido posible gracias a la colaboración multidisciplinaria:
+
+*   **Fortunato Salazar:** Idea original, visión y conceptualización del Assessment.
+*   **Marco Gallegos:** Desarrollo del sistema, automatización y estructuración de los cuestionarios.
 
 ---
 
