@@ -1,0 +1,1927 @@
+{
+  "name": "medium_assessment",
+  "status": "draft",
+  "type": "assessment",
+  "questions": [
+    {
+      "id": "mach_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué mide exactamente un termopar (thermocouple) en el barril de calefacción?",
+      "subheader": "Los termopares están instalados en el acero del barril; la temperatura del plástico suele ser un poco distinta debido a la fricción interna (calor por cizalla)",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La temperatura real del plástico fundido"
+        },
+        {
+          "id": "b",
+          "label": "La temperatura del metal del barril"
+        },
+        {
+          "id": "c",
+          "label": "La presión del aceite hidráulico"
+        },
+        {
+          "id": "d",
+          "label": "La temperatura del tornillo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_2",
+      "type": "multipleChoiceSingle",
+      "headline": "Si el ratio de intensificación (RI) es 10:1 y el manómetro hidráulico marca 1,000 PSI, ¿cuánta presión hay en la punta del tornillo?",
+      "subheader": "La presión del plástico es la presión hidráulica multiplicada por el Ratio de Intensificación de la máquina",
+      "choices": [
+        {
+          "id": "a",
+          "label": "1,000 PSI"
+        },
+        {
+          "id": "b",
+          "label": "10,000 PSI"
+        },
+        {
+          "id": "c",
+          "label": "100 PSI"
+        },
+        {
+          "id": "d",
+          "label": "2,000 PSI"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Máquina",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "mach_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Durante la fase de sostenimiento (hold), el tornillo sigue avanzando lentamente (creeping). ¿Cuál es la causa más probable?",
+      "subheader": "Si el anillo de cierre no sella bien, el plástico regresa hacia los filetes del tornillo, impidiendo que se mantenga una presión constante en la cavidad",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La temperatura de la boquilla es alta"
+        },
+        {
+          "id": "b",
+          "label": "La válvula check (anillo de cierre) tiene fugas"
+        },
+        {
+          "id": "c",
+          "label": "El molde está muy frío"
+        },
+        {
+          "id": "d",
+          "label": "La presión de inyección es demasiado alta"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Máquina",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "mach_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué significa la relación L/D en un tornillo de inyección?",
+      "subheader": "Es una medida de la capacidad de mezclado y fundido; una relación mayor suele indicar una mejor homogenización del plástico",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Longitud total entre Diámetro del tornillo"
+        },
+        {
+          "id": "b",
+          "label": "Largo de la boquilla entre Diámetro de la tolva"
+        },
+        {
+          "id": "c",
+          "label": "Límite de Desgaste del acero"
+        },
+        {
+          "id": "d",
+          "label": "La relación entre el largo del barril y la distancia entre platinas"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 2
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la consecuencia de tener una temperatura demasiado alta en la garganta de alimentación (hopper throat)?",
+      "subheader": "Si la garganta se calienta, el plástico comienza a ablandarse antes de entrar al tornillo, bloqueando el paso del material (bridging)",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El plástico se funde más rápido"
+        },
+        {
+          "id": "b",
+          "label": "Los pellets se pegan y forman un puente, impidiendo que el material baje"
+        },
+        {
+          "id": "c",
+          "label": "La pieza sale con más brillo"
+        },
+        {
+          "id": "d",
+          "label": "Los pellets fluyen mejor sin formar puentes"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Máquina",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "mach_6",
+      "type": "multipleChoiceSingle",
+      "headline": "En una máquina hidráulica, ¿qué componente es el encargado de suministrar el flujo de aceite?",
+      "subheader": "el punto crítico hidráulica convierte la energía mecánica del motor en flujo de aceite para mover todos los sistemas de la máquina",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Las válvulas"
+        },
+        {
+          "id": "b",
+          "label": "La bomba"
+        },
+        {
+          "id": "c",
+          "label": "Los actuadores"
+        },
+        {
+          "id": "d",
+          "label": "Los sensores de temperatura"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_7",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál de estas platinas NO existe en una máquina de moldeo estándar?",
+      "subheader": "Las máquinas estándar tienen platina fija (lado inyección), móvil (lado cierre) y a veces una trasera de soporte (tailstock)",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Platina fija"
+        },
+        {
+          "id": "b",
+          "label": "Platina móvil"
+        },
+        {
+          "id": "c",
+          "label": "Platina rotativa de expulsión"
+        },
+        {
+          "id": "d",
+          "label": "Una platina auxiliar"
+        }
+      ],
+      "logic": {
+        "correct": "c",
+        "score": 2
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_8",
+      "type": "multipleChoiceSingle",
+      "headline": "Si cambias un termopar Tipo J por uno Tipo K en un controlador de canal caliente:",
+      "subheader": "Cada tipo de termopar genera un voltaje distinto por grado; el controlador leerá una temperatura que no es real",
+      "choices": [
+        {
+          "id": "a",
+          "label": "No pasa nada, ambos miden igual"
+        },
+        {
+          "id": "b",
+          "label": "La lectura será errónea y causará problemas de proceso"
+        },
+        {
+          "id": "c",
+          "label": "El controlador se quemará instantáneamente"
+        },
+        {
+          "id": "d",
+          "label": "La lectura será más precisa automáticamente"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Máquina",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "molde_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué mitad del molde suele requerir más canales de enfriamiento?",
+      "subheader": "El plástico tiende a encogerse y abrazar el corazón (macho), por lo que el calor se queda atrapado ahí más tiempo",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La mitad fija (cavidad)"
+        },
+        {
+          "id": "b",
+          "label": "La mitad móvil (corazón/core)"
+        },
+        {
+          "id": "c",
+          "label": "Ambas requieren exactamente lo mismo siempre"
+        },
+        {
+          "id": "d",
+          "label": "La mitad fija mantiene el calor más tiempo que la móvil"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Para qué sirve el ángulo de salida (draft angle) en las paredes del molde?",
+      "subheader": "Sin ángulo de salida, la fricción entre el plástico y el acero impediría que los botadores saquen la pieza limpiamente",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Para que el plástico fluya mejor"
+        },
+        {
+          "id": "b",
+          "label": "Para facilitar la expulsión de la pieza sin que se raye o se pegue"
+        },
+        {
+          "id": "c",
+          "label": "Para que el molde se vea más profesional"
+        },
+        {
+          "id": "d",
+          "label": "Para amortiguar el impacto de los botadores al expulsar la pieza"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Tienes un molde de 12 pulgadas de espesor y debe abrir 6 pulgadas para expulsar. ¿Cuál es la 'Luz de día' (daylight) mínima?",
+      "subheader": "La luz de día es la distancia total entre platinas; debe ser al menos el espesor del molde más la carrera de apertura",
+      "choices": [
+        {
+          "id": "a",
+          "label": "12 pulgadas"
+        },
+        {
+          "id": "b",
+          "label": "18 pulgadas"
+        },
+        {
+          "id": "c",
+          "label": "24 pulgadas"
+        },
+        {
+          "id": "d",
+          "label": "30 pulgadas"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Molde",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "molde_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué ventaja tiene un canal caliente (hot runner) frente a uno frío?",
+      "subheader": "Al no tener que enfriar y expulsar una colada gruesa, el ciclo es más rápido y se ahorra material",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Es más barato de fabricar"
+        },
+        {
+          "id": "b",
+          "label": "Reduce el tiempo de ciclo y elimina el desperdicio de colada"
+        },
+        {
+          "id": "c",
+          "label": "Usa menos electricidad"
+        },
+        {
+          "id": "d",
+          "label": "Es más fácil de fabricar"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_5",
+      "type": "multipleChoiceSingle",
+      "headline": "Si un molde tiene 4 cavidades y una está bloqueada, ¿qué pasa con el tiempo de llenado?",
+      "subheader": "Al haber menos espacio, la velocidad de llenado efectiva en las cavidades restantes cambia si no se ajusta el perfil",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Se mantiene igual"
+        },
+        {
+          "id": "b",
+          "label": "Debe ajustarse, ya que el volumen de plástico ahora se reparte en menos cavidades"
+        },
+        {
+          "id": "c",
+          "label": "La máquina se detiene sola"
+        },
+        {
+          "id": "d",
+          "label": "El tiempo de ciclo se alarga sin cambio de perfil"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Molde",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "molde_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es la 'altura de molde' (die height) en la configuración de la máquina?",
+      "subheader": "Es un ajuste crítico para que la rodillera o el sistema hidráulico de cierre aplique la fuerza correcta",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La altura desde el piso hasta el molde"
+        },
+        {
+          "id": "b",
+          "label": "El espesor total del molde cerrado entre las platinas"
+        },
+        {
+          "id": "c",
+          "label": "La altura máxima a la que puede subir la grúa"
+        },
+        {
+          "id": "d",
+          "label": "La distancia desde la base hasta la cabeza de la máquina"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Molde",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "molde_7",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la función principal de los respiraderos (vents) en el molde?",
+      "subheader": "Si el aire no sale, se comprime, causando quemaduras (quemado por gas) o tiros cortos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Dejar que entre aire para enfriar"
+        },
+        {
+          "id": "b",
+          "label": "Permitir que el aire atrapado salga mientras el plástico llena la cavidad"
+        },
+        {
+          "id": "c",
+          "label": "Lubricar los pernos extractores"
+        },
+        {
+          "id": "d",
+          "label": "Cerrar los respiraderos para retener más presión dentro del molde"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_8",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué sucede si las mangueras de agua están conectadas 'en serie' en lugar de 'en paralelo' en un molde de muchas cavidades?",
+      "subheader": "El agua va absorbiendo calor; si pasa por muchas cavidades, al final ya no tiene capacidad de enfriar",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Enfría mejor"
+        },
+        {
+          "id": "b",
+          "label": "Las últimas cavidades estarán más calientes que las primeras, causando piezas desiguales"
+        },
+        {
+          "id": "c",
+          "label": "Se ahorra agua"
+        },
+        {
+          "id": "d",
+          "label": "Las primeras cavidades se mantienen frías mientras las últimas se calientan"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Molde",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué determina el punto de transferencia VPT (Velocity-to-Pressure)?",
+      "subheader": "Es el cambio de 'primera etapa' a 'segunda etapa'; crítico para evitar rebabas o tiros cortos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Cuándo termina el llenado por velocidad y empieza la compactación por presión"
+        },
+        {
+          "id": "b",
+          "label": "La velocidad a la que se abre el molde"
+        },
+        {
+          "id": "c",
+          "label": "La temperatura de la boquilla"
+        },
+        {
+          "id": "d",
+          "label": "La presión de empaque"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 2
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_10",
+      "type": "multipleChoiceSingle",
+      "headline": "Para convertir 350 Bar a PSI aproximadamente:",
+      "subheader": "1 Bar equivale a aproximadamente 14",
+      "choices": [
+        {
+          "id": "a",
+          "label": "3500 PSI"
+        },
+        {
+          "id": "b",
+          "label": "5075 PSI"
+        },
+        {
+          "id": "c",
+          "label": "2400 PSI"
+        },
+        {
+          "id": "d",
+          "label": "4,000 PSI"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Procesos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cómo debe ser el 'cojín' (cushion) ideal en un proceso científico robusto?",
+      "subheader": "Si el cojín llega a cero, la máquina no puede aplicar presión de sostenimiento a la pieza",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Cero (que el tornillo llegue al fondo)"
+        },
+        {
+          "id": "b",
+          "label": "Pequeño pero constante (ej. 5mm a 10mm), nunca llegando a cero"
+        },
+        {
+          "id": "c",
+          "label": "Lo más grande posible"
+        },
+        {
+          "id": "d",
+          "label": "Que el tornillo toque el fondo para asegurar la presión"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Procesos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué mide el tiempo de sellado de la compuerta (gate freeze time)?",
+      "subheader": "Una vez sellada la compuerta, aumentar el tiempo de hold ya no afecta el peso de la pieza",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Cuánto tarda el molde en abrir"
+        },
+        {
+          "id": "b",
+          "label": "El tiempo necesario para que el plástico en la entrada se solidifique y no regrese"
+        },
+        {
+          "id": "c",
+          "label": "El tiempo de inyección"
+        },
+        {
+          "id": "d",
+          "label": "El tiempo que el molde tarda en abrir después de expulsar la pieza"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Si aumentas la contrapresión (back pressure) durante la dosificación:",
+      "subheader": "La contrapresión obliga al tornillo a trabajar más para fundir el plástico, eliminando burbujas de aire y mejorando el color",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El tornillo carga más rápido"
+        },
+        {
+          "id": "b",
+          "label": "Mejora la mezcla y fundido, pero aumenta el desgaste y el tiempo de carga"
+        },
+        {
+          "id": "c",
+          "label": "La pieza sale con rebaba"
+        },
+        {
+          "id": "d",
+          "label": "Disminuye el tiempo de ciclo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Procesos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la forma más rápida de subir la temperatura del plástico fundido sin tocar las resistencias?",
+      "subheader": "Genera más fricción mecánica (cizallamiento), lo cual calienta el plástico desde adentro",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Bajar la velocidad de inyección"
+        },
+        {
+          "id": "b",
+          "label": "Aumentar la velocidad de rotación del tornillo o la contrapresión"
+        },
+        {
+          "id": "c",
+          "label": "Cerrar las mangueras de agua"
+        },
+        {
+          "id": "d",
+          "label": "Incrementar la presión de cierre para calentar el plástico"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Procesos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué variable controla el llenado de la cavidad en la 'primera etapa'?",
+      "subheader": "En el moldeo científico, la primera etapa debe ser controlada por velocidad para asegurar un llenado uniforme",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Presión"
+        },
+        {
+          "id": "b",
+          "label": "Velocidad (Flujo)"
+        },
+        {
+          "id": "c",
+          "label": "Tiempo de enfriamiento"
+        },
+        {
+          "id": "d",
+          "label": "Temperatura de fundido"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_7",
+      "type": "multipleChoiceSingle",
+      "headline": "En un estudio de viscosidad, si duplicas la velocidad de inyección y la presión no sube casi nada, el material es:",
+      "subheader": "Los plásticos fluyen más fácil entre más rápido se empujen; esto permite inyectar piezas complejas",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Muy viscoso"
+        },
+        {
+          "id": "b",
+          "label": "No-Newtoniano (adelgazamiento por cizalla)"
+        },
+        {
+          "id": "c",
+          "label": "Newtoniano (como el agua)"
+        },
+        {
+          "id": "d",
+          "label": "Está en zona de flujo laminar"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Procesos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_8",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Para qué sirve el temporizador de retardo del tornillo (screw delay)?",
+      "subheader": "Ayuda a prevenir el goteo de la boquilla (drooling) al final del ciclo",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Para que el operador descanse"
+        },
+        {
+          "id": "b",
+          "label": "Para permitir que el tornillo empiece a cargar solo después de que el plástico en la boquilla haya enfriado un poco"
+        },
+        {
+          "id": "c",
+          "label": "Para retrasar la inyección"
+        },
+        {
+          "id": "d",
+          "label": "Para evitar que el tornillo cargue mientras el molde aún está abierto"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Procesos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "proc_9",
+      "type": "multipleChoiceSingle",
+      "headline": "¿En qué etapa del proceso el polímero encuentra la presión más alta?",
+      "subheader": "Durante el empaque se aplica la presión final para compactar el material dentro de un molde ya lleno",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Inyección (1ra etapa)"
+        },
+        {
+          "id": "b",
+          "label": "Empaque/Packing (2da etapa)"
+        },
+        {
+          "id": "c",
+          "label": "Dosificación"
+        },
+        {
+          "id": "d",
+          "label": "Secado del material"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "cal_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la causa más común de las burbujas de aire (air bubbles) en piezas transparentes?",
+      "subheader": "A diferencia de los vacíos por contracción, las burbujas de aire suelen venir del proceso de plastificación o llenado turbulento",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Molde muy frío"
+        },
+        {
+          "id": "b",
+          "label": "Atrapamiento de aire durante la dosificación o inyección muy rápida"
+        },
+        {
+          "id": "c",
+          "label": "Baja temperatura de fundido"
+        },
+        {
+          "id": "d",
+          "label": "La presión de empaque es demasiado alta"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_2",
+      "type": "multipleChoiceSingle",
+      "headline": "Aparecen 'manchas plateadas' (splay) repentinamente. Revisas el secador y está apagado. Esto confirma que el defecto es causado por:",
+      "subheader": "El splay es el síntoma clásico de humedad que se convierte en vapor dentro del barril",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Degradación térmica"
+        },
+        {
+          "id": "b",
+          "label": "Humedad en el material"
+        },
+        {
+          "id": "c",
+          "label": "Presión de inyección alta"
+        },
+        {
+          "id": "d",
+          "label": "Contaminación con lubricante en el barril"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Si una pieza tiene 'rechupes' (sink marks), ¿cuál de estos cambios es el más efectivo?",
+      "subheader": "El rechupe ocurre porque no entró suficiente plástico para compensar la contracción mientras la pieza enfriaba",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Aumentar el tiempo o la presión de sostenimiento (hold)"
+        },
+        {
+          "id": "b",
+          "label": "Inyectar más rápido"
+        },
+        {
+          "id": "c",
+          "label": "Bajar la contrapresión"
+        },
+        {
+          "id": "d",
+          "label": "Abrir la válvula de ventilación"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué defecto causa el fenómeno llamado 'Jetting'?",
+      "subheader": "Ocurre cuando la velocidad de inyección es muy alta al pasar por una compuerta pequeña hacia un área grande",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El plástico entra como un chorro serpenteante sin tocar las paredes del molde"
+        },
+        {
+          "id": "b",
+          "label": "El plástico se quema en la boquilla"
+        },
+        {
+          "id": "c",
+          "label": "La pieza se pega en el corazón"
+        },
+        {
+          "id": "d",
+          "label": "El plástico se pega en las paredes con exceso de presión"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 2
+      },
+      "tags": [
+        "Calidad",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "cal_5",
+      "type": "multipleChoiceSingle",
+      "headline": "Al dejar una pieza caliente sobre una mesa de metal fría, esta se dobla hacia arriba. Esto se debe a:",
+      "subheader": "La cara que enfría rápido 'tira' del resto de la pieza, causando una deformación por tensiones térmicas",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Gravedad"
+        },
+        {
+          "id": "b",
+          "label": "Enfriamiento desigual (la cara contra la mesa enfrió más rápido que la cara al aire)"
+        },
+        {
+          "id": "c",
+          "label": "El material es de mala calidad"
+        },
+        {
+          "id": "d",
+          "label": "La humedad del aire es alta"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es una 'veta de color' en la pieza?",
+      "subheader": "Indica que el tornillo no está homogeneizando bien el pigmento con la resina base",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Una línea causada por el molde rayado"
+        },
+        {
+          "id": "b",
+          "label": "Mala mezcla del pigmento o concentrado de color en el barril"
+        },
+        {
+          "id": "c",
+          "label": "Exceso de enfriamiento"
+        },
+        {
+          "id": "d",
+          "label": "El molde estaba perfectamente alineado"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Calidad",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "cal_7",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cómo se distingue un 'vacío' (void) de una 'burbuja de aire'?",
+      "subheader": "El vacío es un hueco por falta de presión (física); la burbuja contiene gas atrapado",
+      "choices": [
+        {
+          "id": "a",
+          "label": "No se pueden distinguir"
+        },
+        {
+          "id": "b",
+          "label": "El vacío desaparece si calientas la pieza (es contracción); la burbuja se expande"
+        },
+        {
+          "id": "c",
+          "label": "La burbuja es siempre más grande"
+        },
+        {
+          "id": "d",
+          "label": "El vacío se mantiene sin responder al calor"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_8",
+      "type": "multipleChoiceSingle",
+      "headline": "Detectas 'splay' y sospechas que es por degradación térmica. ¿Cómo lo compruebas?",
+      "subheader": "El plástico quemado cambia de color y desprende un olor fuerte a gas químico",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Haciendo un purga al aire y oliendo si el gas es picante o el color está amarillento"
+        },
+        {
+          "id": "b",
+          "label": "Subiendo más la temperatura"
+        },
+        {
+          "id": "c",
+          "label": "Pesando la pieza"
+        },
+        {
+          "id": "d",
+          "label": "Reducir la velocidad de inyección y revisar si desaparecen las manchas"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_9",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cómo se llama la temperatura en la que las piezas ya no sufren deformación al ser expulsadas?",
+      "subheader": "Es el punto donde el material tiene suficiente integridad estructural para resistir la fuerza de los botadores sin deformarse",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Temperatura de fundido"
+        },
+        {
+          "id": "b",
+          "label": "Temperatura de deflexión térmica (HDT)"
+        },
+        {
+          "id": "c",
+          "label": "Temperatura de expulsión segura"
+        },
+        {
+          "id": "d",
+          "label": "Temperatura de solidificación parcial"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Por qué es peligroso dejar la boquilla contra el molde cuando la máquina no está operando?",
+      "subheader": "Mantener el contacto térmico degrada el plástico en la punta y puede generar gases peligrosos o taponamientos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Se puede rayar el bebedero"
+        },
+        {
+          "id": "b",
+          "label": "El calor de la boquilla puede degradar el plástico atrapado o calentar el molde innecesariamente"
+        },
+        {
+          "id": "c",
+          "label": "La boquilla se puede enfriar demasiado"
+        },
+        {
+          "id": "d",
+          "label": "Enfriar la boquilla con spray mientras la máquina está apagada"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué indican las señales de LOTO (Bloqueo/Etiquetado) en una máquina?",
+      "subheader": "Es el procedimiento de seguridad vital para asegurar que nadie encienda la máquina mientras alguien trabaja en ella",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Que la máquina está lista para producir"
+        },
+        {
+          "id": "b",
+          "label": "Que hay energías peligrosas (eléctrica, presión, mecánica) aisladas por mantenimiento"
+        },
+        {
+          "id": "c",
+          "label": "Que el molde es nuevo"
+        },
+        {
+          "id": "d",
+          "label": "Que la máquina está en mantenimiento programado"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Al purgar materiales como el POM (Acetal) después de un PVC, ¿qué precaución es crítica?",
+      "subheader": "Ciertos plásticos son químicamente incompatibles y generan gases tóxicos o presión explosiva si se juntan en el barril caliente",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Usar guantes de seda"
+        },
+        {
+          "id": "b",
+          "label": "No mezclarlos nunca, ya que pueden reaccionar químicamente y causar una explosión de gas en el barril"
+        },
+        {
+          "id": "c",
+          "label": "Bajar la presión de inyección al mínimo"
+        },
+        {
+          "id": "d",
+          "label": "Aplicar aire comprimido al barril para ventilar los gases"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Si escuchas un ruido metálico fuerte en la unidad de cierre, debes:",
+      "subheader": "Cualquier ruido inusual indica una falla mecánica que puede causar un accidente o daño catastrófico al molde",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Subir el tonelaje"
+        },
+        {
+          "id": "b",
+          "label": "Presionar Paro de Emergencia e investigar antes de que el molde se dañe"
+        },
+        {
+          "id": "c",
+          "label": "Esperar a que termine el turno"
+        },
+        {
+          "id": "d",
+          "label": "Reducir el voltaje de la máquina"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la forma correcta de manejar un molde suspendido por una grúa?",
+      "subheader": "Nunca se debe estar debajo de una carga suspendida por riesgo de falla del equipo de izaje",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Empujarlo con las manos por debajo"
+        },
+        {
+          "id": "b",
+          "label": "Mantenerse fuera del área de caída y usar cuerdas guía si es necesario"
+        },
+        {
+          "id": "c",
+          "label": "Sujetarse del cáncamo de izaje"
+        },
+        {
+          "id": "d",
+          "label": "Mover el molde con las manos por debajo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "plast_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué sucede con las moléculas de un plástico cristalino (ej. Nylon) cuando se enfrían muy lento?",
+      "subheader": "El grado de cristalinidad depende directamente de la tasa de enfriamiento; enfriar lento permite mayor orden molecular",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Se vuelven desordenadas"
+        },
+        {
+          "id": "b",
+          "label": "Tienen tiempo de formar cristales más grandes, aumentando la rigidez"
+        },
+        {
+          "id": "c",
+          "label": "Se degradan por el calor"
+        },
+        {
+          "id": "d",
+          "label": "Las moléculas se vuelven más flexibles aunque se enfríen lento"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué propiedad del plástico se ve afectada principalmente por la longitud de sus cadenas (peso molecular)?",
+      "subheader": "Cadenas más largas se enredan más, aumentando la resistencia del material y dificultando su flujo (mayor viscosidad)",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Solo el color"
+        },
+        {
+          "id": "b",
+          "label": "La resistencia mecánica y la viscosidad"
+        },
+        {
+          "id": "c",
+          "label": "La transparencia"
+        },
+        {
+          "id": "d",
+          "label": "La densidad"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la definición correcta de 'Polimerización'?",
+      "subheader": "Es el proceso químico de creación del plástico a partir de sus componentes básicos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El acto de moler plástico usado"
+        },
+        {
+          "id": "b",
+          "label": "Unir moléculas cortas (monómeros) para formar cadenas largas (polímeros)"
+        },
+        {
+          "id": "c",
+          "label": "Enfriar el plástico en el molde"
+        },
+        {
+          "id": "d",
+          "label": "Mezclar resinas diferentes"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Si comparamos un plástico Amorfo y uno Cristalino, ¿cuál suele encogerse (shrinkage) más al enfriarse?",
+      "subheader": "Las moléculas cristalinas se ordenan y empaquetan más juntas al enfriarse, ocupando menos espacio",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El Amorfo"
+        },
+        {
+          "id": "b",
+          "label": "El Cristalino"
+        },
+        {
+          "id": "c",
+          "label": "Ambos encogen igual"
+        },
+        {
+          "id": "d",
+          "label": "El plástico amorfo se vuelve más transparente"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Plásticos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "plast_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué mide un viscosímetro o reómetro capilar?",
+      "subheader": "Mide la viscosidad, que es el parámetro clave para entender cómo llenará el plástico el molde",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La dureza del plástico sólido"
+        },
+        {
+          "id": "b",
+          "label": "La resistencia del plástico fundido a fluir bajo presión"
+        },
+        {
+          "id": "c",
+          "label": "La cantidad de humedad en el pellet"
+        },
+        {
+          "id": "d",
+          "label": "La conductividad térmica del plástico"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿A qué temperatura se considera que un plástico amorfo pasa de un estado rígido a uno gomoso?",
+      "subheader": "En los amorfos, la Tg marca el cambio de comportamiento estructural antes de fluir por completo",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Punto de fusión (Tm)"
+        },
+        {
+          "id": "b",
+          "label": "Temperatura de transición vítrea (Tg)"
+        },
+        {
+          "id": "c",
+          "label": "Punto de ebullición"
+        },
+        {
+          "id": "d",
+          "label": "Temperatura de flujo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_7",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Quién desarrolló comercialmente el Nylon por primera vez?",
+      "subheader": "el punto crítico es históricamente el pionero en la creación y comercialización de la poliamida (Nylon)",
+      "choices": [
+        {
+          "id": "a",
+          "label": "BASF"
+        },
+        {
+          "id": "b",
+          "label": "DuPont"
+        },
+        {
+          "id": "c",
+          "label": "SABIC"
+        },
+        {
+          "id": "d",
+          "label": "Ineos"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Plásticos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es el propósito del 'tiempo de reposo térmico' (heat soak) en un canal caliente?",
+      "subheader": "Los componentes se expanden con el calor; si inyectas antes de que todo esté dilatado, el plástico puede fugar por las uniones",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Ahorrar luz"
+        },
+        {
+          "id": "b",
+          "label": "Permitir que todo el acero del sistema alcance la temperatura uniforme para evitar fugas y roturas"
+        },
+        {
+          "id": "c",
+          "label": "Calentar el molde más rápido"
+        },
+        {
+          "id": "d",
+          "label": "Dejar las resistencias apagadas para ahorrar energía antes del ciclo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿En qué modo se debe realizar un 'air shot' (disparo al aire) para verificar el material?",
+      "subheader": "Permite al operador controlar el disparo de forma segura mientras observa la calidad del fundido fuera del molde",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Automático"
+        },
+        {
+          "id": "b",
+          "label": "Manual"
+        },
+        {
+          "id": "c",
+          "label": "Semiautomático"
+        },
+        {
+          "id": "d",
+          "label": "Semiautomático con la puerta abierta"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué orden de encendido es el más seguro para un molde de canal caliente?",
+      "subheader": "Asegura que el plástico tenga una ruta abierta desde el centro hacia afuera antes de aplicar presión",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Todo al mismo tiempo"
+        },
+        {
+          "id": "b",
+          "label": "Manifold primero, luego las boquillas y al final el bebedero (si aplica)"
+        },
+        {
+          "id": "c",
+          "label": "Boquillas primero para que no se tapen"
+        },
+        {
+          "id": "d",
+          "label": "Encender primero el bebedero y luego el manifold con la máquina caliente"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Si la máquina se detiene por una falla eléctrica por más de 30 minutos con material degradable (ej. PVC) en el barril, ¿qué debes hacer?",
+      "subheader": "El calor estático degrada el material, lo que puede corroer el barril o causar gases tóxicos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Esperar a que regrese la luz e inyectar"
+        },
+        {
+          "id": "b",
+          "label": "Purgar el barril inmediatamente con un material de limpieza o estable en cuanto haya energía"
+        },
+        {
+          "id": "c",
+          "label": "No hacer nada"
+        },
+        {
+          "id": "d",
+          "label": "Esperar a que el material degrade por sí solo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué significa SPC en el entorno de moldeo?",
+      "subheader": "Es la metodología para monitorear las variables del proceso y asegurar que las piezas se mantengan en tolerancia",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Sistema de Presión Constante"
+        },
+        {
+          "id": "b",
+          "label": "Control Estadístico de Procesos"
+        },
+        {
+          "id": "c",
+          "label": "Seguridad de Plásticos Críticos"
+        },
+        {
+          "id": "d",
+          "label": "Planificación de Seguridad de Cambios"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Operaciones",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "op_6",
+      "type": "multipleChoiceSingle",
+      "headline": "Al purgar el barril, notas que el plástico sale con burbujas y hace ruido de 'explosiones' pequeñas. Esto indica:",
+      "subheader": "El agua atrapada se evapora instantáneamente al salir a la presión atmosférica, causando ese sonido y burbujas",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Demasiada presión de inyección"
+        },
+        {
+          "id": "b",
+          "label": "Humedad excesiva en el material"
+        },
+        {
+          "id": "c",
+          "label": "El tornillo está roto"
+        },
+        {
+          "id": "d",
+          "label": "El barril está demasiado frío para evaporar la humedad"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_7",
+      "type": "multipleChoiceSingle",
+      "headline": "Un molde de 4 cavidades con ciclo de 27 segundos debe producir 3,500 piezas. ¿Cuántas horas tardará?",
+      "subheader": "4 piezas cada 27 seg = 0",
+      "choices": [
+        {
+          "id": "a",
+          "label": "10.35 horas"
+        },
+        {
+          "id": "b",
+          "label": "6.56 horas"
+        },
+        {
+          "id": "c",
+          "label": "4.56 horas"
+        },
+        {
+          "id": "d",
+          "label": "5.25 horas"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué efecto tiene usar demasiada descompresión (suck back)?",
+      "subheader": "Retraer demasiado el tornillo mete aire a la zona de fundido, el cual se mezcla con el plástico y causa defectos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La pieza sale más pesada"
+        },
+        {
+          "id": "b",
+          "label": "Puede succionar aire al barril, causando burbujas o manchas de quemado"
+        },
+        {
+          "id": "c",
+          "label": "Ahorra tiempo de ciclo"
+        },
+        {
+          "id": "d",
+          "label": "Reduce la presión de empaque"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es el 'tiempo de residencia'?",
+      "subheader": "Si el tiempo de residencia es muy largo, el calor degrada las cadenas químicas del plástico, arruinando sus propiedades",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El tiempo que el operador tarda en su descanso"
+        },
+        {
+          "id": "b",
+          "label": "El tiempo total que el plástico pasa dentro del barril caliente"
+        },
+        {
+          "id": "c",
+          "label": "El tiempo que la pieza dura en el molde"
+        },
+        {
+          "id": "d",
+          "label": "La contaminación solo afecta el color y se corrige con más presión"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Desperdicios",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "desp_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Si trabajas con un barril muy grande para una pieza muy pequeña, el principal riesgo es:",
+      "subheader": "El material tarda muchos ciclos en salir, exponiéndose al calor por demasiado tiempo",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Que la máquina no tenga fuerza"
+        },
+        {
+          "id": "b",
+          "label": "Degradación del plástico por exceso de tiempo de residencia"
+        },
+        {
+          "id": "c",
+          "label": "Que el molde no cierre"
+        },
+        {
+          "id": "d",
+          "label": "El costo del material baja por la purga"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la forma más eficiente de purgar para un cambio de color de negro a blanco?",
+      "subheader": "Usar solo resina virgen gasta mucho material y tiempo; los compuestos de purga 'arrastran' mejor los residuos",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Inyectar 50 disparos de blanco"
+        },
+        {
+          "id": "b",
+          "label": "Limpiar físicamente el tornillo o usar un compuesto de purga especializado"
+        },
+        {
+          "id": "c",
+          "label": "Bajar la temperatura"
+        },
+        {
+          "id": "d",
+          "label": "Inyectar hasta que el color se iguale sin purgar"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué sucede si el porcentaje de material recuperado (regrind) es demasiado alto?",
+      "subheader": "El plástico se debilita cada vez que se funde; demasiado regrind afecta la calidad final",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La pieza se vuelve irrompible"
+        },
+        {
+          "id": "b",
+          "label": "Se pierden propiedades mecánicas y el proceso se vuelve inestable"
+        },
+        {
+          "id": "c",
+          "label": "No pasa nada, es puro ahorro"
+        },
+        {
+          "id": "d",
+          "label": "La pieza se vuelve más resistente gracias al regrind"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2
+      },
+      "tags": [
+        "Desperdicios",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "desp_6",
+      "type": "multipleChoiceSingle",
+      "headline": "Si un operador tira las coladas al suelo y se llenan de polvo, ¿pueden recuperarse?",
+      "subheader": "El regrind debe estar tan limpio como el material virgen para no comprometer el proceso",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Sí, el filtro las limpia"
+        },
+        {
+          "id": "b",
+          "label": "No, la contaminación externa arruinará las piezas nuevas y puede tapar compuertas"
+        },
+        {
+          "id": "c",
+          "label": "Sí, si se lavan con agua"
+        },
+        {
+          "id": "d",
+          "label": "Sí, si se lavan con solvente"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 2.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    }
+  ]
+}

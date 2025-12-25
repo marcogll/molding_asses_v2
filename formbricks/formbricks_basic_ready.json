@@ -1,0 +1,1607 @@
+{
+  "name": "basic_assessment",
+  "status": "draft",
+  "type": "assessment",
+  "questions": [
+    {
+      "id": "mach_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué componente de la máquina transporta y funde el material plástico?",
+      "subheader": "Identifica el componente que transporta el material hacia el extremo caliente y lo funde.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La tolva"
+        },
+        {
+          "id": "b",
+          "label": "El tornillo (husillo)"
+        },
+        {
+          "id": "c",
+          "label": "La platina móvil"
+        },
+        {
+          "id": "d",
+          "label": "La bomba hidráulica"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿En qué parte de la máquina se deposita la materia prima (pellets) antes de entrar al barril?",
+      "subheader": "El plástico virgen se deposita en un depósito que alimenta el barril por gravedad.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "En la boquilla"
+        },
+        {
+          "id": "b",
+          "label": "En la unidad de cierre"
+        },
+        {
+          "id": "c",
+          "label": "En la tolva"
+        },
+        {
+          "id": "d",
+          "label": "En el barril"
+        }
+      ],
+      "logic": {
+        "correct": "c",
+        "score": 1
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Para qué sirven las bandas calefactoras del barril?",
+      "subheader": "Las bandas calefactoras controlan el aporte térmico en las zonas del barril.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Para enfriar el molde"
+        },
+        {
+          "id": "b",
+          "label": "Para ayudar a fundir el plástico y mantener su temperatura"
+        },
+        {
+          "id": "c",
+          "label": "Para mover el tornillo hacia adelante"
+        },
+        {
+          "id": "d",
+          "label": "Regular la presión hidráulica del cierre"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué indica el 'Tonelaje' de una máquina (ej. 200 Ton)?",
+      "subheader": "El tonelaje mide la capacidad para resistir la presión interna durante la inyección.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El peso total de la máquina"
+        },
+        {
+          "id": "b",
+          "label": "La fuerza máxima para mantener el molde cerrado durante la inyección"
+        },
+        {
+          "id": "c",
+          "label": "La cantidad de plástico que puede inyectar por segundo"
+        },
+        {
+          "id": "d",
+          "label": "La capacidad de enfriamiento del molde"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_5",
+      "type": "multipleChoiceSingle",
+      "headline": "La 'unidad de cierre' se encarga de:",
+      "subheader": "La unidad de cierre mueve las platinas y aplica el tonelaje de seguridad.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Inyectar el material"
+        },
+        {
+          "id": "b",
+          "label": "Abrir, cerrar y mantener el molde bajo presión"
+        },
+        {
+          "id": "c",
+          "label": "Calentar el plástico"
+        },
+        {
+          "id": "d",
+          "label": "Medir el tiempo de ciclo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es la 'Boquilla' (Nozzle) de la máquina?",
+      "subheader": "La boquilla conecta la unidad de inyección con el molde.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El punto donde el plástico sale del barril hacia el molde"
+        },
+        {
+          "id": "b",
+          "label": "La parte que saca las piezas del molde"
+        },
+        {
+          "id": "c",
+          "label": "Donde se ajusta la presión hidráulica"
+        },
+        {
+          "id": "d",
+          "label": "El soporte de la tolva"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1
+      },
+      "tags": [
+        "Máquina",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "mach_7",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la función del pistón hidráulico de inyección?",
+      "subheader": "El pistón genera la fuerza que impulsa el tornillo durante el llenado.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Girar el tornillo"
+        },
+        {
+          "id": "b",
+          "label": "Empujar el tornillo hacia adelante para llenar el molde"
+        },
+        {
+          "id": "c",
+          "label": "Expulsar las piezas al final del ciclo"
+        },
+        {
+          "id": "d",
+          "label": "Controlar el cierre del molde"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Máquina",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "molde_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cómo se llama el canal principal por donde entra el plástico al molde desde la boquilla?",
+      "subheader": "Contexto: el molde recibe el plástico desde la máquina a través de un canal principal.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Compuerta (Gate)"
+        },
+        {
+          "id": "b",
+          "label": "Bebedero (Sprue)"
+        },
+        {
+          "id": "c",
+          "label": "Botador"
+        },
+        {
+          "id": "d",
+          "label": "Canal de enfriamiento"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la función de los 'Pernos Extractores' o 'Botadores'?",
+      "subheader": "Los extractores liberan la pieza del acero del molde al final del ciclo.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Enfriar la pieza"
+        },
+        {
+          "id": "b",
+          "label": "Empujar la pieza fuera del molde una vez que está sólida"
+        },
+        {
+          "id": "c",
+          "label": "Inyectar el plástico"
+        },
+        {
+          "id": "d",
+          "label": "Controlar el ciclo de inyección"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es la 'Cavidad' en un molde?",
+      "subheader": "La cavidad contiene el negativo de la pieza a fabricar.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El espacio hueco que tiene la forma de la pieza que vamos a fabricar"
+        },
+        {
+          "id": "b",
+          "label": "La parte que sujeta el molde a la platina"
+        },
+        {
+          "id": "c",
+          "label": "El sistema de mangueras de agua"
+        },
+        {
+          "id": "d",
+          "label": "El bloque que sostiene la platina"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Para qué sirve el sistema de enfriamiento (canales de agua) del molde?",
+      "subheader": "Los canales de enfriamiento aceleran el intercambio térmico con el agua.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Para que el plástico fluya más rápido"
+        },
+        {
+          "id": "b",
+          "label": "Para endurecer (solidificar) el plástico rápidamente y poder sacar la pieza"
+        },
+        {
+          "id": "c",
+          "label": "Para limpiar el molde por dentro"
+        },
+        {
+          "id": "d",
+          "label": "Para mantener el molde cerrado"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es la 'Compuerta' (Gate)?",
+      "subheader": "La compuerta regula el paso del plástico hacia la cavidad.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El lugar por donde sale la pieza"
+        },
+        {
+          "id": "b",
+          "label": "La entrada estrecha de plástico a la cavidad de la pieza"
+        },
+        {
+          "id": "c",
+          "label": "La puerta de seguridad de la máquina"
+        },
+        {
+          "id": "d",
+          "label": "El canal por donde circula el agua"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "molde_6",
+      "type": "multipleChoiceSingle",
+      "headline": "Un molde de 'Canal Caliente' (Hot Runner) se caracteriza por:",
+      "subheader": "Los sistemas de canal caliente mantienen el plástico fundido hasta la cavidad.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "No generar colada sólida (el plástico en los canales siempre está fundido)"
+        },
+        {
+          "id": "b",
+          "label": "Estar siempre muy sucio"
+        },
+        {
+          "id": "c",
+          "label": "Necesitar más enfriamiento que uno de canal frío"
+        },
+        {
+          "id": "d",
+          "label": "Reduce la presión de cierre necesaria"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1
+      },
+      "tags": [
+        "Molde",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es la 'Viscosidad' del plástico?",
+      "subheader": "La viscosidad describe la facilidad de flujo del polímero fundido.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El color del material fundido"
+        },
+        {
+          "id": "b",
+          "label": "La resistencia del plástico a fluir (espesor del líquido)"
+        },
+        {
+          "id": "c",
+          "label": "El peso de la pieza"
+        },
+        {
+          "id": "d",
+          "label": "La cantidad de material inyectado"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué pasa con la viscosidad si aumentamos mucho la temperatura?",
+      "subheader": "Aumentar la temperatura reduce la resistencia del polímero al movimiento.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El plástico se vuelve más espeso (más difícil de mover)"
+        },
+        {
+          "id": "b",
+          "label": "El plástico se vuelve más fluido (más fácil de mover)"
+        },
+        {
+          "id": "c",
+          "label": "No pasa nada"
+        },
+        {
+          "id": "d",
+          "label": "El plástico se solidifica a mayor temperatura"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_3",
+      "type": "multipleChoiceSingle",
+      "headline": "El ciclo de moldeo consta de 3 fases principales en orden:",
+      "subheader": "El ciclo de moldeo combina llenado, compactación y solidificación.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Enfriamiento, Inyección y Empaque"
+        },
+        {
+          "id": "b",
+          "label": "Inyección, Empaque (Sostenimiento) y Enfriamiento"
+        },
+        {
+          "id": "c",
+          "label": "Abrir, Cerrar y Botar"
+        },
+        {
+          "id": "d",
+          "label": "Inyección, Enfriamiento y Empaque"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es la 'Presión de Sostenimiento' (Hold pressure)?",
+      "subheader": "La presión de sostenimiento asegura el llenado final y compensa la contracción.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La presión para abrir el molde"
+        },
+        {
+          "id": "b",
+          "label": "La presión que mantiene el tornillo empujando al final para terminar de llenar y compensar la contracción"
+        },
+        {
+          "id": "c",
+          "label": "La presión del agua de enfriamiento"
+        },
+        {
+          "id": "d",
+          "label": "La presión en el sistema de expulsión"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_5",
+      "type": "multipleChoiceSingle",
+      "headline": "La mayor parte del calor para fundir el plástico en máquinas modernas viene de:",
+      "subheader": "Una porción importante del calor proviene del trabajo mecánico dentro del barril.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Solo de las resistencias eléctricas"
+        },
+        {
+          "id": "b",
+          "label": "De la fricción y el tallado del plástico causado por el giro del tornillo (calor por cizalla)"
+        },
+        {
+          "id": "c",
+          "label": "Del aire caliente de la planta"
+        },
+        {
+          "id": "d",
+          "label": "Del calor del agua de enfriamiento"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "proc_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es el 'Cojín' (Cushion) de material?",
+      "subheader": "El cojín mantiene material delante del tornillo para transmitir presión constante.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Una almohada para el operador"
+        },
+        {
+          "id": "b",
+          "label": "La pequeña cantidad de plástico que queda delante del tornillo al final de la inyección para asegurar presión constante"
+        },
+        {
+          "id": "c",
+          "label": "El exceso de plástico en la tolva"
+        },
+        {
+          "id": "d",
+          "label": "La presión final aplicada por la boquilla"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Procesos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "cal_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es un 'Tiro Corto' (Short Shot)?",
+      "subheader": "Un tiro corto indica que algo limita la cantidad de material desplazado.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Una pieza con exceso de material"
+        },
+        {
+          "id": "b",
+          "label": "Una pieza que no se llenó completamente"
+        },
+        {
+          "id": "c",
+          "label": "Una pieza que salió de otro color"
+        },
+        {
+          "id": "d",
+          "label": "El molde no estaba completamente cerrado"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_2",
+      "type": "multipleChoiceSingle",
+      "headline": "Si una pieza tiene 'Rebaba' (Flash), significa que:",
+      "subheader": "La rebaba revela exceso de presión o falta de fuerza de cierre en la línea de partición.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Le faltó presión de inyección"
+        },
+        {
+          "id": "b",
+          "label": "Salió plástico fuera de la línea de partición del molde"
+        },
+        {
+          "id": "c",
+          "label": "El material estaba muy frío"
+        },
+        {
+          "id": "d",
+          "label": "El molde estaba demasiado caliente"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿A qué se debe normalmente un 'Rechupe' (Sink mark)?",
+      "subheader": "Las zonas gruesas requieren presión sostenida para evitar hundimientos al enfriarse.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Falta de material o presión para compensar la contracción en zonas gruesas"
+        },
+        {
+          "id": "b",
+          "label": "El molde estaba muy apretado"
+        },
+        {
+          "id": "c",
+          "label": "El operario tocó la pieza antes de tiempo"
+        },
+        {
+          "id": "d",
+          "label": "Temperatura del molde demasiado alta"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Una 'Línea de Unión o Soldadura' ocurre cuando:",
+      "subheader": "Cuando los frentes de flujo se separan y vuelven a unirse aparecen soldaduras visibles.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La pieza se rompe a la mitad"
+        },
+        {
+          "id": "b",
+          "label": "Dos frentes de plástico fundido se encuentran dentro del molde"
+        },
+        {
+          "id": "c",
+          "label": "El tornillo se detiene de golpe"
+        },
+        {
+          "id": "d",
+          "label": "El plástico cambia de color durante la inyección"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_5",
+      "type": "multipleChoiceSingle",
+      "headline": "El defecto llamado 'Quemado' (Diesel effect / Burn marks) suele ser causado por:",
+      "subheader": "El aire atrapado dentro del molde puede alcanzar temperaturas que carbonizan el plástico.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Falta de temperatura en el barril"
+        },
+        {
+          "id": "b",
+          "label": "Aire atrapado que no pudo salir por los respiraderos y se comprimió"
+        },
+        {
+          "id": "c",
+          "label": "Exceso de agua en el molde"
+        },
+        {
+          "id": "d",
+          "label": "Material quemado en la tolva"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_6",
+      "type": "multipleChoiceSingle",
+      "headline": "Si las piezas salen 'Pandeadas' (Warpage), ¿cuál es la causa física más común?",
+      "subheader": "Enfriamientos desiguales crean tensiones internas que deforman la geometría.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Mal enfriamiento o enfriamiento desigual en la pieza"
+        },
+        {
+          "id": "b",
+          "label": "La tolva se quedó sin material"
+        },
+        {
+          "id": "c",
+          "label": "La boquilla estaba goteando"
+        },
+        {
+          "id": "d",
+          "label": "Tonelaje excesivo durante el ciclo"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "cal_7",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué debe hacer el operador si detecta un defecto constante en las piezas?",
+      "subheader": "Reportar y segregar piezas sospechosas evita scrap masivo.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Seguir operando y separar las malas"
+        },
+        {
+          "id": "b",
+          "label": "Avisar inmediatamente al técnico o supervisor y segregar el material sospechoso"
+        },
+        {
+          "id": "c",
+          "label": "Cambiar las temperaturas por su cuenta"
+        },
+        {
+          "id": "d",
+          "label": "Limpiar la máquina y seguir operando"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Calidad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la regla de oro al trabajar con una máquina de inyección?",
+      "subheader": "Prioriza mantener las manos alejadas de zonas móviles mientras el equipo está energizado.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Sacar las piezas lo más rápido posible"
+        },
+        {
+          "id": "b",
+          "label": "Nunca meter las manos en áreas de movimiento si las guardas están abiertas o el motor encendido"
+        },
+        {
+          "id": "c",
+          "label": "Mantener la temperatura siempre al máximo"
+        },
+        {
+          "id": "d",
+          "label": "Usar herramientas metálicas sin resguardo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Para qué sirve el botón de 'Paro de Emergencia'?",
+      "subheader": "El paro de emergencia detiene todos los actuadores ante un peligro inmediato.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Para apagar la máquina al final del turno"
+        },
+        {
+          "id": "b",
+          "label": "Para detener inmediatamente todos los movimientos de la máquina ante un peligro"
+        },
+        {
+          "id": "c",
+          "label": "Para reiniciar el conteo de piezas"
+        },
+        {
+          "id": "d",
+          "label": "Activar la alarma sonora"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué dispositivo mecánico impide que el molde se cierre si la puerta de seguridad está abierta?",
+      "subheader": "Las barras de seguridad bloquean el cierre cuando hay una puerta abierta.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "La boquilla"
+        },
+        {
+          "id": "b",
+          "label": "La barra de seguridad (Drop bar)"
+        },
+        {
+          "id": "c",
+          "label": "El extractor"
+        },
+        {
+          "id": "d",
+          "label": "Sensor de temperatura del molde"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Si ves un charco de aceite o agua cerca de la máquina, ¿qué debes hacer?",
+      "subheader": "Eliminar y reportar fugas evita resbalones cerca de la máquina.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Seguir trabajando y reportarlo al final del turno"
+        },
+        {
+          "id": "b",
+          "label": "Limpiar inmediatamente y avisar para revisar fugas (evitar resbalones)"
+        },
+        {
+          "id": "c",
+          "label": "Poner piezas encima para taparlo"
+        },
+        {
+          "id": "d",
+          "label": "Apagar la máquina y esperar instrucciones"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Por qué es peligroso usar herramientas de acero (como desarmadores) para sacar una pieza pegada del molde?",
+      "subheader": "Las herramientas duras pueden rayar el acero templado del molde.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Porque el acero puede rayar o dañar permanentemente las cavidades del molde"
+        },
+        {
+          "id": "b",
+          "label": "Porque el acero no conduce el calor"
+        },
+        {
+          "id": "c",
+          "label": "Porque la máquina se puede desprogramar"
+        },
+        {
+          "id": "d",
+          "label": "Puede provocar chispas peligrosas"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "seg_6",
+      "type": "multipleChoiceSingle",
+      "headline": "Al limpiar el purga caliente del piso o de la máquina, debes:",
+      "subheader": "El material fundido exige guantes térmicos y herramientas adecuadas para limpiar la purga.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Usar tus manos rápidamente"
+        },
+        {
+          "id": "b",
+          "label": "Usar guantes de protección térmica y herramientas adecuadas"
+        },
+        {
+          "id": "c",
+          "label": "Esperar a que se enfríe 2 horas antes de tocarlo"
+        },
+        {
+          "id": "d",
+          "label": "Usar agua fría para enfriar la purga"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Seguridad",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "plast_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué significa que una resina sea 'higroscópica'?",
+      "subheader": "Algunas resinas atraen humedad del aire y requieren secado previo.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Que brilla mucho al moldearse"
+        },
+        {
+          "id": "b",
+          "label": "Que absorbe humedad del aire dentro del pellet"
+        },
+        {
+          "id": "c",
+          "label": "Que fluye muy rápido"
+        },
+        {
+          "id": "d",
+          "label": "Tiene un olor fuerte al moldearse"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_2",
+      "type": "multipleChoiceSingle",
+      "headline": "Si un material tiene humedad y no se seca correctamente, ¿qué defecto es más probable que aparezca?",
+      "subheader": "La humedad atrapada se refleja en marcas superficiales como plateados o ráfagas.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Rebaba (Flash)"
+        },
+        {
+          "id": "b",
+          "label": "Ráfagas o marcas de plata (Splay)"
+        },
+        {
+          "id": "c",
+          "label": "Pieza pegada"
+        },
+        {
+          "id": "d",
+          "label": "Fragilidad con grietas"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Plásticos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "plast_3",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la función principal de un secador (de tolva o deshumidificador)?",
+      "subheader": "Eliminar la humedad de los pellets evita defectos estéticos y estructurales.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Calentar el material para que se funda antes"
+        },
+        {
+          "id": "b",
+          "label": "Eliminar la humedad de los pellets para evitar defectos"
+        },
+        {
+          "id": "c",
+          "label": "Limpiar el polvo del material"
+        },
+        {
+          "id": "d",
+          "label": "Agregar aditivos al plástico"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Plásticos",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "plast_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es el 'pellet' o 'gránulo'?",
+      "subheader": "Los pellets son la forma física estándar que entregan los proveedores de resina.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El residuo de la pieza"
+        },
+        {
+          "id": "b",
+          "label": "La forma física de la materia prima plástica"
+        },
+        {
+          "id": "c",
+          "label": "Una herramienta para limpiar moldes"
+        },
+        {
+          "id": "d",
+          "label": "El código de color de la materia prima"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Por qué no se deben mezclar dos tipos de plástico diferentes (ej. ABS con Nylon)?",
+      "subheader": "Las mezclas de resinas incompatibles pueden generar delaminación.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Porque pueden ser incompatibles y la pieza se separará en capas (delaminación)"
+        },
+        {
+          "id": "b",
+          "label": "Porque el color cambia a gris"
+        },
+        {
+          "id": "c",
+          "label": "Porque el molde se puede oxidar"
+        },
+        {
+          "id": "d",
+          "label": "Aumenta la viscosidad general del melt"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "plast_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es el material 'Regenerado' o 'Molido'?",
+      "subheader": "El material regenerado proviene de rechazos o coladas molidas para reutilizar.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Material nuevo que viene directo de fábrica"
+        },
+        {
+          "id": "b",
+          "label": "Plástico recuperado de coladas o piezas de rechazo que se vuelve a moler para usarse"
+        },
+        {
+          "id": "c",
+          "label": "Plástico que ya no sirve para nada"
+        },
+        {
+          "id": "d",
+          "label": "Plástico con aditivos frescos"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Plásticos",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "op_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es el modo de operación donde la máquina hace todo el ciclo solo si el operador abre y cierra la puerta?",
+      "subheader": "En modo semiautomático el operador interviene en cada tiro para abrir y cerrar.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Automático"
+        },
+        {
+          "id": "b",
+          "label": "Semiautomático"
+        },
+        {
+          "id": "c",
+          "label": "Manual"
+        },
+        {
+          "id": "d",
+          "label": "Modo de mantenimiento"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Para qué se usa el 'Modo Manual'?",
+      "subheader": "El modo manual permite controlar movimientos individuales durante pruebas o limpieza.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Para producción normal de alta velocidad"
+        },
+        {
+          "id": "b",
+          "label": "Para montajes, pruebas, limpieza o retirar piezas pegadas de forma controlada"
+        },
+        {
+          "id": "c",
+          "label": "No se debe usar nunca"
+        },
+        {
+          "id": "d",
+          "label": "Registrar defectos automáticamente"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Al inicio de turno, lo primero que se debe revisar en la máquina es:",
+      "subheader": "Las funciones de seguridad deben verificarse antes de arrancar el turno.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Cuántas piezas faltan"
+        },
+        {
+          "id": "b",
+          "label": "Que los dispositivos de seguridad (puertas, paros, sensores) funcionen correctamente"
+        },
+        {
+          "id": "c",
+          "label": "La hora del descanso"
+        },
+        {
+          "id": "d",
+          "label": "Revisar las temperaturas del barril"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_4",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué es el 'Tiempo de Ciclo'?",
+      "subheader": "El tiempo de ciclo cubre desde el cierre hasta la extracción del siguiente tiro.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El tiempo que dura el turno de trabajo"
+        },
+        {
+          "id": "b",
+          "label": "El tiempo total desde que el molde empieza a cerrar hasta que vuelve a cerrar para la siguiente pieza"
+        },
+        {
+          "id": "c",
+          "label": "El tiempo que el operario tarda en comer"
+        },
+        {
+          "id": "d",
+          "label": "El tiempo que se tarda en limpiar el molde"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1
+      },
+      "tags": [
+        "Operaciones",
+        "Teórico"
+      ]
+    },
+    {
+      "id": "op_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Por qué es importante usar herramientas de bronce o latón para limpiar el molde?",
+      "subheader": "Las herramientas suaves protegen el pulido del molde durante la limpieza.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Porque son más baratas que las de acero"
+        },
+        {
+          "id": "b",
+          "label": "Porque son metales suaves que no rayan el acero del molde"
+        },
+        {
+          "id": "c",
+          "label": "Porque limpian mejor la grasa"
+        },
+        {
+          "id": "d",
+          "label": "Son más ligeras para el operador"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "op_6",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué significa 'Purga'?",
+      "subheader": "La purga limpia el barril de residuos antes de iniciar la producción.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Sacar el material viejo o degradado del barril inyectándolo al aire antes de iniciar el proceso"
+        },
+        {
+          "id": "b",
+          "label": "Limpiar las mangueras de agua"
+        },
+        {
+          "id": "c",
+          "label": "El conteo de piezas defectuosas"
+        },
+        {
+          "id": "d",
+          "label": "Calibrar los sensores de presión"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1.5
+      },
+      "tags": [
+        "Operaciones",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_1",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cuál es la mejor forma de reducir el desperdicio (scrap) de material?",
+      "subheader": "Un proceso estable y comunicación temprana reducen el scrap.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Tirar las piezas malas a la basura rápido"
+        },
+        {
+          "id": "b",
+          "label": "Mantener un proceso estable y reportar variaciones de inmediato"
+        },
+        {
+          "id": "c",
+          "label": "Apagar los calentadores en la comida"
+        },
+        {
+          "id": "d",
+          "label": "Aumentar la velocidad al máximo"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_2",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Qué sucede si mezclas material virgen con material contaminado (tierra, grasa o papel)?",
+      "subheader": "Contaminantes externos causan puntos negros o fallas estructurales.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "El filtro de la máquina lo limpia"
+        },
+        {
+          "id": "b",
+          "label": "Las piezas saldrán con puntos negros o fallas de resistencia y serán rechazo"
+        },
+        {
+          "id": "c",
+          "label": "El color se vuelve más brillante"
+        },
+        {
+          "id": "d",
+          "label": "Aumenta la presión de inyección"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_3",
+      "type": "multipleChoiceSingle",
+      "headline": "Las 'Coladas' o 'Sprus' que sobran de cada tiro deben:",
+      "subheader": "Recuperar coladas limpias mejora la rentabilidad sin sacrificar calidad.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Tirarse siempre a la basura general"
+        },
+        {
+          "id": "b",
+          "label": "Recuperarse y molerse (si el proceso lo permite) para ahorrar costos y material"
+        },
+        {
+          "id": "c",
+          "label": "Dejarse en el suelo"
+        },
+        {
+          "id": "d",
+          "label": "Usarlas para rellenar soportes temporales"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_4",
+      "type": "multipleChoiceSingle",
+      "headline": "Un exceso de purga durante los arranques se considera:",
+      "subheader": "La purga excesiva representa material y dinero desperdiciados en arranques.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Una buena práctica"
+        },
+        {
+          "id": "b",
+          "label": "Desperdicio de dinero y material que debe ser controlado"
+        },
+        {
+          "id": "c",
+          "label": "Necesario para calentar la máquina 1 hora"
+        },
+        {
+          "id": "d",
+          "label": "Una consecuencia de mala programación"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_5",
+      "type": "multipleChoiceSingle",
+      "headline": "¿Cómo ayuda el orden y limpieza (5S) a reducir desperdicios?",
+      "subheader": "El orden evita contaminación accidental y pérdida de herramientas críticas.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Evita que el material se contamine y que las herramientas se pierdan o dañen el molde"
+        },
+        {
+          "id": "b",
+          "label": "Hace que la máquina se vea nueva"
+        },
+        {
+          "id": "c",
+          "label": "No ayuda en nada al desperdicio"
+        },
+        {
+          "id": "d",
+          "label": "Reduce el tiempo de búsqueda de herramientas"
+        }
+      ],
+      "logic": {
+        "correct": "a",
+        "score": 1.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    },
+    {
+      "id": "desp_6",
+      "type": "multipleChoiceSingle",
+      "headline": "Si una pieza cae al suelo lleno de aceite, ¿qué se debe hacer?",
+      "subheader": "Las piezas contaminadas con aceite se consideran scrap porque no se pueden limpiar.",
+      "choices": [
+        {
+          "id": "a",
+          "label": "Limpiarla con un trapo y ponerla en la caja de buenas"
+        },
+        {
+          "id": "b",
+          "label": "Considerarla scrap (desperdicio) porque el aceite contamina el plástico"
+        },
+        {
+          "id": "c",
+          "label": "Meterla al molino así como está"
+        },
+        {
+          "id": "d",
+          "label": "Lavarla con solvente y usarla"
+        }
+      ],
+      "logic": {
+        "correct": "b",
+        "score": 1.5
+      },
+      "tags": [
+        "Desperdicios",
+        "Práctico"
+      ]
+    }
+  ]
+}
