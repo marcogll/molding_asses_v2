@@ -1,4 +1,4 @@
-# Code Carol
+# Carol
 
 > **Hub de evaluación integral para medir, estandarizar y potenciar el conocimiento técnico en moldeo por inyección.**
 > Soluciona la falta de métricas objetivas en la competencia del personal, transformando el "sentimiento" operativo en datos accionables para reducir scrap, mejorar el OEE y garantizar la seguridad.
