@@ -11,6 +11,8 @@
 
 ### 1. ¿Qué componente de la máquina transporta y funde el material plástico?
 
+> *Identifica el componente que transporta el material hacia el extremo caliente y lo funde.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 1 pts | `mach_1` |
@@ -25,6 +27,8 @@
 ---
 
 ### 2. ¿En qué parte de la máquina se deposita la materia prima (pellets) antes de entrar al barril?
+
+> *El plástico virgen se deposita en un depósito que alimenta el barril por gravedad.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -41,6 +45,8 @@
 
 ### 3. ¿Para qué sirven las bandas calefactoras del barril?
 
+> *Las bandas calefactoras controlan el aporte térmico en las zonas del barril.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 1 pts | `mach_3` |
@@ -55,6 +61,8 @@
 ---
 
 ### 4. ¿Qué indica el 'Tonelaje' de una máquina (ej. 200 Ton)?
+
+> *El tonelaje mide la capacidad para resistir la presión interna durante la inyección.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -71,6 +79,8 @@
 
 ### 5. La 'unidad de cierre' se encarga de:
 
+> *La unidad de cierre mueve las platinas y aplica el tonelaje de seguridad.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 1 pts | `mach_5` |
@@ -85,6 +95,8 @@
 ---
 
 ### 6. ¿Qué es la 'Boquilla' (Nozzle) de la máquina?
+
+> *La boquilla conecta la unidad de inyección con el molde.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -101,6 +113,8 @@
 
 ### 7. ¿Cuál es la función del pistón hidráulico de inyección?
 
+> *El pistón genera la fuerza que impulsa el tornillo durante el llenado.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Práctico | 1.5 pts | `mach_7` |
@@ -115,6 +129,8 @@
 ---
 
 ### 8. ¿Cómo se llama el canal principal por donde entra el plástico al molde desde la boquilla?
+
+> *Contexto: el molde recibe el plástico desde la máquina a través de un canal principal.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -131,6 +147,8 @@
 
 ### 9. ¿Cuál es la función de los 'Pernos Extractores' o 'Botadores'?
 
+> *Los extractores liberan la pieza del acero del molde al final del ciclo.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 1 pts | `molde_2` |
@@ -145,6 +163,8 @@
 ---
 
 ### 10. ¿Qué es la 'Cavidad' en un molde?
+
+> *La cavidad contiene el negativo de la pieza a fabricar.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -161,6 +181,8 @@
 
 ### 11. ¿Para qué sirve el sistema de enfriamiento (canales de agua) del molde?
 
+> *Los canales de enfriamiento aceleran el intercambio térmico con el agua.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 1 pts | `molde_4` |
@@ -175,6 +197,8 @@
 ---
 
 ### 12. ¿Qué es la 'Compuerta' (Gate)?
+
+> *La compuerta regula el paso del plástico hacia la cavidad.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -191,6 +215,8 @@
 
 ### 13. Un molde de 'Canal Caliente' (Hot Runner) se caracteriza por:
 
+> *Los sistemas de canal caliente mantienen el plástico fundido hasta la cavidad.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 1 pts | `molde_6` |
@@ -205,6 +231,8 @@
 ---
 
 ### 14. ¿Qué es la 'Viscosidad' del plástico?
+
+> *La viscosidad describe la facilidad de flujo del polímero fundido.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -221,6 +249,8 @@
 
 ### 15. ¿Qué pasa con la viscosidad si aumentamos mucho la temperatura?
 
+> *Aumentar la temperatura reduce la resistencia del polímero al movimiento.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 1 pts | `proc_2` |
@@ -235,6 +265,8 @@
 ---
 
 ### 16. El ciclo de moldeo consta de 3 fases principales en orden:
+
+> *El ciclo de moldeo combina llenado, compactación y solidificación.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -251,6 +283,8 @@
 
 ### 17. ¿Qué es la 'Presión de Sostenimiento' (Hold pressure)?
 
+> *La presión de sostenimiento asegura el llenado final y compensa la contracción.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 1 pts | `proc_4` |
@@ -265,6 +299,8 @@
 ---
 
 ### 18. La mayor parte del calor para fundir el plástico en máquinas modernas viene de:
+
+> *Una porción importante del calor proviene del trabajo mecánico dentro del barril.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -281,6 +317,8 @@
 
 ### 19. ¿Qué es el 'Cojín' (Cushion) de material?
 
+> *El cojín mantiene material delante del tornillo para transmitir presión constante.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 1 pts | `proc_6` |
@@ -295,6 +333,8 @@
 ---
 
 ### 20. ¿Qué es un 'Tiro Corto' (Short Shot)?
+
+> *Un tiro corto indica que algo limita la cantidad de material desplazado.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -311,6 +351,8 @@
 
 ### 21. Si una pieza tiene 'Rebaba' (Flash), significa que:
 
+> *La rebaba revela exceso de presión o falta de fuerza de cierre en la línea de partición.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 1.5 pts | `cal_2` |
@@ -325,6 +367,8 @@
 ---
 
 ### 22. ¿A qué se debe normalmente un 'Rechupe' (Sink mark)?
+
+> *Las zonas gruesas requieren presión sostenida para evitar hundimientos al enfriarse.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -341,6 +385,8 @@
 
 ### 23. Una 'Línea de Unión o Soldadura' ocurre cuando:
 
+> *Cuando los frentes de flujo se separan y vuelven a unirse aparecen soldaduras visibles.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 1.5 pts | `cal_4` |
@@ -355,6 +401,8 @@
 ---
 
 ### 24. El defecto llamado 'Quemado' (Diesel effect / Burn marks) suele ser causado por:
+
+> *El aire atrapado dentro del molde puede alcanzar temperaturas que carbonizan el plástico.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -371,6 +419,8 @@
 
 ### 25. Si las piezas salen 'Pandeadas' (Warpage), ¿cuál es la causa física más común?
 
+> *Enfriamientos desiguales crean tensiones internas que deforman la geometría.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 1.5 pts | `cal_6` |
@@ -385,6 +435,8 @@
 ---
 
 ### 26. ¿Qué debe hacer el operador si detecta un defecto constante en las piezas?
+
+> *Reportar y segregar piezas sospechosas evita scrap masivo.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -401,6 +453,8 @@
 
 ### 27. ¿Cuál es la regla de oro al trabajar con una máquina de inyección?
 
+> *Prioriza mantener las manos alejadas de zonas móviles mientras el equipo está energizado.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Seguridad | Práctico | 1.5 pts | `seg_1` |
@@ -415,6 +469,8 @@
 ---
 
 ### 28. ¿Para qué sirve el botón de 'Paro de Emergencia'?
+
+> *El paro de emergencia detiene todos los actuadores ante un peligro inmediato.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -431,6 +487,8 @@
 
 ### 29. ¿Qué dispositivo mecánico impide que el molde se cierre si la puerta de seguridad está abierta?
 
+> *Las barras de seguridad bloquean el cierre cuando hay una puerta abierta.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Seguridad | Práctico | 1.5 pts | `seg_3` |
@@ -445,6 +503,8 @@
 ---
 
 ### 30. Si ves un charco de aceite o agua cerca de la máquina, ¿qué debes hacer?
+
+> *Eliminar y reportar fugas evita resbalones cerca de la máquina.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -461,6 +521,8 @@
 
 ### 31. ¿Por qué es peligroso usar herramientas de acero (como desarmadores) para sacar una pieza pegada del molde?
 
+> *Las herramientas duras pueden rayar el acero templado del molde.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Seguridad | Práctico | 1.5 pts | `seg_5` |
@@ -475,6 +537,8 @@
 ---
 
 ### 32. Al limpiar el purga caliente del piso o de la máquina, debes:
+
+> *El material fundido exige guantes térmicos y herramientas adecuadas para limpiar la purga.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -491,6 +555,8 @@
 
 ### 33. ¿Qué significa que una resina sea 'higroscópica'?
 
+> *Algunas resinas atraen humedad del aire y requieren secado previo.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 1 pts | `plast_1` |
@@ -505,6 +571,8 @@
 ---
 
 ### 34. Si un material tiene humedad y no se seca correctamente, ¿qué defecto es más probable que aparezca?
+
+> *La humedad atrapada se refleja en marcas superficiales como plateados o ráfagas.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -521,6 +589,8 @@
 
 ### 35. ¿Cuál es la función principal de un secador (de tolva o deshumidificador)?
 
+> *Eliminar la humedad de los pellets evita defectos estéticos y estructurales.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Práctico | 1.5 pts | `plast_3` |
@@ -535,6 +605,8 @@
 ---
 
 ### 36. ¿Qué es el 'pellet' o 'gránulo'?
+
+> *Los pellets son la forma física estándar que entregan los proveedores de resina.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -551,6 +623,8 @@
 
 ### 37. ¿Por qué no se deben mezclar dos tipos de plástico diferentes (ej. ABS con Nylon)?
 
+> *Las mezclas de resinas incompatibles pueden generar delaminación.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 1 pts | `plast_5` |
@@ -565,6 +639,8 @@
 ---
 
 ### 38. ¿Qué es el material 'Regenerado' o 'Molido'?
+
+> *El material regenerado proviene de rechazos o coladas molidas para reutilizar.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -581,6 +657,8 @@
 
 ### 39. ¿Cuál es el modo de operación donde la máquina hace todo el ciclo solo si el operador abre y cierra la puerta?
 
+> *En modo semiautomático el operador interviene en cada tiro para abrir y cerrar.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Práctico | 1.5 pts | `op_1` |
@@ -595,6 +673,8 @@
 ---
 
 ### 40. ¿Para qué se usa el 'Modo Manual'?
+
+> *El modo manual permite controlar movimientos individuales durante pruebas o limpieza.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -611,6 +691,8 @@
 
 ### 41. Al inicio de turno, lo primero que se debe revisar en la máquina es:
 
+> *Las funciones de seguridad deben verificarse antes de arrancar el turno.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Práctico | 1.5 pts | `op_3` |
@@ -625,6 +707,8 @@
 ---
 
 ### 42. ¿Qué es el 'Tiempo de Ciclo'?
+
+> *El tiempo de ciclo cubre desde el cierre hasta la extracción del siguiente tiro.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -641,6 +725,8 @@
 
 ### 43. ¿Por qué es importante usar herramientas de bronce o latón para limpiar el molde?
 
+> *Las herramientas suaves protegen el pulido del molde durante la limpieza.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Práctico | 1.5 pts | `op_5` |
@@ -655,6 +741,8 @@
 ---
 
 ### 44. ¿Qué significa 'Purga'?
+
+> *La purga limpia el barril de residuos antes de iniciar la producción.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -671,6 +759,8 @@
 
 ### 45. ¿Cuál es la mejor forma de reducir el desperdicio (scrap) de material?
 
+> *Un proceso estable y comunicación temprana reducen el scrap.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Práctico | 1.5 pts | `desp_1` |
@@ -685,6 +775,8 @@
 ---
 
 ### 46. ¿Qué sucede si mezclas material virgen con material contaminado (tierra, grasa o papel)?
+
+> *Contaminantes externos causan puntos negros o fallas estructurales.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -701,6 +793,8 @@
 
 ### 47. Las 'Coladas' o 'Sprus' que sobran de cada tiro deben:
 
+> *Recuperar coladas limpias mejora la rentabilidad sin sacrificar calidad.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Práctico | 1.5 pts | `desp_3` |
@@ -715,6 +809,8 @@
 ---
 
 ### 48. Un exceso de purga durante los arranques se considera:
+
+> *La purga excesiva representa material y dinero desperdiciados en arranques.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -731,6 +827,8 @@
 
 ### 49. ¿Cómo ayuda el orden y limpieza (5S) a reducir desperdicios?
 
+> *El orden evita contaminación accidental y pérdida de herramientas críticas.*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Práctico | 1.5 pts | `desp_5` |
@@ -745,6 +843,8 @@
 ---
 
 ### 50. Si una pieza cae al suelo lleno de aceite, ¿qué se debe hacer?
+
+> *Las piezas contaminadas con aceite se consideran scrap porque no se pueden limpiar.*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |

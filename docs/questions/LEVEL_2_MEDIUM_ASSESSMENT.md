@@ -11,6 +11,8 @@
 
 ### 1. ¿Qué mide exactamente un termopar (thermocouple) en el barril de calefacción?
 
+> *Los termopares están instalados en el acero del barril; la temperatura del plástico suele ser un poco distinta debido a la fricción interna (calor por cizalla)*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 2 pts | `mach_1` |
@@ -25,6 +27,8 @@
 ---
 
 ### 2. Si el ratio de intensificación (RI) es 10:1 y el manómetro hidráulico marca 1,000 PSI, ¿cuánta presión hay en la punta del tornillo?
+
+> *La presión del plástico es la presión hidráulica multiplicada por el Ratio de Intensificación de la máquina*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -41,6 +45,8 @@
 
 ### 3. Durante la fase de sostenimiento (hold), el tornillo sigue avanzando lentamente (creeping). ¿Cuál es la causa más probable?
 
+> *Si el anillo de cierre no sella bien, el plástico regresa hacia los filetes del tornillo, impidiendo que se mantenga una presión constante en la cavidad*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Práctico | 2.5 pts | `mach_3` |
@@ -55,6 +61,8 @@
 ---
 
 ### 4. ¿Qué significa la relación L/D en un tornillo de inyección?
+
+> *Es una medida de la capacidad de mezclado y fundido; una relación mayor suele indicar una mejor homogenización del plástico*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -71,6 +79,8 @@
 
 ### 5. ¿Cuál es la consecuencia de tener una temperatura demasiado alta en la garganta de alimentación (hopper throat)?
 
+> *Si la garganta se calienta, el plástico comienza a ablandarse antes de entrar al tornillo, bloqueando el paso del material (bridging)*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Práctico | 2.5 pts | `mach_5` |
@@ -85,6 +95,8 @@
 ---
 
 ### 6. En una máquina hidráulica, ¿qué componente es el encargado de suministrar el flujo de aceite?
+
+> *el punto crítico hidráulica convierte la energía mecánica del motor en flujo de aceite para mover todos los sistemas de la máquina*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -101,6 +113,8 @@
 
 ### 7. ¿Cuál de estas platinas NO existe en una máquina de moldeo estándar?
 
+> *Las máquinas estándar tienen platina fija (lado inyección), móvil (lado cierre) y a veces una trasera de soporte (tailstock)*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 2 pts | `mach_7` |
@@ -115,6 +129,8 @@
 ---
 
 ### 8. Si cambias un termopar Tipo J por uno Tipo K en un controlador de canal caliente:
+
+> *Cada tipo de termopar genera un voltaje distinto por grado; el controlador leerá una temperatura que no es real*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -131,6 +147,8 @@
 
 ### 9. ¿Qué mitad del molde suele requerir más canales de enfriamiento?
 
+> *El plástico tiende a encogerse y abrazar el corazón (macho), por lo que el calor se queda atrapado ahí más tiempo*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 2 pts | `molde_1` |
@@ -145,6 +163,8 @@
 ---
 
 ### 10. ¿Para qué sirve el ángulo de salida (draft angle) en las paredes del molde?
+
+> *Sin ángulo de salida, la fricción entre el plástico y el acero impediría que los botadores saquen la pieza limpiamente*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -161,6 +181,8 @@
 
 ### 11. Tienes un molde de 12 pulgadas de espesor y debe abrir 6 pulgadas para expulsar. ¿Cuál es la 'Luz de día' (daylight) mínima?
 
+> *La luz de día es la distancia total entre platinas; debe ser al menos el espesor del molde más la carrera de apertura*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Práctico | 2.5 pts | `molde_3` |
@@ -175,6 +197,8 @@
 ---
 
 ### 12. ¿Qué ventaja tiene un canal caliente (hot runner) frente a uno frío?
+
+> *Al no tener que enfriar y expulsar una colada gruesa, el ciclo es más rápido y se ahorra material*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -191,6 +215,8 @@
 
 ### 13. Si un molde tiene 4 cavidades y una está bloqueada, ¿qué pasa con el tiempo de llenado?
 
+> *Al haber menos espacio, la velocidad de llenado efectiva en las cavidades restantes cambia si no se ajusta el perfil*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Práctico | 2.5 pts | `molde_5` |
@@ -205,6 +231,8 @@
 ---
 
 ### 14. ¿Qué es la 'altura de molde' (die height) en la configuración de la máquina?
+
+> *Es un ajuste crítico para que la rodillera o el sistema hidráulico de cierre aplique la fuerza correcta*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -221,6 +249,8 @@
 
 ### 15. ¿Cuál es la función principal de los respiraderos (vents) en el molde?
 
+> *Si el aire no sale, se comprime, causando quemaduras (quemado por gas) o tiros cortos*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 2 pts | `molde_7` |
@@ -235,6 +265,8 @@
 ---
 
 ### 16. ¿Qué sucede si las mangueras de agua están conectadas 'en serie' en lugar de 'en paralelo' en un molde de muchas cavidades?
+
+> *El agua va absorbiendo calor; si pasa por muchas cavidades, al final ya no tiene capacidad de enfriar*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -251,6 +283,8 @@
 
 ### 17. ¿Qué determina el punto de transferencia VPT (Velocity-to-Pressure)?
 
+> *Es el cambio de 'primera etapa' a 'segunda etapa'; crítico para evitar rebabas o tiros cortos*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 2 pts | `proc_1` |
@@ -265,6 +299,8 @@
 ---
 
 ### 18. Para convertir 350 Bar a PSI aproximadamente:
+
+> *1 Bar equivale a aproximadamente 14*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -281,6 +317,8 @@
 
 ### 19. ¿Cómo debe ser el 'cojín' (cushion) ideal en un proceso científico robusto?
 
+> *Si el cojín llega a cero, la máquina no puede aplicar presión de sostenimiento a la pieza*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Práctico | 2.5 pts | `proc_2` |
@@ -295,6 +333,8 @@
 ---
 
 ### 20. ¿Qué mide el tiempo de sellado de la compuerta (gate freeze time)?
+
+> *Una vez sellada la compuerta, aumentar el tiempo de hold ya no afecta el peso de la pieza*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -311,6 +351,8 @@
 
 ### 21. Si aumentas la contrapresión (back pressure) durante la dosificación:
 
+> *La contrapresión obliga al tornillo a trabajar más para fundir el plástico, eliminando burbujas de aire y mejorando el color*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Práctico | 2.5 pts | `proc_4` |
@@ -325,6 +367,8 @@
 ---
 
 ### 22. ¿Cuál es la forma más rápida de subir la temperatura del plástico fundido sin tocar las resistencias?
+
+> *Genera más fricción mecánica (cizallamiento), lo cual calienta el plástico desde adentro*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -341,6 +385,8 @@
 
 ### 23. ¿Qué variable controla el llenado de la cavidad en la 'primera etapa'?
 
+> *En el moldeo científico, la primera etapa debe ser controlada por velocidad para asegurar un llenado uniforme*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 2 pts | `proc_6` |
@@ -355,6 +401,8 @@
 ---
 
 ### 24. En un estudio de viscosidad, si duplicas la velocidad de inyección y la presión no sube casi nada, el material es:
+
+> *Los plásticos fluyen más fácil entre más rápido se empujen; esto permite inyectar piezas complejas*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -371,6 +419,8 @@
 
 ### 25. ¿Para qué sirve el temporizador de retardo del tornillo (screw delay)?
 
+> *Ayuda a prevenir el goteo de la boquilla (drooling) al final del ciclo*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Práctico | 2.5 pts | `proc_8` |
@@ -385,6 +435,8 @@
 ---
 
 ### 26. ¿En qué etapa del proceso el polímero encuentra la presión más alta?
+
+> *Durante el empaque se aplica la presión final para compactar el material dentro de un molde ya lleno*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -401,6 +453,8 @@
 
 ### 27. ¿Cuál es la causa más común de las burbujas de aire (air bubbles) en piezas transparentes?
 
+> *A diferencia de los vacíos por contracción, las burbujas de aire suelen venir del proceso de plastificación o llenado turbulento*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 2.5 pts | `cal_1` |
@@ -415,6 +469,8 @@
 ---
 
 ### 28. Aparecen 'manchas plateadas' (splay) repentinamente. Revisas el secador y está apagado. Esto confirma que el defecto es causado por:
+
+> *El splay es el síntoma clásico de humedad que se convierte en vapor dentro del barril*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -431,6 +487,8 @@
 
 ### 29. Si una pieza tiene 'rechupes' (sink marks), ¿cuál de estos cambios es el más efectivo?
 
+> *El rechupe ocurre porque no entró suficiente plástico para compensar la contracción mientras la pieza enfriaba*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 2.5 pts | `cal_3` |
@@ -445,6 +503,8 @@
 ---
 
 ### 30. ¿Qué defecto causa el fenómeno llamado 'Jetting'?
+
+> *Ocurre cuando la velocidad de inyección es muy alta al pasar por una compuerta pequeña hacia un área grande*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -461,6 +521,8 @@
 
 ### 31. Al dejar una pieza caliente sobre una mesa de metal fría, esta se dobla hacia arriba. Esto se debe a:
 
+> *La cara que enfría rápido 'tira' del resto de la pieza, causando una deformación por tensiones térmicas*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 2.5 pts | `cal_5` |
@@ -475,6 +537,8 @@
 ---
 
 ### 32. ¿Qué es una 'veta de color' en la pieza?
+
+> *Indica que el tornillo no está homogeneizando bien el pigmento con la resina base*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -491,6 +555,8 @@
 
 ### 33. ¿Cómo se distingue un 'vacío' (void) de una 'burbuja de aire'?
 
+> *El vacío es un hueco por falta de presión (física); la burbuja contiene gas atrapado*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 2.5 pts | `cal_7` |
@@ -505,6 +571,8 @@
 ---
 
 ### 34. Detectas 'splay' y sospechas que es por degradación térmica. ¿Cómo lo compruebas?
+
+> *El plástico quemado cambia de color y desprende un olor fuerte a gas químico*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -521,6 +589,8 @@
 
 ### 35. ¿Cómo se llama la temperatura en la que las piezas ya no sufren deformación al ser expulsadas?
 
+> *Es el punto donde el material tiene suficiente integridad estructural para resistir la fuerza de los botadores sin deformarse*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 2.5 pts | `cal_9` |
@@ -535,6 +605,8 @@
 ---
 
 ### 36. ¿Por qué es peligroso dejar la boquilla contra el molde cuando la máquina no está operando?
+
+> *Mantener el contacto térmico degrada el plástico en la punta y puede generar gases peligrosos o taponamientos*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -551,6 +623,8 @@
 
 ### 37. ¿Qué indican las señales de LOTO (Bloqueo/Etiquetado) en una máquina?
 
+> *Es el procedimiento de seguridad vital para asegurar que nadie encienda la máquina mientras alguien trabaja en ella*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Seguridad | Práctico | 2.5 pts | `seg_2` |
@@ -565,6 +639,8 @@
 ---
 
 ### 38. Al purgar materiales como el POM (Acetal) después de un PVC, ¿qué precaución es crítica?
+
+> *Ciertos plásticos son químicamente incompatibles y generan gases tóxicos o presión explosiva si se juntan en el barril caliente*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -581,6 +657,8 @@
 
 ### 39. Si escuchas un ruido metálico fuerte en la unidad de cierre, debes:
 
+> *Cualquier ruido inusual indica una falla mecánica que puede causar un accidente o daño catastrófico al molde*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Seguridad | Práctico | 2.5 pts | `seg_4` |
@@ -595,6 +673,8 @@
 ---
 
 ### 40. ¿Cuál es la forma correcta de manejar un molde suspendido por una grúa?
+
+> *Nunca se debe estar debajo de una carga suspendida por riesgo de falla del equipo de izaje*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -611,6 +691,8 @@
 
 ### 41. ¿Qué sucede con las moléculas de un plástico cristalino (ej. Nylon) cuando se enfrían muy lento?
 
+> *El grado de cristalinidad depende directamente de la tasa de enfriamiento; enfriar lento permite mayor orden molecular*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 2 pts | `plast_1` |
@@ -625,6 +707,8 @@
 ---
 
 ### 42. ¿Qué propiedad del plástico se ve afectada principalmente por la longitud de sus cadenas (peso molecular)?
+
+> *Cadenas más largas se enredan más, aumentando la resistencia del material y dificultando su flujo (mayor viscosidad)*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -641,6 +725,8 @@
 
 ### 43. ¿Cuál es la definición correcta de 'Polimerización'?
 
+> *Es el proceso químico de creación del plástico a partir de sus componentes básicos*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 2 pts | `plast_3` |
@@ -655,6 +741,8 @@
 ---
 
 ### 44. Si comparamos un plástico Amorfo y uno Cristalino, ¿cuál suele encogerse (shrinkage) más al enfriarse?
+
+> *Las moléculas cristalinas se ordenan y empaquetan más juntas al enfriarse, ocupando menos espacio*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -671,6 +759,8 @@
 
 ### 45. ¿Qué mide un viscosímetro o reómetro capilar?
 
+> *Mide la viscosidad, que es el parámetro clave para entender cómo llenará el plástico el molde*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 2 pts | `plast_5` |
@@ -685,6 +775,8 @@
 ---
 
 ### 46. ¿A qué temperatura se considera que un plástico amorfo pasa de un estado rígido a uno gomoso?
+
+> *En los amorfos, la Tg marca el cambio de comportamiento estructural antes de fluir por completo*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -701,6 +793,8 @@
 
 ### 47. ¿Quién desarrolló comercialmente el Nylon por primera vez?
 
+> *el punto crítico es históricamente el pionero en la creación y comercialización de la poliamida (Nylon)*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Práctico | 2.5 pts | `plast_7` |
@@ -715,6 +809,8 @@
 ---
 
 ### 48. ¿Cuál es el propósito del 'tiempo de reposo térmico' (heat soak) en un canal caliente?
+
+> *Los componentes se expanden con el calor; si inyectas antes de que todo esté dilatado, el plástico puede fugar por las uniones*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -731,6 +827,8 @@
 
 ### 49. ¿En qué modo se debe realizar un 'air shot' (disparo al aire) para verificar el material?
 
+> *Permite al operador controlar el disparo de forma segura mientras observa la calidad del fundido fuera del molde*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Práctico | 2.5 pts | `op_2` |
@@ -745,6 +843,8 @@
 ---
 
 ### 50. ¿Qué orden de encendido es el más seguro para un molde de canal caliente?
+
+> *Asegura que el plástico tenga una ruta abierta desde el centro hacia afuera antes de aplicar presión*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -761,6 +861,8 @@
 
 ### 51. Si la máquina se detiene por una falla eléctrica por más de 30 minutos con material degradable (ej. PVC) en el barril, ¿qué debes hacer?
 
+> *El calor estático degrada el material, lo que puede corroer el barril o causar gases tóxicos*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Práctico | 2.5 pts | `op_4` |
@@ -775,6 +877,8 @@
 ---
 
 ### 52. ¿Qué significa SPC en el entorno de moldeo?
+
+> *Es la metodología para monitorear las variables del proceso y asegurar que las piezas se mantengan en tolerancia*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -791,6 +895,8 @@
 
 ### 53. Al purgar el barril, notas que el plástico sale con burbujas y hace ruido de 'explosiones' pequeñas. Esto indica:
 
+> *El agua atrapada se evapora instantáneamente al salir a la presión atmosférica, causando ese sonido y burbujas*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Práctico | 2.5 pts | `op_6` |
@@ -805,6 +911,8 @@
 ---
 
 ### 54. Un molde de 4 cavidades con ciclo de 27 segundos debe producir 3,500 piezas. ¿Cuántas horas tardará?
+
+> *4 piezas cada 27 seg = 0*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -821,6 +929,8 @@
 
 ### 55. ¿Qué efecto tiene usar demasiada descompresión (suck back)?
 
+> *Retraer demasiado el tornillo mete aire a la zona de fundido, el cual se mezcla con el plástico y causa defectos*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Práctico | 2.5 pts | `desp_1` |
@@ -835,6 +945,8 @@
 ---
 
 ### 56. ¿Qué es el 'tiempo de residencia'?
+
+> *Si el tiempo de residencia es muy largo, el calor degrada las cadenas químicas del plástico, arruinando sus propiedades*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -851,6 +963,8 @@
 
 ### 57. Si trabajas con un barril muy grande para una pieza muy pequeña, el principal riesgo es:
 
+> *El material tarda muchos ciclos en salir, exponiéndose al calor por demasiado tiempo*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Práctico | 2.5 pts | `desp_3` |
@@ -865,6 +979,8 @@
 ---
 
 ### 58. ¿Cuál es la forma más eficiente de purgar para un cambio de color de negro a blanco?
+
+> *Usar solo resina virgen gasta mucho material y tiempo; los compuestos de purga 'arrastran' mejor los residuos*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -881,6 +997,8 @@
 
 ### 59. ¿Qué sucede si el porcentaje de material recuperado (regrind) es demasiado alto?
 
+> *El plástico se debilita cada vez que se funde; demasiado regrind afecta la calidad final*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Teórico | 2 pts | `desp_5` |
@@ -895,6 +1013,8 @@
 ---
 
 ### 60. Si un operador tira las coladas al suelo y se llenan de polvo, ¿pueden recuperarse?
+
+> *El regrind debe estar tan limpio como el material virgen para no comprometer el proceso*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |

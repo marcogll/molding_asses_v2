@@ -69,7 +69,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Área por pieza = π * (3^2 - 0",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_10",
@@ -141,7 +149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Funciona como una válvula check; permite el paso al cargar pero bloquea el paso al inyectar",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_2",
@@ -213,7 +229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Cubrir al menos 2/3 del área entre barras asegura una distribución uniforme de la fuerza de cierre y evita daños permanentes en la planitud de las platinas",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_3",
@@ -285,7 +309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Existe un retardo mecánico y electrónico entre la señal y el cierre de válvulas, además de la inercia de la masa del tornillo en movimiento",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_4",
@@ -357,7 +389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "La contrapresión dificulta el retroceso del tornillo mientras este gira, requiriendo más tiempo para acumular el volumen de disparo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_5",
@@ -429,7 +469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Permite liberar un gran volumen de aceite en milisegundos, algo que las bombas convencionales no pueden hacer por sí solas",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_6",
@@ -501,7 +549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Es la placa base que sujeta el molde a la platina móvil de la máquina de inyección",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_7",
@@ -573,7 +629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Es el nivel más alto de control de procesos; compensa variaciones de viscosidad del material de forma instantánea",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_8",
@@ -645,7 +709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Define si la máquina es capaz de seguir el ritmo de un ciclo muy rápido sin entregar material mal fundido",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_9",
@@ -717,7 +789,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Los servomotores eléctricos eliminan variaciones por cambios en la viscosidad del aceite y son más eficientes",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_1",
@@ -789,7 +869,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "El área depende del cuadrado del radio (o diámetro)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_10",
@@ -861,7 +949,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Es la placa que contiene las cavidades hembra que dan forma al exterior de la pieza",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_11",
@@ -933,7 +1029,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Evita que la pieza se succione al molde por vacío, permitiendo una expulsión suave sin deformaciones",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_2",
@@ -1005,7 +1109,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "En núcleos muy delgados donde no cabe un canal de agua, un pin de alta conductividad transfiere el calor rápidamente hacia una zona donde sí haya flujo de agua",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_3",
@@ -1077,7 +1189,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Evita que los botadores queden extendidos y choquen contra la cavidad fija al cerrar el molde",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_4",
@@ -1149,7 +1269,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Se usa para expulsar piezas circulares o torres (bosses) proporcionando una fuerza de empuje uniforme en todo el perímetro",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_5",
@@ -1221,7 +1349,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Es el pilar de soporte central que evita que las placas se flexionen bajo la enorme presión de inyección",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_6",
@@ -1293,7 +1429,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Permite flexibilidad en la producción sin necesidad de construir múltiples moldes completos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_7",
@@ -1365,7 +1509,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Asegura que no haya fugas de plástico entre la boquilla y el molde por desalineación",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_8",
@@ -1437,7 +1589,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Es un seguro eléctrico para evitar que el molde cierre con los botadores fuera, lo que destruiría las cavidades",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_9",
@@ -1509,7 +1669,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Es la placa que sostiene los corazones o machos que dan forma al interior de la pieza",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_1",
@@ -1581,7 +1749,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Los materiales amorfos son mucho más sensibles a los cambios de temperatura por encima de su Tg en términos de viscosidad, mientras que los cristalinos dependen más del cizallamiento (shear) una vez superado su punto de fusión",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_10",
@@ -1653,7 +1829,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Materiales como el PVC o el PC pueden degradarse si se inyectan muy rápido a través de restricciones pequeñas debido al calor excesivo generado por cizalla",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_11",
@@ -1725,7 +1909,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Las moléculas estiradas por el cizallamiento intentan recuperar su forma original al liberarse la presión, expandiendo el diámetro del flujo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_12",
@@ -1797,7 +1989,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Un proceso robusto tiene una ventana amplia; cambios menores en el ambiente no afectan la calidad de la pieza",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_13",
@@ -1869,7 +2069,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Una vez congelada la compuerta, no puede entrar más plástico",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_14",
@@ -1941,7 +2149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Para un enfriamiento eficiente se requiere flujo turbulento (Reynolds > 4000), lo que maximiza la transferencia de calor",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_15",
@@ -2013,7 +2229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Superar este límite causa defectos como 'piel de tiburón' (sharkskin) o degradación severa",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_16",
@@ -2085,7 +2309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Es un indicador de la resistencia que ofreció el molde al ser llenado a la velocidad programada",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_17",
@@ -2157,7 +2389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Si no hay cojín, el tornillo no tiene material delante para empujar y mantener la presión",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_2",
@@ -2229,7 +2469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "En un fluido Newtoniano, la viscosidad es independiente de la tasa de cizallamiento",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_3",
@@ -2301,7 +2549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "La orientación molecular ocurre debido al esfuerzo de cizalla generado por la diferencia de velocidad entre la capa congelada (pared) y el centro del flujo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_4",
@@ -2373,7 +2629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Al aumentar la temperatura, el plástico se expande (baja su densidad)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_5",
@@ -2445,7 +2709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "La tasa de cizalla es inversamente proporcional al tiempo de llenado",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_6",
@@ -2517,7 +2789,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "En la pared la velocidad es cero y en el centro es máxima; el gradiente de velocidad (cizalla) más alto ocurre justo al lado de la capa que ya se congeló",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_7",
@@ -2589,7 +2869,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "En paredes delgadas, el calor se pierde muy rápido",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_8",
@@ -2661,7 +2949,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Son las '4 variables fundamentales' del moldeo científico que aseguran que el plástico experimente la misma historia térmica y de presión",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_9",
@@ -2733,7 +3029,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Es una medida básica de la viscosidad a bajas tasas de cizalla, útil para control de calidad de lotes de resina",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_1",
@@ -2805,7 +3109,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "El esfuerzo interno es el resultado de la orientación molecular 'congelada' (por llenado rápido) y las diferencias térmicas durante la solidificación",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_2",
@@ -2877,7 +3189,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "El lado más caliente permanece fundido más tiempo y se contrae más que el lado frío",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_3",
@@ -2949,7 +3269,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "El acabado A-1 es un pulido espejo de alto grado (diamante) necesario para la claridad óptica y transparencia",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_4",
@@ -3021,7 +3349,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Cada vez que el plástico se funde y enfría, sus cadenas se acortan y sus propiedades mecánicas se degradan gradualmente",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_5",
@@ -3093,7 +3429,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Materiales con diferentes energías superficiales no se mezclan, creando capas débiles que se desprenden fácilmente",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_6",
@@ -3165,7 +3509,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "El aire no encuentra salida y se calienta por compresión hasta carbonizar el plástico en esa zona",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_7",
@@ -3237,7 +3589,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Un CPK menor a 1",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_8",
@@ -3309,7 +3669,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Si el molde no ha alcanzado el equilibrio térmico tras estar apagado, el plástico se congela antes de llenar",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_9",
@@ -3381,7 +3749,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "El vehículo líquido disminuye la fricción interna, lo que puede requerir ajustes en la presión de inyección",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_1",
@@ -3453,7 +3829,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Evita que el molde aplaste piezas pegadas o herramientas, protegiendo la inversión del herramental",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_2",
@@ -3525,7 +3909,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "La presión debe ser la mínima necesaria para cerrar; si hay un obstáculo, la máquina debe alarmarse antes de aplastarlo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_1",
@@ -3597,7 +3989,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "La cristalinidad es un proceso térmico dependiente del tiempo; un enfriamiento lento permite que las cadenas se ordenen más, mientras que uno rápido 'congela' la estructura en un estado más amorfo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_2",
@@ -3669,7 +4069,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Al calentar la pieza de forma controlada por debajo de su punto de fusión, se permite que las moléculas se relajen, eliminando tensiones residuales de la inyección",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_3",
@@ -3741,7 +4149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Estas uniones físicas determinan la viscosidad",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_4",
@@ -3813,7 +4229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "El agua reacciona con el polímero caliente, rompiendo las moléculas y bajando drásticamente las propiedades mecánicas de la pieza",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_5",
@@ -3885,7 +4309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Es la base para calcular cuánto encogerá el material y cómo compensarlo con presión de empaque",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_6",
@@ -3957,7 +4389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "El olor es un subproducto gaseoso de la ruptura de las cadenas poliméricas; la purga es obligatoria y el material no es apto para piezas",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_1",
@@ -4029,7 +4469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Es una técnica avanzada de ingeniería para compensar deformaciones predecibles por contracción no lineal",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_2",
@@ -4101,7 +4549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Permite ajustar el flujo de agua solo cuando el sensor detecta una desviación, optimizando el consumo y la estabilidad térmica",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_3",
@@ -4173,7 +4629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3
+    "est_score": 3,
+    "subheader": {
+      "es": "Busca maximizar el tiempo productivo mediante la preparación de tareas fuera de la máquina mientras esta aún produce",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_1",
@@ -4245,7 +4709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Puesto que el costo fijo se mantiene, el 12% de aumento se come directamente el margen",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_2",
@@ -4317,6 +4789,14 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 3.5
+    "est_score": 3.5,
+    "subheader": {
+      "es": "Genera mayor carga axial y fricción, reduciendo la vida útil de los componentes de plastificación",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   }
 ]

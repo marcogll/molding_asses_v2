@@ -69,7 +69,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Identifica el componente que transporta el material hacia el extremo caliente y lo funde.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_2",
@@ -141,7 +149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "El plástico virgen se deposita en un depósito que alimenta el barril por gravedad.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_3",
@@ -213,7 +229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Las bandas calefactoras controlan el aporte térmico en las zonas del barril.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_4",
@@ -285,7 +309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "El tonelaje mide la capacidad para resistir la presión interna durante la inyección.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_5",
@@ -357,7 +389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "La unidad de cierre mueve las platinas y aplica el tonelaje de seguridad.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_6",
@@ -429,7 +469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "La boquilla conecta la unidad de inyección con el molde.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_7",
@@ -501,7 +549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "El pistón genera la fuerza que impulsa el tornillo durante el llenado.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_1",
@@ -573,7 +629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Contexto: el molde recibe el plástico desde la máquina a través de un canal principal.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_2",
@@ -645,7 +709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Los extractores liberan la pieza del acero del molde al final del ciclo.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_3",
@@ -717,7 +789,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "La cavidad contiene el negativo de la pieza a fabricar.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_4",
@@ -789,7 +869,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Los canales de enfriamiento aceleran el intercambio térmico con el agua.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_5",
@@ -861,7 +949,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "La compuerta regula el paso del plástico hacia la cavidad.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_6",
@@ -933,7 +1029,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Los sistemas de canal caliente mantienen el plástico fundido hasta la cavidad.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_1",
@@ -1005,7 +1109,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "La viscosidad describe la facilidad de flujo del polímero fundido.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_2",
@@ -1077,7 +1189,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Aumentar la temperatura reduce la resistencia del polímero al movimiento.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_3",
@@ -1149,7 +1269,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "El ciclo de moldeo combina llenado, compactación y solidificación.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_4",
@@ -1221,7 +1349,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "La presión de sostenimiento asegura el llenado final y compensa la contracción.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_5",
@@ -1293,7 +1429,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Una porción importante del calor proviene del trabajo mecánico dentro del barril.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_6",
@@ -1365,7 +1509,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "El cojín mantiene material delante del tornillo para transmitir presión constante.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_1",
@@ -1437,7 +1589,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Un tiro corto indica que algo limita la cantidad de material desplazado.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_2",
@@ -1509,7 +1669,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "La rebaba revela exceso de presión o falta de fuerza de cierre en la línea de partición.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_3",
@@ -1581,7 +1749,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Las zonas gruesas requieren presión sostenida para evitar hundimientos al enfriarse.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_4",
@@ -1653,7 +1829,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Cuando los frentes de flujo se separan y vuelven a unirse aparecen soldaduras visibles.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_5",
@@ -1725,7 +1909,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "El aire atrapado dentro del molde puede alcanzar temperaturas que carbonizan el plástico.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_6",
@@ -1797,7 +1989,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Enfriamientos desiguales crean tensiones internas que deforman la geometría.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_7",
@@ -1869,7 +2069,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Reportar y segregar piezas sospechosas evita scrap masivo.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_1",
@@ -1941,7 +2149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Prioriza mantener las manos alejadas de zonas móviles mientras el equipo está energizado.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_2",
@@ -2013,7 +2229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "El paro de emergencia detiene todos los actuadores ante un peligro inmediato.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_3",
@@ -2085,7 +2309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Las barras de seguridad bloquean el cierre cuando hay una puerta abierta.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_4",
@@ -2157,7 +2389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Eliminar y reportar fugas evita resbalones cerca de la máquina.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_5",
@@ -2229,7 +2469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Las herramientas duras pueden rayar el acero templado del molde.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_6",
@@ -2301,7 +2549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "El material fundido exige guantes térmicos y herramientas adecuadas para limpiar la purga.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_1",
@@ -2373,7 +2629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Algunas resinas atraen humedad del aire y requieren secado previo.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_2",
@@ -2445,7 +2709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "La humedad atrapada se refleja en marcas superficiales como plateados o ráfagas.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_3",
@@ -2517,7 +2789,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Eliminar la humedad de los pellets evita defectos estéticos y estructurales.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_4",
@@ -2589,7 +2869,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Los pellets son la forma física estándar que entregan los proveedores de resina.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_5",
@@ -2661,7 +2949,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "Las mezclas de resinas incompatibles pueden generar delaminación.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_6",
@@ -2733,7 +3029,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "El material regenerado proviene de rechazos o coladas molidas para reutilizar.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_1",
@@ -2805,7 +3109,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "En modo semiautomático el operador interviene en cada tiro para abrir y cerrar.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_2",
@@ -2877,7 +3189,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "El modo manual permite controlar movimientos individuales durante pruebas o limpieza.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_3",
@@ -2949,7 +3269,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Las funciones de seguridad deben verificarse antes de arrancar el turno.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_4",
@@ -3021,7 +3349,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1
+    "est_score": 1,
+    "subheader": {
+      "es": "El tiempo de ciclo cubre desde el cierre hasta la extracción del siguiente tiro.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_5",
@@ -3093,7 +3429,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Las herramientas suaves protegen el pulido del molde durante la limpieza.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_6",
@@ -3165,7 +3509,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "La purga limpia el barril de residuos antes de iniciar la producción.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_1",
@@ -3237,7 +3589,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Un proceso estable y comunicación temprana reducen el scrap.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_2",
@@ -3309,7 +3669,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Contaminantes externos causan puntos negros o fallas estructurales.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_3",
@@ -3381,7 +3749,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Recuperar coladas limpias mejora la rentabilidad sin sacrificar calidad.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_4",
@@ -3453,7 +3829,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "La purga excesiva representa material y dinero desperdiciados en arranques.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_5",
@@ -3525,7 +3909,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "El orden evita contaminación accidental y pérdida de herramientas críticas.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_6",
@@ -3597,6 +3989,14 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 1.5
+    "est_score": 1.5,
+    "subheader": {
+      "es": "Las piezas contaminadas con aceite se consideran scrap porque no se pueden limpiar.",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   }
 ]

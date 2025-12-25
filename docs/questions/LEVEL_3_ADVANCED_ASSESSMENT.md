@@ -11,6 +11,8 @@
 
 ### 1. Un molde de 4 cavidades produce piezas redondas de 6" de diámetro con un orificio central de 0.5". Si la presión de cavidad es de 3 Ton/in², ¿cuál es el tonelaje mínimo requerido?
 
+> *Área por pieza = π * (3^2 - 0*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Práctico | 3.5 pts | `mach_1` |
@@ -25,6 +27,8 @@
 ---
 
 ### 2. ¿Cuál es la función del 'anillo de cierre' (non-return valve)?
+
+> *Funciona como una válvula check; permite el paso al cargar pero bloquea el paso al inyectar*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -41,6 +45,8 @@
 
 ### 3. ¿Qué porcentaje mínimo de la platina debe cubrir un molde para evitar la deflexión de la misma bajo tonelaje?
 
+> *Cubrir al menos 2/3 del área entre barras asegura una distribución uniforme de la fuerza de cierre y evita daños permanentes en la planitud de las platinas*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 3 pts | `mach_2` |
@@ -55,6 +61,8 @@
 ---
 
 ### 4. ¿Por qué una máquina hidráulica tiene dificultades para controlar con precisión la posición final de transición (VPT)?
+
+> *Existe un retardo mecánico y electrónico entre la señal y el cierre de válvulas, además de la inercia de la masa del tornillo en movimiento*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -71,6 +79,8 @@
 
 ### 5. ¿Cómo afecta un aumento en la contrapresión (back pressure) al tiempo de recuperación del tornillo?
 
+> *La contrapresión dificulta el retroceso del tornillo mientras este gira, requiriendo más tiempo para acumular el volumen de disparo*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Práctico | 3.5 pts | `mach_4` |
@@ -85,6 +95,8 @@
 ---
 
 ### 6. ¿Qué función cumple el 'Acumulador' en una máquina de inyección de alta velocidad?
+
+> *Permite liberar un gran volumen de aceite en milisegundos, algo que las bombas convencionales no pueden hacer por sí solas*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -101,6 +113,8 @@
 
 ### 7. Identifica la parte 'G' en la figura del molde (PDF pág 17):
 
+> *Es la placa base que sujeta el molde a la platina móvil de la máquina de inyección*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Práctico | 3.5 pts | `mach_6` |
@@ -115,6 +129,8 @@
 ---
 
 ### 8. ¿Para qué sirve el sensor de 'Presión de Cavidad'?
+
+> *Es el nivel más alto de control de procesos; compensa variaciones de viscosidad del material de forma instantánea*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -131,6 +147,8 @@
 
 ### 9. ¿Qué es la 'capacidad de plastificación' de una máquina?
 
+> *Define si la máquina es capaz de seguir el ritmo de un ciclo muy rápido sin entregar material mal fundido*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Máquina | Teórico | 3 pts | `mach_8` |
@@ -145,6 +163,8 @@
 ---
 
 ### 10. ¿Cuál es la diferencia entre un motor de tornillo hidráulico y uno eléctrico?
+
+> *Los servomotores eléctricos eliminan variaciones por cambios en la viscosidad del aceite y son más eficientes*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -161,6 +181,8 @@
 
 ### 11. Si el proveedor recomienda abrir una compuerta (gate) de 0.030" a 0.040", ¿en qué porcentaje aumentará el área de flujo aproximadamente?
 
+> *El área depende del cuadrado del radio (o diámetro)*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Práctico | 3.5 pts | `molde_1` |
@@ -175,6 +197,8 @@
 ---
 
 ### 12. Identifica la parte 'D' en la figura del molde (PDF pág 17):
+
+> *Es la placa que contiene las cavidades hembra que dan forma al exterior de la pieza*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -191,6 +215,8 @@
 
 ### 13. ¿Cuál es la función de una 'válvula de aire' (air poppet) en el molde?
 
+> *Evita que la pieza se succione al molde por vacío, permitiendo una expulsión suave sin deformaciones*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 3 pts | `molde_11` |
@@ -205,6 +231,8 @@
 ---
 
 ### 14. ¿Qué método de enfriamiento para núcleos (cores) largos y delgados es el más eficiente térmicamente?
+
+> *En núcleos muy delgados donde no cabe un canal de agua, un pin de alta conductividad transfiere el calor rápidamente hacia una zona donde sí haya flujo de agua*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -221,6 +249,8 @@
 
 ### 15. ¿Cuál es la función del 'Pin de Retorno' en el sistema de expulsión?
 
+> *Evita que los botadores queden extendidos y choquen contra la cavidad fija al cerrar el molde*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 3 pts | `molde_3` |
@@ -235,6 +265,8 @@
 ---
 
 ### 16. ¿Qué es un 'manguito expulsor' (ejector sleeve)?
+
+> *Se usa para expulsar piezas circulares o torres (bosses) proporcionando una fuerza de empuje uniforme en todo el perímetro*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -251,6 +283,8 @@
 
 ### 17. Identifica la parte 'H' en la figura del molde (PDF pág 17):
 
+> *Es el pilar de soporte central que evita que las placas se flexionen bajo la enorme presión de inyección*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Práctico | 3.5 pts | `molde_5` |
@@ -265,6 +299,8 @@
 ---
 
 ### 18. ¿Qué es un 'inserto intercambiable'?
+
+> *Permite flexibilidad en la producción sin necesidad de construir múltiples moldes completos*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -281,6 +317,8 @@
 
 ### 19. ¿Cuál es la función del 'Centrador' (Locating Ring)?
 
+> *Asegura que no haya fugas de plástico entre la boquilla y el molde por desalineación*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Teórico | 3 pts | `molde_7` |
@@ -295,6 +333,8 @@
 ---
 
 ### 20. ¿Para qué sirve un 'sensor de final de carrera' en los botadores?
+
+> *Es un seguro eléctrico para evitar que el molde cierre con los botadores fuera, lo que destruiría las cavidades*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -311,6 +351,8 @@
 
 ### 21. Identifica la parte 'F' en la figura del molde (PDF pág 17):
 
+> *Es la placa que sostiene los corazones o machos que dan forma al interior de la pieza*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Molde | Práctico | 3.5 pts | `molde_9` |
@@ -325,6 +367,8 @@
 ---
 
 ### 22. Si aumentamos la temperatura de masa 5°C tanto en un material amorfo como en uno cristalino, ¿cuál experimentará un cambio de viscosidad más drástico?
+
+> *Los materiales amorfos son mucho más sensibles a los cambios de temperatura por encima de su Tg en términos de viscosidad, mientras que los cristalinos dependen más del cizallamiento (shear) una vez superado su punto de fusión*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -341,6 +385,8 @@
 
 ### 23. Si un material es sensible al cizallamiento (shear sensitive), ¿cómo debería ser el perfil de inyección al pasar por la compuerta?
 
+> *Materiales como el PVC o el PC pueden degradarse si se inyectan muy rápido a través de restricciones pequeñas debido al calor excesivo generado por cizalla*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Práctico | 3.5 pts | `proc_10` |
@@ -355,6 +401,8 @@
 ---
 
 ### 24. ¿Qué fenómeno describe la 'Hinchazón del extruido' (Die Swell)?
+
+> *Las moléculas estiradas por el cizallamiento intentan recuperar su forma original al liberarse la presión, expandiendo el diámetro del flujo*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -371,6 +419,8 @@
 
 ### 25. ¿Qué es la 'ventana de proceso'?
 
+> *Un proceso robusto tiene una ventana amplia; cambios menores en el ambiente no afectan la calidad de la pieza*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 3 pts | `proc_12` |
@@ -385,6 +435,8 @@
 ---
 
 ### 26. Si el tiempo de congelación de compuerta es de 6 segundos, ¿qué pasa si ponemos 10 segundos de Hold?
+
+> *Una vez congelada la compuerta, no puede entrar más plástico*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -401,6 +453,8 @@
 
 ### 27. ¿Qué mide el número de Reynolds en un canal de enfriamiento?
 
+> *Para un enfriamiento eficiente se requiere flujo turbulento (Reynolds > 4000), lo que maximiza la transferencia de calor*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 3 pts | `proc_14` |
@@ -415,6 +469,8 @@
 ---
 
 ### 28. ¿Qué es la 'velocidad de cizallamiento crítica'?
+
+> *Superar este límite causa defectos como 'piel de tiburón' (sharkskin) o degradación severa*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -431,6 +487,8 @@
 
 ### 29. ¿Qué es la 'Presión Hidráulica de Pico'?
 
+> *Es un indicador de la resistencia que ofreció el molde al ser llenado a la velocidad programada*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 3 pts | `proc_16` |
@@ -445,6 +503,8 @@
 ---
 
 ### 30. Si un sensor de cavidad muestra que la presión no se mantiene constante en el Hold, ¿qué deberías revisar?
+
+> *Si no hay cojín, el tornillo no tiene material delante para empujar y mantener la presión*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -461,6 +521,8 @@
 
 ### 31. Si se afirma que un fluido tiene características 'Newtonianas', ¿qué significa esto para el proceso de moldeo?
 
+> *En un fluido Newtoniano, la viscosidad es independiente de la tasa de cizallamiento*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 3 pts | `proc_2` |
@@ -475,6 +537,8 @@
 ---
 
 ### 32. ¿Bajo qué condición física las moléculas de polímero logran orientarse durante el flujo?
+
+> *La orientación molecular ocurre debido al esfuerzo de cizalla generado por la diferencia de velocidad entre la capa congelada (pared) y el centro del flujo*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -491,6 +555,8 @@
 
 ### 33. Si la temperatura del fundido en el barril aumenta y las demás condiciones se mantienen, ¿qué ocurre con el número de moléculas inyectadas en el mismo volumen de disparo?
 
+> *Al aumentar la temperatura, el plástico se expande (baja su densidad)*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 3 pts | `proc_4` |
@@ -505,6 +571,8 @@
 ---
 
 ### 34. Al generar una curva de viscosidad (reología de máquina), ¿qué valor se utiliza para calcular la tasa de cizallamiento aparente?
+
+> *La tasa de cizalla es inversamente proporcional al tiempo de llenado*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -521,6 +589,8 @@
 
 ### 35. ¿En qué región de la cavidad ocurre el mayor cizallamiento entre moléculas durante el flujo?
 
+> *En la pared la velocidad es cero y en el centro es máxima; el gradiente de velocidad (cizalla) más alto ocurre justo al lado de la capa que ya se congeló*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Teórico | 3 pts | `proc_6` |
@@ -535,6 +605,8 @@
 ---
 
 ### 36. ¿Qué efecto tiene un cambio en la temperatura del molde sobre la presión de cavidad final?
+
+> *En paredes delgadas, el calor se pierde muy rápido*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -551,6 +623,8 @@
 
 ### 37. ¿Qué combinación de variables de salida se consideran necesarias para igualar (matching) un proceso de una máquina a otra?
 
+> *Son las '4 variables fundamentales' del moldeo científico que aseguran que el plástico experimente la misma historia térmica y de presión*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Procesos | Práctico | 3.5 pts | `proc_8` |
@@ -565,6 +639,8 @@
 ---
 
 ### 38. ¿Qué mide el índice de fluidez (MFI)?
+
+> *Es una medida básica de la viscosidad a bajas tasas de cizalla, útil para control de calidad de lotes de resina*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -581,6 +657,8 @@
 
 ### 39. ¿Qué variables determinan principalmente la cantidad de esfuerzo interno (internal stress) residual en una pieza moldeada?
 
+> *El esfuerzo interno es el resultado de la orientación molecular 'congelada' (por llenado rápido) y las diferencias térmicas durante la solidificación*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Teórico | 3 pts | `cal_1` |
@@ -595,6 +673,8 @@
 ---
 
 ### 40. Si el enfriamiento del molde es desigual, ¿hacia qué lado tenderá a curvarse (warpage) la pieza?
+
+> *El lado más caliente permanece fundido más tiempo y se contrae más que el lado frío*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -611,6 +691,8 @@
 
 ### 41. Según las tablas SPI/SPE, ¿qué acabado se requiere para una pieza de Policarbonato que debe ser ópticamente transparente?
 
+> *El acabado A-1 es un pulido espejo de alto grado (diamante) necesario para la claridad óptica y transparencia*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 3.5 pts | `cal_3` |
@@ -625,6 +707,8 @@
 ---
 
 ### 42. ¿Qué es la 'historia térmica' del polímero?
+
+> *Cada vez que el plástico se funde y enfría, sus cadenas se acortan y sus propiedades mecánicas se degradan gradualmente*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -641,6 +725,8 @@
 
 ### 43. Si una pieza presenta delaminación (se separa en capas como piel de cebolla), ¿cuál es la causa más probable?
 
+> *Materiales con diferentes energías superficiales no se mezclan, creando capas débiles que se desprenden fácilmente*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 3.5 pts | `cal_5` |
@@ -655,6 +741,8 @@
 ---
 
 ### 44. Si aparece una mancha de quemado justo en el último punto en llenarse, el problema es:
+
+> *El aire no encuentra salida y se calienta por compresión hasta carbonizar el plástico en esa zona*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -671,6 +759,8 @@
 
 ### 45. ¿Qué indica un valor de CPK de 0.8 en una dimensión crítica?
 
+> *Un CPK menor a 1*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 3.5 pts | `cal_7` |
@@ -685,6 +775,8 @@
 ---
 
 ### 46. Encuentras piezas con 'tiro corto' solo los lunes por la mañana. ¿Qué variable ambiental es la más sospechosa?
+
+> *Si el molde no ha alcanzado el equilibrio térmico tras estar apagado, el plástico se congela antes de llenar*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -701,6 +793,8 @@
 
 ### 47. ¿Cómo influye el uso de masterbatch (colorante) líquido frente a uno sólido en la viscosidad?
 
+> *El vehículo líquido disminuye la fricción interna, lo que puede requerir ajustes en la presión de inyección*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Calidad | Práctico | 3.5 pts | `cal_9` |
@@ -715,6 +809,8 @@
 ---
 
 ### 48. ¿Cuál es la función del sistema de 'Seguridad de Molde' (Low Pressure Close)?
+
+> *Evita que el molde aplaste piezas pegadas o herramientas, protegiendo la inversión del herramental*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -731,6 +827,8 @@
 
 ### 49. Al ajustar la 'protección de molde', ¿cuál es el balance correcto entre velocidad y presión?
 
+> *La presión debe ser la mínima necesaria para cerrar; si hay un obstáculo, la máquina debe alarmarse antes de aplastarlo*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Seguridad | Práctico | 3.5 pts | `seg_2` |
@@ -745,6 +843,8 @@
 ---
 
 ### 50. En polímeros semicristalinos (Nylon, POM, PET), ¿de qué depende principalmente el grado de cristalinidad y el tamaño de los esferulitos en la pieza final?
+
+> *La cristalinidad es un proceso térmico dependiente del tiempo; un enfriamiento lento permite que las cadenas se ordenen más, mientras que uno rápido 'congela' la estructura en un estado más amorfo*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -761,6 +861,8 @@
 
 ### 51. ¿Cuál es el efecto técnico de realizar un proceso de Recocido (Annealing) en piezas plásticas?
 
+> *Al calentar la pieza de forma controlada por debajo de su punto de fusión, se permite que las moléculas se relajen, eliminando tensiones residuales de la inyección*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 3 pts | `plast_2` |
@@ -775,6 +877,8 @@
 ---
 
 ### 52. ¿Qué es el 'entrelazamiento molecular'?
+
+> *Estas uniones físicas determinan la viscosidad*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -791,6 +895,8 @@
 
 ### 53. ¿Qué es la degradación por 'Hidrólisis'?
 
+> *El agua reacciona con el polímero caliente, rompiendo las moléculas y bajando drásticamente las propiedades mecánicas de la pieza*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Teórico | 3 pts | `plast_4` |
@@ -805,6 +911,8 @@
 ---
 
 ### 54. ¿Qué es el 'volumen específico' en un diagrama PVT?
+
+> *Es la base para calcular cuánto encogerá el material y cómo compensarlo con presión de empaque*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -821,6 +929,8 @@
 
 ### 55. Si el polímero sale con olor a amoniaco o gas picante durante la purga, esto indica:
 
+> *El olor es un subproducto gaseoso de la ruptura de las cadenas poliméricas; la purga es obligatoria y el material no es apto para piezas*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Plásticos | Práctico | 3.5 pts | `plast_6` |
@@ -835,6 +945,8 @@
 ---
 
 ### 56. ¿Qué es un 'Overbuild' en el diseño y ajuste de un molde?
+
+> *Es una técnica avanzada de ingeniería para compensar deformaciones predecibles por contracción no lineal*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -851,6 +963,8 @@
 
 ### 57. ¿Cuál es la ventaja de utilizar enfriamiento por impulsos (pulse cooling)?
 
+> *Permite ajustar el flujo de agua solo cuando el sensor detecta una desviación, optimizando el consumo y la estabilidad térmica*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Operaciones | Teórico | 3 pts | `op_2` |
@@ -865,6 +979,8 @@
 ---
 
 ### 58. ¿Qué es el SMED en moldeo?
+
+> *Busca maximizar el tiempo productivo mediante la preparación de tareas fuera de la máquina mientras esta aún produce*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
@@ -881,6 +997,8 @@
 
 ### 59. Si un proceso tiene un margen de utilidad del 20% basado en el ciclo cotizado, ¿cuál es el impacto de un aumento del 12% en el tiempo de ciclo real?
 
+> *Puesto que el costo fijo se mantiene, el 12% de aumento se come directamente el margen*
+
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |
 | Desperdicios | Práctico | 3.5 pts | `desp_1` |
@@ -895,6 +1013,8 @@
 ---
 
 ### 60. ¿Cómo impacta una contrapresión excesiva en el desgaste del equipo?
+
+> *Genera mayor carga axial y fricción, reduciendo la vida útil de los componentes de plastificación*
 
 | 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
 | :--- | :---: | :---: | :---: |

@@ -22,11 +22,16 @@ def generate_markdown(level_name, json_path, output_path, passing_score, max_sco
             # Extract localized data
             category = q['category'].get(lang, q['category'].get('es', 'General'))
             question_text = q['question'].get(lang, q['question'].get('es', ''))
+            subheader_text = q['subheader'].get(lang, q['subheader'].get('es', '')) # New: Get subheader
             q_type = q['type']
             score = q.get('est_score', 1)
             
             # Card Header
             f.write(f"### {i}. {question_text}\n\n")
+            
+            # Subheader (if available)
+            if subheader_text:
+                f.write(f"> *{subheader_text}*\n\n")
             
             # Metadata Table (Card-like styling)
             f.write("| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |\n")

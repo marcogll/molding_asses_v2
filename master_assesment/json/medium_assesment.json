@@ -69,7 +69,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Los termopares están instalados en el acero del barril; la temperatura del plástico suele ser un poco distinta debido a la fricción interna (calor por cizalla)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_2",
@@ -141,7 +149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "La presión del plástico es la presión hidráulica multiplicada por el Ratio de Intensificación de la máquina",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_3",
@@ -213,7 +229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Si el anillo de cierre no sella bien, el plástico regresa hacia los filetes del tornillo, impidiendo que se mantenga una presión constante en la cavidad",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_4",
@@ -285,7 +309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Es una medida de la capacidad de mezclado y fundido; una relación mayor suele indicar una mejor homogenización del plástico",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_5",
@@ -357,7 +389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Si la garganta se calienta, el plástico comienza a ablandarse antes de entrar al tornillo, bloqueando el paso del material (bridging)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_6",
@@ -429,7 +469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "el punto crítico hidráulica convierte la energía mecánica del motor en flujo de aceite para mover todos los sistemas de la máquina",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_7",
@@ -501,7 +549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Las máquinas estándar tienen platina fija (lado inyección), móvil (lado cierre) y a veces una trasera de soporte (tailstock)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "mach_8",
@@ -573,7 +629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Cada tipo de termopar genera un voltaje distinto por grado; el controlador leerá una temperatura que no es real",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_1",
@@ -645,7 +709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "El plástico tiende a encogerse y abrazar el corazón (macho), por lo que el calor se queda atrapado ahí más tiempo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_2",
@@ -717,7 +789,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Sin ángulo de salida, la fricción entre el plástico y el acero impediría que los botadores saquen la pieza limpiamente",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_3",
@@ -789,7 +869,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "La luz de día es la distancia total entre platinas; debe ser al menos el espesor del molde más la carrera de apertura",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_4",
@@ -861,7 +949,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Al no tener que enfriar y expulsar una colada gruesa, el ciclo es más rápido y se ahorra material",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_5",
@@ -933,7 +1029,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Al haber menos espacio, la velocidad de llenado efectiva en las cavidades restantes cambia si no se ajusta el perfil",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_6",
@@ -1005,7 +1109,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Es un ajuste crítico para que la rodillera o el sistema hidráulico de cierre aplique la fuerza correcta",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_7",
@@ -1077,7 +1189,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Si el aire no sale, se comprime, causando quemaduras (quemado por gas) o tiros cortos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "molde_8",
@@ -1149,7 +1269,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El agua va absorbiendo calor; si pasa por muchas cavidades, al final ya no tiene capacidad de enfriar",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_1",
@@ -1221,7 +1349,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Es el cambio de 'primera etapa' a 'segunda etapa'; crítico para evitar rebabas o tiros cortos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_10",
@@ -1293,7 +1429,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "1 Bar equivale a aproximadamente 14",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_2",
@@ -1365,7 +1509,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Si el cojín llega a cero, la máquina no puede aplicar presión de sostenimiento a la pieza",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_3",
@@ -1437,7 +1589,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Una vez sellada la compuerta, aumentar el tiempo de hold ya no afecta el peso de la pieza",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_4",
@@ -1509,7 +1669,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "La contrapresión obliga al tornillo a trabajar más para fundir el plástico, eliminando burbujas de aire y mejorando el color",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_5",
@@ -1581,7 +1749,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Genera más fricción mecánica (cizallamiento), lo cual calienta el plástico desde adentro",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_6",
@@ -1653,7 +1829,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "En el moldeo científico, la primera etapa debe ser controlada por velocidad para asegurar un llenado uniforme",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_7",
@@ -1725,7 +1909,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Los plásticos fluyen más fácil entre más rápido se empujen; esto permite inyectar piezas complejas",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_8",
@@ -1797,7 +1989,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Ayuda a prevenir el goteo de la boquilla (drooling) al final del ciclo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "proc_9",
@@ -1869,7 +2069,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Durante el empaque se aplica la presión final para compactar el material dentro de un molde ya lleno",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_1",
@@ -1941,7 +2149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "A diferencia de los vacíos por contracción, las burbujas de aire suelen venir del proceso de plastificación o llenado turbulento",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_2",
@@ -2013,7 +2229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El splay es el síntoma clásico de humedad que se convierte en vapor dentro del barril",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_3",
@@ -2085,7 +2309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El rechupe ocurre porque no entró suficiente plástico para compensar la contracción mientras la pieza enfriaba",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_4",
@@ -2157,7 +2389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Ocurre cuando la velocidad de inyección es muy alta al pasar por una compuerta pequeña hacia un área grande",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_5",
@@ -2229,7 +2469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "La cara que enfría rápido 'tira' del resto de la pieza, causando una deformación por tensiones térmicas",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_6",
@@ -2301,7 +2549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Indica que el tornillo no está homogeneizando bien el pigmento con la resina base",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_7",
@@ -2373,7 +2629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El vacío es un hueco por falta de presión (física); la burbuja contiene gas atrapado",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_8",
@@ -2445,7 +2709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El plástico quemado cambia de color y desprende un olor fuerte a gas químico",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "cal_9",
@@ -2517,7 +2789,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Es el punto donde el material tiene suficiente integridad estructural para resistir la fuerza de los botadores sin deformarse",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_1",
@@ -2589,7 +2869,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Mantener el contacto térmico degrada el plástico en la punta y puede generar gases peligrosos o taponamientos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_2",
@@ -2661,7 +2949,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Es el procedimiento de seguridad vital para asegurar que nadie encienda la máquina mientras alguien trabaja en ella",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_3",
@@ -2733,7 +3029,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Ciertos plásticos son químicamente incompatibles y generan gases tóxicos o presión explosiva si se juntan en el barril caliente",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_4",
@@ -2805,7 +3109,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Cualquier ruido inusual indica una falla mecánica que puede causar un accidente o daño catastrófico al molde",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "seg_5",
@@ -2877,7 +3189,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Nunca se debe estar debajo de una carga suspendida por riesgo de falla del equipo de izaje",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_1",
@@ -2949,7 +3269,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "El grado de cristalinidad depende directamente de la tasa de enfriamiento; enfriar lento permite mayor orden molecular",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_2",
@@ -3021,7 +3349,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Cadenas más largas se enredan más, aumentando la resistencia del material y dificultando su flujo (mayor viscosidad)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_3",
@@ -3093,7 +3429,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Es el proceso químico de creación del plástico a partir de sus componentes básicos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_4",
@@ -3165,7 +3509,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Las moléculas cristalinas se ordenan y empaquetan más juntas al enfriarse, ocupando menos espacio",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_5",
@@ -3237,7 +3589,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Mide la viscosidad, que es el parámetro clave para entender cómo llenará el plástico el molde",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_6",
@@ -3309,7 +3669,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "En los amorfos, la Tg marca el cambio de comportamiento estructural antes de fluir por completo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "plast_7",
@@ -3381,7 +3749,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "el punto crítico es históricamente el pionero en la creación y comercialización de la poliamida (Nylon)",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_1",
@@ -3453,7 +3829,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Los componentes se expanden con el calor; si inyectas antes de que todo esté dilatado, el plástico puede fugar por las uniones",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_2",
@@ -3525,7 +3909,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Permite al operador controlar el disparo de forma segura mientras observa la calidad del fundido fuera del molde",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_3",
@@ -3597,7 +3989,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Asegura que el plástico tenga una ruta abierta desde el centro hacia afuera antes de aplicar presión",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_4",
@@ -3669,7 +4069,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El calor estático degrada el material, lo que puede corroer el barril o causar gases tóxicos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_5",
@@ -3741,7 +4149,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Es la metodología para monitorear las variables del proceso y asegurar que las piezas se mantengan en tolerancia",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_6",
@@ -3813,7 +4229,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El agua atrapada se evapora instantáneamente al salir a la presión atmosférica, causando ese sonido y burbujas",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "op_7",
@@ -3885,7 +4309,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "4 piezas cada 27 seg = 0",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_1",
@@ -3957,7 +4389,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Retraer demasiado el tornillo mete aire a la zona de fundido, el cual se mezcla con el plástico y causa defectos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_2",
@@ -4029,7 +4469,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "Si el tiempo de residencia es muy largo, el calor degrada las cadenas químicas del plástico, arruinando sus propiedades",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_3",
@@ -4101,7 +4549,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El material tarda muchos ciclos en salir, exponiéndose al calor por demasiado tiempo",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_4",
@@ -4173,7 +4629,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "Usar solo resina virgen gasta mucho material y tiempo; los compuestos de purga 'arrastran' mejor los residuos",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_5",
@@ -4245,7 +4709,15 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2
+    "est_score": 2,
+    "subheader": {
+      "es": "El plástico se debilita cada vez que se funde; demasiado regrind afecta la calidad final",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   },
   {
     "id": "desp_6",
@@ -4317,6 +4789,14 @@
       "cn": "",
       "ge": ""
     },
-    "est_score": 2.5
+    "est_score": 2.5,
+    "subheader": {
+      "es": "El regrind debe estar tan limpio como el material virgen para no comprometer el proceso",
+      "en": "",
+      "fr": "",
+      "br": "",
+      "cn": "",
+      "ge": ""
+    }
   }
 ]
