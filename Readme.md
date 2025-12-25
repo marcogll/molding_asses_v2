@@ -252,9 +252,9 @@ Para profundizar en áreas específicas, consulta:
 
 ### Contenido de Evaluaciones
 
-*   **[Nivel 1 - Básico](docs/questions/LEVEL_1_BASIC_ASSESSMENT.md):** Temario para operadores (~180 preguntas).
-*   **[Nivel 2 - Medio](docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md):** Temario para técnicos (~175 preguntas).
-*   **[Nivel 3 - Avanzado](docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md):** Temario para ingeniería (~180 preguntas).
+*   **[Nivel 1 - Básico](docs/questions/LEVEL_1_BASIC_ASSESSMENT.md):** Temario para operadores (~50 preguntas).
+*   **[Nivel 2 - Medio](docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md):** Temario para técnicos (~60 preguntas).
+*   **[Nivel 3 - Avanzado](docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md):** Temario para ingeniería (~60 preguntas).
 
 ---
 
