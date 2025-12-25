@@ -1,0 +1,91 @@
+{
+  "survey_id": "funnel_registration_v1",
+  "title": {
+    "es": "Registro de Perfil y Autoevaluación",
+    "en": "Profile Registration & Self-Assessment"
+  },
+  "description": {
+    "es": "Por favor completa tu información para asignarte la evaluación técnica adecuada.",
+    "en": "Please complete your information to be assigned the appropriate technical assessment."
+  },
+  "fields": [
+    {
+      "id": "full_name",
+      "type": "text",
+      "label": {
+        "es": "Nombre Completo",
+        "en": "Full Name"
+      },
+      "required": true
+    },
+    {
+      "id": "employee_id",
+      "type": "text",
+      "label": {
+        "es": "Número de Empleado",
+        "en": "Employee ID"
+      },
+      "required": true
+    },
+    {
+      "id": "department",
+      "type": "select",
+      "label": {
+        "es": "Departamento",
+        "en": "Department"
+      },
+      "options": [
+        {"value": "production", "label": {"es": "Producción", "en": "Production"}},
+        {"value": "maintenance", "label": {"es": "Mantenimiento", "en": "Maintenance"}},
+        {"value": "quality", "label": {"es": "Calidad", "en": "Quality"}},
+        {"value": "engineering", "label": {"es": "Ingeniería", "en": "Engineering"}},
+        {"value": "tooling", "label": {"es": "Taller de Moldes", "en": "Tool Room"}}
+      ],
+      "required": true
+    },
+    {
+      "id": "job_role",
+      "type": "select",
+      "label": {
+        "es": "Puesto Actual",
+        "en": "Current Role"
+      },
+      "options": [
+        {"value": "operator", "label": {"es": "Operador General", "en": "General Operator"}},
+        {"value": "setup_tech", "label": {"es": "Técnico de Montaje", "en": "Setup Technician"}},
+        {"value": "process_tech", "label": {"es": "Técnico de Procesos", "en": "Process Technician"}},
+        {"value": "process_eng", "label": {"es": "Ingeniero de Procesos", "en": "Process Engineer"}},
+        {"value": "supervisor", "label": {"es": "Supervisor", "en": "Supervisor"}}
+      ],
+      "required": true
+    },
+    {
+      "id": "years_experience",
+      "type": "number",
+      "label": {
+        "es": "Años de Experiencia en Moldeo",
+        "en": "Years of Molding Experience"
+      },
+      "min": 0,
+      "max": 50,
+      "required": true
+    },
+    {
+      "id": "self_evaluation",
+      "type": "slider",
+      "label": {
+        "es": "¿Cómo calificarías tu nivel de conocimiento técnico actual?",
+        "en": "How would you rate your current technical knowledge level?"
+      },
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "required": true,
+      "description": {
+        "es": "0% = Principiante, 100% = Experto Mundial",
+        "en": "0% = Beginner, 100% = World Class Expert"
+      }
+    }
+  ]
+}
