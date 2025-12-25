@@ -1,5 +1,7 @@
 # Agentes del Proyecto Code Carol
 
+[← Regresar al Inicio](../Readme.md)
+
 Este documento define los agentes especializados (IA o roles humanos) necesarios para ejecutar la siguiente fase de expansión del proyecto **Code Carol**.
 
 ## 1. Agente Arquitecto de Sistema (System Architect)

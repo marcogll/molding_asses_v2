@@ -1,5 +1,7 @@
 # Code Carol: Nivel Medio (Técnico de Ajuste)
 
+[← Regresar al Inicio](../../Readme.md)
+
 ## ℹ️ Información General
 - **Total de preguntas:** 60
 - **Puntaje Máximo Posible:** ~135 puntos.

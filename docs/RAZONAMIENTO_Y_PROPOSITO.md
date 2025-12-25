@@ -1,5 +1,7 @@
 # Importancia de la Evaluación Técnica en Moldeo por Inyección
 
+[← Regresar al Inicio](../Readme.md)
+
 ## Introducción
 El moldeo por inyección es un proceso de alta precisión donde convergen la mecánica, la termodinámica y la reología de polímeros. Para garantizar la rentabilidad y seguridad de la planta, es fundamental que **todo el personal** involucrado en actividades de moldeo sea evaluado bajo un estándar unificado.
 

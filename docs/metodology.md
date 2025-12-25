@@ -1,5 +1,7 @@
 # Guía de Evaluación del Assessment (Code Carol)
 
+[← Regresar al Inicio](../Readme.md)
+
 ## Descripción General
 Este documento describe la metodología de evaluación para el sistema **Code Carol**. Las evaluaciones miden el conocimiento y las habilidades del personal en procesos de moldeo por inyección a través de preguntas de opción múltiple organizadas en diferentes niveles de dificultad.
 
