@@ -1,129 +1,162 @@
-# Molding Assessment Framework (Automotive & Related)
+# Molding Assessment Hub V2
 
-## 1. Introducción y Propósito
+> **Hub de evaluación integral para medir, estandarizar y potenciar el conocimiento técnico en moldeo por inyección.**
+> Soluciona la falta de métricas objetivas en la competencia del personal, transformando el "sentimiento" operativo en datos accionables para reducir scrap, mejorar el OEE y garantizar la seguridad.
 
-Este proyecto define un **Framework Multi-nivel de Evaluación** orientado a estandarizar y medir objetivamente el conocimiento técnico en procesos de **moldeo por inyección**. Su finalidad principal no es solo calificar, sino diagnosticar el "punto de partida real" del equipo para operar, solucionar problemas y optimizar procesos de manufactura.
+## 📋 Tabla de Contenidos
 
-### ¿Por qué es vital este Assessment?
-Basado en la documentación de `RAZONAMIENTO_Y_PROPOSITO.md`, este framework aborda problemas críticos de la industria:
-
-*   **Estandarización Operativa:** Elimina el "moldeo por sentimiento", asegurando que todos los turnos operen bajo principios científicos.
-*   **Reducción de Costos:** Un personal competente detecta la causa raíz de defectos (scrap) y evita ajustes innecesarios.
-*   **Seguridad:** Evalúa conocimientos críticos (LOTO, protección de moldes) para prevenir accidentes y daños a herramentales costosos.
-*   **Upskilling Dirigido:** Permite diseñar planes de capacitación basados en datos reales (brechas detectadas) en lugar de suposiciones.
-
----
-
-## 2. Estructura del Framework (Niveles)
-
-El sistema se divide en tres niveles progresivos, diseñados para diferentes roles dentro de la planta.
-
-### 🟢 Nivel 1: Básico (Operaciones de Piso)
-*   **Objetivo:** Evaluar el conocimiento fundamental para operar una máquina de forma segura y productiva.
-*   **Perfil:** Operadores de producción.
-*   **Enfoque:**
-    *   Partes de la máquina (Tolva, Barril, Boquilla).
-    *   Seguridad (Reglas de oro, Paros de emergencia).
-    *   Identificación visual de defectos (Tiro corto, Rebaba).
-*   **Aprobación:** Mínimo **75%**.
-
-### 🟡 Nivel 2: Medio (Técnico de Ajuste)
-*   **Objetivo:** Evaluar la capacidad para realizar montajes, arranques de máquina y solucionar problemas (Troubleshooting) con lógica técnica.
-*   **Perfil:** Técnicos de montaje, Técnicos de proceso junior.
-*   **Enfoque:**
-    *   Variables de proceso (Tiempo de residencia, VPT, Cojín).
-    *   Funcionamiento de válvulas check y bombas.
-    *   Moldes (Enfriamiento, Venteos).
-*   **Aprobación:** Mínimo **80%** (Mayor rigor por tener autoridad sobre parámetros).
-
-### 🔴 Nivel 3: Avanzado (Ingeniería de Procesos)
-*   **Objetivo:** Validar el dominio del **Moldeo Científico**, reología y optimización avanzada.
-*   **Perfil:** Ingenieros de Proceso, Líderes de Planta, Especialistas.
-*   **Enfoque:**
-    *   Reología (Viscosidad no-newtoniana, Shear rate).
-    *   Curvas de viscosidad y balance de cavidades.
-    *   Análisis estadístico (CPK) y Diseño de Herramental.
-*   **Aprobación:** Mínimo **80%** (Excelencia técnica requerida).
+1. [Objetivo del Proyecto](#-objetivo-del-proyecto)
+2. [Guía de Uso](#-guía-de-uso)
+3. [Estructura del Repositorio](#-estructura-del-repositorio)
+4. [Ejemplos de Resultados](#-ejemplos-de-resultados)
+5. [KPIs Relevantes](#-kpis-relevantes)
+6. [Documentación Vinculada](#-documentación-vinculada)
+7. [Contribución](#-contribución)
+8. [Licencia y Ética](#-licencia-y-ética)
+9. [Actualizaciones](#-actualizaciones)
 
 ---
 
-## 3. Metodología Técnica
+## 🎯 Objetivo del Proyecto
 
-El núcleo del assessment reside en su estructura de datos y sistema de puntuación ponderado, diseñado para dar más valor a la resolución de problemas prácticos y al conocimiento avanzado.
+Este repositorio actúa como un **núcleo central de evaluación (Assessment Hub)**. Su propósito va más allá de un simple examen; es una herramienta de diagnóstico y mejora continua diseñada para:
 
-### Archivos de Datos (JSON)
-Las preguntas se almacenan en archivos JSON estructurados por nivel en la carpeta `master_assesment/json/`:
-*   `basic_assesment.json` (~50 preguntas)
-*   `medium_assesment.json` (~60 preguntas)
-*   `advanced_assesment.json` (~60 preguntas)
+1.  **Medir el Nivel de Competencia Real:** Evaluar objetivamente al personal operativo, técnico y de ingeniería mediante un sistema de puntuación ponderado (Teórico vs. Práctico).
+2.  **Identificar Brechas de Conocimiento:** Detectar áreas específicas de debilidad (ej. Reología, Seguridad, Defectos) para dirigir la capacitación.
+3.  **Base de Datos para Entrenamiento:** Generar inputs para planes de "Upskilling" personalizados.
+4.  **Evolución de KPIs:** Correlacionar el incremento del conocimiento técnico con la mejora de indicadores de planta (Scrap, OEE) en un horizonte de 12 meses.
 
-### Categorías de Evaluación
-El conocimiento se desglosa en áreas clave para permitir un análisis granular:
-*   Máquina
-*   Plásticos (Materiales)
-*   Seguridad
-*   Molde
-*   Calidad
-*   Operaciones
-*   Desperdicios
-*   Procesos
-
-### Sistema de Puntuación (Scoring System)
-Cada pregunta tiene un valor `est_score` (estimated score) que varía según la dificultad y el tipo de conocimiento. Se premia más la capacidad **Práctica** (saber hacer/resolver) que la **Teórica** (saber el concepto).
-
-| Nivel | Puntos (Teórico) | Puntos (Práctico) |
-| :--- | :---: | :---: |
-| **Básico** | 1.0 | 1.5 |
-| **Medio** | 2.0 | 2.5 |
-| **Avanzado** | 3.0 | 3.5 |
-
-**Fórmula de Cálculo:**
-> `Score Total = Σ (est_score de respuestas correctas)`
-
-Esto significa que un error en una pregunta práctica avanzada penaliza más el score final que un error en una teoría básica.
+**Alcance (Scope):**
+*   **Incluye:** Evaluaciones técnicas (Nivel 1, 2 y 3), lógica de puntuación, bancos de preguntas (JSON) y guías de implementación.
+*   **No Incluye:** Software de simulación de inyección ni control directo de máquinas.
 
 ---
 
-## 4. Datos y Analítica (Data Science)
+## 🚀 Guía de Uso
 
-Para científicos de datos o desarrolladores que integren este framework, el procesamiento de los JSON sigue este esquema.
+### Prerrequisitos
+*   Python 3.8+ instalado.
+*   Instancia de Formbricks activa (VPS).
+*   Variables de entorno configuradas (`.env`).
 
-### Estructura del Objeto de Pregunta
+### Instalación
+1. Clonar el repositorio.
+2. Instalar dependencias:
+   ```bash
+   pip install requests python-dotenv
+   ```
+3. Configurar tu `.env` basándote en `.env.example`.
+
+### Sincronización con Formbricks
+Para enviar las evaluaciones a tu instancia de Formbricks, ejecuta:
+```bash
+python src/sync_to_formbricks.py
+```
+Este script transformará los JSON maestros en encuestas listas para usar en tu VPS: `https://feedback.soul23.cloud`.
+
+## 🛠️ Integración con Formbricks API
+
+Este proyecto utiliza la [Management API de Formbricks](https://formbricks.com/docs/api-reference/management-api--survey/create-survey) para automatizar la creación de evaluaciones.
+
+**Características de la integración:**
+- **Localización Automática:** El script envuelve los textos en el formato `{"default": "..."}` requerido.
+- **Estructura Dinámica:** Soporta preguntas de opción múltiple (`multipleChoiceSingle`) y texto abierto.
+- **Pantallas Personalizadas:** Incluye automáticamente una *Welcome Card* y una *End Screen* profesional.
+
+---
+
+## 📂 Estructura del Repositorio
+
+```text
+/
+├── docs/                           # Metodología y guías por nivel
+├── formbricks/                     # JSONs listos para la API de Formbricks
+├── master_assesment/               # Fuente de verdad de las preguntas (Scoring y Razonamiento)
+├── src/
+│   └── sync_to_formbricks.py       # Script de carga a la API
+├── .env.example                    # Plantilla de configuración
+└── Readme.md                       # Este archivo
+```
+
+---
+
+## 📊 Ejemplos de Resultados
+
+Un reporte de evaluación típico genera los siguientes outputs para análisis:
+
+### Ejemplo de Output Individual
 ```json
 {
-  "id": "unique_id",
-  "categoria": "Máquina",
-  "tipo": "Práctico",
-  "pregunta": "¿Qué sucede si...?",
-  "respuestas": ["Opción A", "Opción B", "Opción C"],
-  "respuesta_correcta": "Opción B",
-  "razonamiento": "Explicación técnica del porqué...",
-  "est_score": 2.5
+  "candidato": "Tech_01",
+  "nivel": "Nivel 2 - Medio",
+  "score_total": 82.5,
+  "resultado": "APROBADO",
+  "breakdown": {
+    "Seguridad": "100% (Excelente)",
+    "Procesos": "65% (Requiere Atención)",
+    "Defectos": "90% (Bueno)"
+  },
+  "recomendacion": "Reforzar capacitación en Variables de Proceso (VPT, Cojín)."
 }
 ```
 
-### Métricas Clave a Extraer
-Al procesar los resultados, se deben generar las siguientes métricas para aportar valor al negocio:
-1.  **Score Global y Porcentaje:** (Puntos obtenidos / Puntos posibles).
-2.  **Breakdown por Categoría:** Identificar si un técnico es fuerte en "Máquina" pero débil en "Plásticos".
-3.  **Brecha Teórico-Práctica:** Comparar el desempeño en preguntas tipo `Teórico` vs `Práctico`.
-4.  **Evolución:** Comparar resultados Pre-Training vs Post-Training (Re-assessment).
+### Impacto Esperado (Antes vs. Después)
+| Métrica | Antes del Training | 12 Meses Post-Training |
+| :--- | :---: | :---: |
+| **Nivel Promedio Equipo** | 45% (Básico) | 85% (Medio-Alto) |
+| **Tiempo de Cambio (SMED)** | 45 min | 28 min |
+| **Scrap Rate** | 3.5% | 1.8% |
 
 ---
 
-## 5. Uso de Resultados
+## 📈 KPIs Relevantes
 
-El resultado del assessment no debe ser punitivo. Su uso correcto es:
+El éxito de este assessment se mide a través de indicadores de planta reales.
 
-1.  **Diagnóstico:** Crear una "Línea Base" del conocimiento actual de la planta.
-2.  **Plan de Acción:**
-    *   Si el fallo es en **Seguridad**: Paro y re-entrenamiento inmediato.
-    *   Si el fallo es en **Proceso**: Asignación de mentoría técnica.
-3.  **Validación:** Evaluar la efectividad del entrenamiento 12 meses después, correlacionando con KPIs operativos (Scrap, OEE).
+| KPI | Definición | Por qué importa |
+| :--- | :--- | :--- |
+| **OEE (Overall Equipment Effectiveness)** | Disponibilidad x Rendimiento x Calidad. | Indica la eficiencia real. Personal capacitado reduce paros menores. |
+| **Scrap Rate** | (Piezas defectuosas / Total producidas) * 100. | Directamente relacionado con la habilidad de troubleshooting del técnico. |
+| **Cycle Time Efficiency** | Tiempo ciclo real vs. Estándar. | El conocimiento avanzado permite optimizar el ciclo sin sacrificar calidad. |
+| **MTTR (Mean Time To Repair)** | Tiempo promedio para solucionar una falla. | Técnicos competentes diagnostican la causa raíz más rápido. |
+| **Skill Gap Index** | % de brecha entre el skill ideal y el real. | Métrica directa de RRHH para medir la efectividad del programa. |
 
 ---
 
-## 6. Conclusión
+## 📚 Documentación Vinculada
 
-Este framework transforma la capacitación técnica de un "gasto genérico" a una **inversión estratégica basada en datos**. Al medir con precisión el nivel de competencia (Básico a Ingeniería), las plantas de inyección pueden asegurar procesos más estables, seguros y rentables.
+Para profundizar en áreas específicas, consulta:
 
+*   **[Metodología de Evaluación](docs/metodology.md):** Detalle del sistema de puntos (Score Teórico vs Práctico).
+*   **[Nivel 1 - Básico](docs/LEVEL_1_BASIC_ASSESSMENT.md):** Temario para operadores.
+*   **[Nivel 2 - Medio](docs/LEVEL_2_MEDIUM_ASSESSMENT.md):** Temario para técnicos.
+*   **[Nivel 3 - Avanzado](docs/LEVEL_3_ADVANCED_ASSESSMENT.md):** Temario para ingeniería.
+*   **[Razonamiento y Propósito](docs/RAZONAMIENTO_Y_PROPOSITO.md):** El "Por qué" del proyecto.
+
+---
+
+## 🤝 Contribución
+
+¡Las contribuciones son bienvenidas para mantener el banco de preguntas actualizado y relevante!
+
+1.  **Fork** este repositorio.
+2.  Crea una rama para tu feature (`git checkout -b feature/nueva-pregunta-nivel-2`).
+3.  Agrega tus preguntas al JSON correspondiente siguiendo el esquema existente.
+4.  Haz **Commit** de tus cambios.
+5.  Abre un **Pull Request**.
+
+Por favor, asegúrate de que las nuevas preguntas tengan una respuesta técnica verificable y un razonamiento claro.
+
+---
+
+## ⚖️ Licencia y Ética
+
+**Licencia:** Este proyecto se distribuye bajo la licencia MIT (o la que aplique al proyecto privado).
+**Código de Conducta:** Se espera que todos los colaboradores mantengan un ambiente de respeto profesional. El objetivo es educar y mejorar, no juzgar.
+
+---
+
+## 🔄 Actualizaciones
+
+*   **Última actualización:** 25 de Diciembre, 2025.
+*   **Versión actual:** v2.0 (Estructura JSON y Guías Markdown completas).
