@@ -5,11 +5,17 @@ This document describes the evaluation methodology for the Molding Assessment sy
 
 ## Assessment Structure
 
-### Files
-- `basic_assesment.json`: Basic level questions (50 questions)
-- `medium_assesment.json`: Medium level questions (60 questions)
-- `advanced_assesment.json`: Advanced level questions (60 questions)
-- `medium_updated.json`: Updated medium questions (currently empty)
+### Master Data (JSON)
+These files contain the "source of truth", including questions, correct answers, reasoning, and scoring values. They are used for automated processing and API synchronization.
+- `master_assesment/json/basic_assesment.json`: Basic level master data.
+- `master_assesment/json/medium_assesment.json`: Medium level master data.
+- `master_assesment/json/advanced_assesment.json`: Advanced level master data.
+
+### Study Guides (Markdown)
+Clean versions of the assessments intended for study or manual review. They include the questions and options but **exclude** the correct answers and reasoning.
+- `docs/questions/LEVEL_1_BASIC_ASSESSMENT.md`: Basic Level Guide.
+- `docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md`: Medium Level Guide.
+- `docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md`: Advanced Level Guide.
 
 ### Question Categories
 - Máquina (Machine)
