@@ -128,9 +128,9 @@ El éxito de este assessment se mide a través de indicadores de planta reales.
 Para profundizar en áreas específicas, consulta:
 
 *   **[Metodología de Evaluación](docs/metodology.md):** Detalle del sistema de puntos (Score Teórico vs Práctico).
-*   **[Nivel 1 - Básico](docs/LEVEL_1_BASIC_ASSESSMENT.md):** Temario para operadores.
-*   **[Nivel 2 - Medio](docs/LEVEL_2_MEDIUM_ASSESSMENT.md):** Temario para técnicos.
-*   **[Nivel 3 - Avanzado](docs/LEVEL_3_ADVANCED_ASSESSMENT.md):** Temario para ingeniería.
+*   **[Nivel 1 - Básico](docs/questions/LEVEL_1_BASIC_ASSESSMENT.md):** Temario para operadores.
+*   **[Nivel 2 - Medio](docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md):** Temario para técnicos.
+*   **[Nivel 3 - Avanzado](docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md):** Temario para ingeniería.
 *   **[Razonamiento y Propósito](docs/RAZONAMIENTO_Y_PROPOSITO.md):** El "Por qué" del proyecto.
 
 ---
