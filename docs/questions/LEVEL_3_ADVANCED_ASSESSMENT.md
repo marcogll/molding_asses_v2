@@ -1,0 +1,751 @@
+# Guía del Assessment: Nivel Avanzado (Ingeniería de Procesos)
+
+## Objetivo
+Validar el dominio de los principios del **Moldeo Científico** y la gestión avanzada de la producción. El evaluado debe ser capaz de diseñar procesos desde cero y optimizar la rentabilidad mediante datos.
+
+## Áreas Evaluadas
+- **Reología y Polímeros**: Viscosidad no-newtoniana, cizallamiento (shear rate), cristalinidad y PVT.
+- **Ingeniería de Procesos**: Curvas de viscosidad, estudios de sellado de compuerta y balance de cavidades.
+- **Análisis de Capacidad**: CPK, SMED avanzado y optimización de utilidades vs tiempo de ciclo.
+- **Diseño de Herramental**: Cálculo de tonelaje por área proyectada, diseño de compuertas y flujo turbulento (Reynolds).
+
+## Metodología de Evaluación
+- **Total de preguntas**: 60.
+- **Sistema de puntaje**: 
+    - Preguntas Teóricas: 3.0 puntos.
+    - Preguntas Prácticas: 3.5 puntos.
+- **Puntaje Máximo Posible**: ~195 puntos.
+
+### Resultado Mínimo Esperado (Passing Score)
+Para el liderazgo técnico, el estándar es la excelencia: **80%**.
+
+| Porcentaje | Estatus | Acción |
+|------------|---------|--------|
+| < 80% | En Desarrollo | Necesita reforzar fundamentos científicos de moldeo. |
+| 80% - 95% | Aprobado | Ingeniero de Procesos Senior / Especialista. |
+| > 95% | Master | Autoridad técnica para validación de moldes nuevos y auditoría. |
+
+---
+
+## Banco de Preguntas
+
+### [mach_1] Máquina (Práctico) - 3.5 pts
+**Un molde de 4 cavidades produce piezas redondas de 6" de diámetro con un orificio central de 0.5". Si la presión de cavidad es de 3 Ton/in², ¿cuál es el tonelaje mínimo requerido?**
+
+*   325 Toneladas
+*   339.3 Toneladas
+*   400 Toneladas
+*   370 Toneladas
+
+> **Respuesta Correcta:** 339.3 Toneladas
+>
+> **Razonamiento:** Área por pieza = π * (3^2 - 0.25^2) = 28.27 in². Total área (4 cav) = 113.1 in². Tonnage = 113.1 * 3 = 339.3 Ton.
+
+### [mach_10] Máquina (Teórico) - 3 pts
+**¿Cuál es la función del 'anillo de cierre' (non-return valve)?**
+
+*   Evitar que el tornillo gire al revés
+*   Impedir que el plástico fundido regrese hacia el barril durante la inyección
+*   Cerrar la puerta de seguridad
+*   Evitar que el plástico fluya hacia la unidad de cierre
+
+> **Respuesta Correcta:** Impedir que el plástico fundido regrese hacia el barril durante la inyección
+>
+> **Razonamiento:** Funciona como una válvula check; permite el paso al cargar pero bloquea el paso al inyectar.
+
+### [mach_2] Máquina (Teórico) - 3 pts
+**¿Qué porcentaje mínimo de la platina debe cubrir un molde para evitar la deflexión de la misma bajo tonelaje?**
+
+*   Al menos el 20% utilizando el 50% de la fuerza
+*   Al menos 2/3 de la distancia entre barras de unión
+*   No importa siempre que el molde sea de acero templado
+*   La mitad del área entre las barras de unión
+
+> **Respuesta Correcta:** Al menos 2/3 de la distancia entre barras de unión
+>
+> **Razonamiento:** Cubrir al menos 2/3 del área entre barras asegura una distribución uniforme de la fuerza de cierre y evita daños permanentes en la planitud de las platinas.
+
+### [mach_3] Máquina (Teórico) - 3 pts
+**¿Por qué una máquina hidráulica tiene dificultades para controlar con precisión la posición final de transición (VPT)?**
+
+*   Debido al tiempo de respuesta de las válvulas y la inercia del fluido/tornillo
+*   Porque el aceite se comprime demasiado
+*   Porque la presión de empaque es siempre menor que la de inyección
+*   Porque la guía del tornillo está desgastada
+
+> **Respuesta Correcta:** Debido al tiempo de respuesta de las válvulas y la inercia del fluido/tornillo
+>
+> **Razonamiento:** Existe un retardo mecánico y electrónico entre la señal y el cierre de válvulas, además de la inercia de la masa del tornillo en movimiento.
+
+### [mach_4] Máquina (Práctico) - 3.5 pts
+**¿Cómo afecta un aumento en la contrapresión (back pressure) al tiempo de recuperación del tornillo?**
+
+*   Lo disminuye
+*   Lo aumenta
+*   No tiene efecto
+*   La presión de cierre se reduce
+
+> **Respuesta Correcta:** Lo aumenta
+>
+> **Razonamiento:** La contrapresión dificulta el retroceso del tornillo mientras este gira, requiriendo más tiempo para acumular el volumen de disparo.
+
+### [mach_5] Máquina (Teórico) - 3 pts
+**¿Qué función cumple el 'Acumulador' en una máquina de inyección de alta velocidad?**
+
+*   Guardar piezas defectuosas
+*   Almacenar energía hidráulica para permitir velocidades de inyección ultra rápidas
+*   Contar los ciclos de la máquina
+*   Almacenar energía térmica para mantener la boquilla caliente
+
+> **Respuesta Correcta:** Almacenar energía hidráulica para permitir velocidades de inyección ultra rápidas
+>
+> **Razonamiento:** Permite liberar un gran volumen de aceite en milisegundos, algo que las bombas convencionales no pueden hacer por sí solas.
+
+### [mach_6] Máquina (Práctico) - 3.5 pts
+**Identifica la parte 'G' en la figura del molde (PDF pág 17):**
+
+*   Top clamp plate
+*   Cavity plate
+*   Bottom clamp plate
+*   Support plate
+
+> **Respuesta Correcta:** Bottom clamp plate
+>
+> **Razonamiento:** Es la placa base que sujeta el molde a la platina móvil de la máquina de inyección.
+
+### [mach_7] Máquina (Teórico) - 3 pts
+**¿Para qué sirve el sensor de 'Presión de Cavidad'?**
+
+*   Para medir la presión del aceite
+*   Para controlar la transición de inyección a empaque basándose en el estado real dentro del molde
+*   Para pesar la pieza automáticamente
+*   Para detectar la temperatura del plástico dentro del molde
+
+> **Respuesta Correcta:** Para controlar la transición de inyección a empaque basándose en el estado real dentro del molde
+>
+> **Razonamiento:** Es el nivel más alto de control de procesos; compensa variaciones de viscosidad del material de forma instantánea.
+
+### [mach_8] Máquina (Teórico) - 3 pts
+**¿Qué es la 'capacidad de plastificación' de una máquina?**
+
+*   El tamaño de la tolva
+*   La cantidad máxima de plástico que el tornillo puede fundir por hora de manera uniforme
+*   La fuerza del motor eléctrico
+*   La presión máxima que puede aplicar la boquilla
+
+> **Respuesta Correcta:** La cantidad máxima de plástico que el tornillo puede fundir por hora de manera uniforme
+>
+> **Razonamiento:** Define si la máquina es capaz de seguir el ritmo de un ciclo muy rápido sin entregar material mal fundido.
+
+### [mach_9] Máquina (Teórico) - 3 pts
+**¿Cuál es la diferencia entre un motor de tornillo hidráulico y uno eléctrico?**
+
+*   Solo el precio
+*   El eléctrico ofrece un control de RPM mucho más preciso y constante (ahorro de energía)
+*   El hidráulico es más rápido siempre
+*   El eléctrico siempre consume más energía
+
+> **Respuesta Correcta:** El eléctrico ofrece un control de RPM mucho más preciso y constante (ahorro de energía)
+>
+> **Razonamiento:** Los servomotores eléctricos eliminan variaciones por cambios en la viscosidad del aceite y son más eficientes.
+
+### [molde_1] Molde (Práctico) - 3.5 pts
+**Si el proveedor recomienda abrir una compuerta (gate) de 0.030" a 0.040", ¿en qué porcentaje aumentará el área de flujo aproximadamente?**
+
+*   10%
+*   33%
+*   77.8%
+*   Un aumento del 50% en el área de flujo
+
+> **Respuesta Correcta:** 77.8%
+>
+> **Razonamiento:** El área depende del cuadrado del radio (o diámetro). (0.040^2 / 0.030^2) = 1.777, lo que representa un aumento del 77.8% en la capacidad de flujo.
+
+### [molde_10] Molde (Práctico) - 3.5 pts
+**Identifica la parte 'D' en la figura del molde (PDF pág 17):**
+
+*   Cavity plate
+*   Top clamp plate
+*   Stripper plate
+*   Center pillar
+
+> **Respuesta Correcta:** Cavity plate
+>
+> **Razonamiento:** Es la placa que contiene las cavidades hembra que dan forma al exterior de la pieza.
+
+### [molde_11] Molde (Teórico) - 3 pts
+**¿Cuál es la función de una 'válvula de aire' (air poppet) en el molde?**
+
+*   Enfriar el aire del molde
+*   Ayudar a romper el vacío para facilitar la expulsión de piezas profundas (ej. botes o cubetas)
+*   Limpiar el polvo
+*   Eliminar el vapor atrapado
+
+> **Respuesta Correcta:** Ayudar a romper el vacío para facilitar la expulsión de piezas profundas (ej. botes o cubetas)
+>
+> **Razonamiento:** Evita que la pieza se succione al molde por vacío, permitiendo una expulsión suave sin deformaciones.
+
+### [molde_2] Molde (Teórico) - 3 pts
+**¿Qué método de enfriamiento para núcleos (cores) largos y delgados es el más eficiente térmicamente?**
+
+*   Bafle (baffle) recto
+*   Pin de alta conductividad térmica (ej. Cobre Berilio)
+*   Burbujeador (bubbler) de acero
+*   La geometría del corazón
+
+> **Respuesta Correcta:** Pin de alta conductividad térmica (ej. Cobre Berilio)
+>
+> **Razonamiento:** En núcleos muy delgados donde no cabe un canal de agua, un pin de alta conductividad transfiere el calor rápidamente hacia una zona donde sí haya flujo de agua.
+
+### [molde_3] Molde (Teórico) - 3 pts
+**¿Cuál es la función del 'Pin de Retorno' en el sistema de expulsión?**
+
+*   Regresar las piezas al molde
+*   Asegurar que la placa de expulsión regrese a su posición inicial al cerrar el molde
+*   Lubricar el sistema mecánico
+*   Sujetar el pin al molde después de cerrar
+
+> **Respuesta Correcta:** Asegurar que la placa de expulsión regrese a su posición inicial al cerrar el molde
+>
+> **Razonamiento:** Evita que los botadores queden extendidos y choquen contra la cavidad fija al cerrar el molde.
+
+### [molde_4] Molde (Teórico) - 3 pts
+**¿Qué es un 'manguito expulsor' (ejector sleeve)?**
+
+*   Un guante para el operador
+*   Un extractor cilíndrico hueco que expulsa alrededor de un pin fijo
+*   Una manguera de alta presión
+*   Un extractor plano
+
+> **Respuesta Correcta:** Un extractor cilíndrico hueco que expulsa alrededor de un pin fijo
+>
+> **Razonamiento:** Se usa para expulsar piezas circulares o torres (bosses) proporcionando una fuerza de empuje uniforme en todo el perímetro.
+
+### [molde_5] Molde (Práctico) - 3.5 pts
+**Identifica la parte 'H' en la figura del molde (PDF pág 17):**
+
+*   Core plate
+*   Risers
+*   Center pillar
+*   Top clamp plate
+
+> **Respuesta Correcta:** Center pillar
+>
+> **Razonamiento:** Es el pilar de soporte central que evita que las placas se flexionen bajo la enorme presión de inyección.
+
+### [molde_6] Molde (Teórico) - 3 pts
+**¿Qué es un 'inserto intercambiable'?**
+
+*   Un molde completo que se cambia
+*   Una parte del molde que se puede sustituir para cambiar una versión de la pieza (ej. fecha o logo)
+*   Un tornillo de repuesto
+*   Una placa base extra
+
+> **Respuesta Correcta:** Una parte del molde que se puede sustituir para cambiar una versión de la pieza (ej. fecha o logo)
+>
+> **Razonamiento:** Permite flexibilidad en la producción sin necesidad de construir múltiples moldes completos.
+
+### [molde_7] Molde (Teórico) - 3 pts
+**¿Cuál es la función del 'Centrador' (Locating Ring)?**
+
+*   Centrar la pieza en la caja
+*   Alinear la boquilla de la máquina exactamente con el bebedero del molde
+*   Sujetar el molde para que no se caiga
+*   Servir de guía para las boquillas
+
+> **Respuesta Correcta:** Alinear la boquilla de la máquina exactamente con el bebedero del molde
+>
+> **Razonamiento:** Asegura que no haya fugas de plástico entre la boquilla y el molde por desalineación.
+
+### [molde_8] Molde (Práctico) - 3.5 pts
+**¿Para qué sirve un 'sensor de final de carrera' en los botadores?**
+
+*   Para contar piezas
+*   Para confirmar que la placa de expulsión regresó totalmente antes de cerrar el molde
+*   Para medir la fuerza de empuje
+*   Lubricar los botadores antes de cerrar
+
+> **Respuesta Correcta:** Para confirmar que la placa de expulsión regresó totalmente antes de cerrar el molde
+>
+> **Razonamiento:** Es un seguro eléctrico para evitar que el molde cierre con los botadores fuera, lo que destruiría las cavidades.
+
+### [molde_9] Molde (Práctico) - 3.5 pts
+**Identifica la parte 'F' en la figura del molde (PDF pág 17):**
+
+*   Support plate
+*   Core plate
+*   Cavity plate
+*   Top clamp plate
+
+> **Respuesta Correcta:** Core plate
+>
+> **Razonamiento:** Es la placa que sostiene los corazones o machos que dan forma al interior de la pieza.
+
+### [proc_1] Procesos (Teórico) - 3 pts
+**Si aumentamos la temperatura de masa 5°C tanto en un material amorfo como en uno cristalino, ¿cuál experimentará un cambio de viscosidad más drástico?**
+
+*   El material Cristalino
+*   El material Amorfo
+*   Ambos cambian exactamente igual
+*   Depende de la presión aplicada
+
+> **Respuesta Correcta:** El material Amorfo
+>
+> **Razonamiento:** Los materiales amorfos son mucho más sensibles a los cambios de temperatura por encima de su Tg en términos de viscosidad, mientras que los cristalinos dependen más del cizallamiento (shear) una vez superado su punto de fusión.
+
+### [proc_10] Procesos (Práctico) - 3.5 pts
+**Si un material es sensible al cizallamiento (shear sensitive), ¿cómo debería ser el perfil de inyección al pasar por la compuerta?**
+
+*   Lento para evitar la degradación por fricción
+*   Lo más rápido posible para que no se congele
+*   No afecta la velocidad en esa zona
+*   La velocidad del tornillo no cambia
+
+> **Respuesta Correcta:** Lento para evitar la degradación por fricción
+>
+> **Razonamiento:** Materiales como el PVC o el PC pueden degradarse si se inyectan muy rápido a través de restricciones pequeñas debido al calor excesivo generado por cizalla.
+
+### [proc_11] Procesos (Teórico) - 3 pts
+**¿Qué fenómeno describe la 'Hinchazón del extruido' (Die Swell)?**
+
+*   Cuando el molde se expande por el calor
+*   La recuperación elástica del polímero al salir de una restricción (como la boquilla)
+*   Cuando la pieza sale con burbujas
+*   Cuando la pieza sale con rebabas
+
+> **Respuesta Correcta:** La recuperación elástica del polímero al salir de una restricción (como la boquilla)
+>
+> **Razonamiento:** Las moléculas estiradas por el cizallamiento intentan recuperar su forma original al liberarse la presión, expandiendo el diámetro del flujo.
+
+### [proc_12] Procesos (Teórico) - 3 pts
+**¿Qué es la 'ventana de proceso'?**
+
+*   El cristal de la puerta de seguridad
+*   El rango de parámetros dentro de los cuales se producen piezas de calidad
+*   El tiempo que el técnico tiene para ajustar
+*   El tiempo durante el cual se limpia el molde antes de producir
+
+> **Respuesta Correcta:** El rango de parámetros dentro de los cuales se producen piezas de calidad
+>
+> **Razonamiento:** Un proceso robusto tiene una ventana amplia; cambios menores en el ambiente no afectan la calidad de la pieza.
+
+### [proc_13] Procesos (Práctico) - 3.5 pts
+**Si el tiempo de congelación de compuerta es de 6 segundos, ¿qué pasa si ponemos 10 segundos de Hold?**
+
+*   La pieza pesará más
+*   Desperdiciamos tiempo de ciclo, la pieza pesará lo mismo
+*   La pieza saldrá con rebaba
+*   La pieza pesa menos porque entra menos plástico
+
+> **Respuesta Correcta:** Desperdiciamos tiempo de ciclo, la pieza pesará lo mismo
+>
+> **Razonamiento:** Una vez congelada la compuerta, no puede entrar más plástico. Los 4 segundos extra son tiempo muerto.
+
+### [proc_14] Procesos (Teórico) - 3 pts
+**¿Qué mide el número de Reynolds en un canal de enfriamiento?**
+
+*   La presión del agua
+*   Si el flujo de agua es turbulento o laminar
+*   La temperatura del aceite
+*   La velocidad del flujo dentro del canal
+
+> **Respuesta Correcta:** Si el flujo de agua es turbulento o laminar
+>
+> **Razonamiento:** Para un enfriamiento eficiente se requiere flujo turbulento (Reynolds > 4000), lo que maximiza la transferencia de calor.
+
+### [proc_15] Procesos (Teórico) - 3 pts
+**¿Qué es la 'velocidad de cizallamiento crítica'?**
+
+*   La velocidad máxima de la máquina
+*   El punto donde el polímero se rompe molecularmente por exceso de velocidad
+*   La velocidad a la que el operador corre por una emergencia
+*   El tiempo de ciclo del extractor
+
+> **Respuesta Correcta:** El punto donde el polímero se rompe molecularmente por exceso de velocidad
+>
+> **Razonamiento:** Superar este límite causa defectos como 'piel de tiburón' (sharkskin) o degradación severa.
+
+### [proc_16] Procesos (Teórico) - 3 pts
+**¿Qué es la 'Presión Hidráulica de Pico'?**
+
+*   La presión máxima alcanzada durante la fase de inyección (llenado)
+*   La presión de las llantas de la grúa
+*   La presión del empaque final
+*   La presión que ofrece la bomba de enfriamiento
+
+> **Respuesta Correcta:** La presión máxima alcanzada durante la fase de inyección (llenado)
+>
+> **Razonamiento:** Es un indicador de la resistencia que ofreció el molde al ser llenado a la velocidad programada.
+
+### [proc_17] Procesos (Práctico) - 3.5 pts
+**Si un sensor de cavidad muestra que la presión no se mantiene constante en el Hold, ¿qué deberías revisar?**
+
+*   Que el cojín sea mayor a cero
+*   Que la temperatura de la tolva sea baja
+*   El tamaño de los pellets
+*   El tamaño de la compuerta
+
+> **Respuesta Correcta:** Que el cojín sea mayor a cero
+>
+> **Razonamiento:** Si no hay cojín, el tornillo no tiene material delante para empujar y mantener la presión.
+
+### [proc_2] Procesos (Teórico) - 3 pts
+**Si se afirma que un fluido tiene características 'Newtonianas', ¿qué significa esto para el proceso de moldeo?**
+
+*   Que su viscosidad no cambia aunque varíe la velocidad de inyección
+*   Que el plástico se degrada muy fácilmente
+*   Que forma cristales instantáneamente al enfriar
+*   Que su viscosidad depende exclusivamente del peso molecular
+
+> **Respuesta Correcta:** Que su viscosidad no cambia aunque varíe la velocidad de inyección
+>
+> **Razonamiento:** En un fluido Newtoniano, la viscosidad es independiente de la tasa de cizallamiento. Los plásticos reales son 'No-Newtonianos' (pseudoplásticos), lo que permite que fluyan mejor al inyectar más rápido.
+
+### [proc_3] Procesos (Teórico) - 3 pts
+**¿Bajo qué condición física las moléculas de polímero logran orientarse durante el flujo?**
+
+*   Solo si la temperatura es extremadamente alta
+*   Cuando existen diferencias de velocidad de flujo entre las capas de moléculas (gradiente de velocidad)
+*   Solo cuando la presión de empaque es máxima
+*   Cuando el material se enfría muy rápido
+
+> **Respuesta Correcta:** Cuando existen diferencias de velocidad de flujo entre las capas de moléculas (gradiente de velocidad)
+>
+> **Razonamiento:** La orientación molecular ocurre debido al esfuerzo de cizalla generado por la diferencia de velocidad entre la capa congelada (pared) y el centro del flujo.
+
+### [proc_4] Procesos (Teórico) - 3 pts
+**Si la temperatura del fundido en el barril aumenta y las demás condiciones se mantienen, ¿qué ocurre con el número de moléculas inyectadas en el mismo volumen de disparo?**
+
+*   Aumenta
+*   Disminuye
+*   No cambia
+*   Se compensa con menor volumen
+
+> **Respuesta Correcta:** Disminuye
+>
+> **Razonamiento:** Al aumentar la temperatura, el plástico se expande (baja su densidad). Por lo tanto, en un mismo volumen físico caben menos moléculas (menos masa), lo que puede reducir el peso de la pieza.
+
+### [proc_5] Procesos (Práctico) - 3.5 pts
+**Al generar una curva de viscosidad (reología de máquina), ¿qué valor se utiliza para calcular la tasa de cizallamiento aparente?**
+
+*   La presión de transferencia multiplicada por el tiempo
+*   1 dividido entre el tiempo de llenado de la primera etapa
+*   La velocidad del tornillo dividida por la contrapresión
+*   La masa del tornillo por el tiempo
+
+> **Respuesta Correcta:** 1 dividido entre el tiempo de llenado de la primera etapa
+>
+> **Razonamiento:** La tasa de cizalla es inversamente proporcional al tiempo de llenado. A menor tiempo (mayor velocidad), mayor es la tasa de cizallamiento aplicada al polímero.
+
+### [proc_6] Procesos (Teórico) - 3 pts
+**¿En qué región de la cavidad ocurre el mayor cizallamiento entre moléculas durante el flujo?**
+
+*   Exactamente contra la pared del molde
+*   Cerca de la pared del molde (en la interfaz con la capa congelada)
+*   En el centro exacto del flujo
+*   En la zona de la boquilla
+
+> **Respuesta Correcta:** Cerca de la pared del molde (en la interfaz con la capa congelada)
+>
+> **Razonamiento:** En la pared la velocidad es cero y en el centro es máxima; el gradiente de velocidad (cizalla) más alto ocurre justo al lado de la capa que ya se congeló.
+
+### [proc_7] Procesos (Teórico) - 3 pts
+**¿Qué efecto tiene un cambio en la temperatura del molde sobre la presión de cavidad final?**
+
+*   Afecta más a piezas de pared gruesa
+*   Afecta más a piezas de pared delgada
+*   Solo afecta a materiales amorfos
+*   Solo sucede si el molde es muy fino
+
+> **Respuesta Correcta:** Afecta más a piezas de pared delgada
+>
+> **Razonamiento:** En paredes delgadas, el calor se pierde muy rápido. Un pequeño cambio en la temperatura del molde altera drásticamente la viscosidad y el tiempo de congelación del canal de flujo.
+
+### [proc_8] Procesos (Práctico) - 3.5 pts
+**¿Qué combinación de variables de salida se consideran necesarias para igualar (matching) un proceso de una máquina a otra?**
+
+*   Tiempo de llenado, temperatura de masa, presión de cavidad y temperatura del acero
+*   Presión hidráulica, velocidad de giro y tiempo de ciclo
+*   Perfil de inyección, tamaño de disparo y contrapresión únicamente
+*   El tiempo de expulsión y la velocidad del extractor
+
+> **Respuesta Correcta:** Tiempo de llenado, temperatura de masa, presión de cavidad y temperatura del acero
+>
+> **Razonamiento:** Son las '4 variables fundamentales' del moldeo científico que aseguran que el plástico experimente la misma historia térmica y de presión.
+
+### [proc_9] Procesos (Teórico) - 3 pts
+**¿Qué mide el índice de fluidez (MFI)?**
+
+*   La dureza del material
+*   La masa de polímero que fluye a través de un capilar en 10 minutos bajo carga estándar
+*   La velocidad del tornillo durante la carga
+*   La masa de pellets que caben en el barril
+
+> **Respuesta Correcta:** La masa de polímero que fluye a través de un capilar en 10 minutos bajo carga estándar
+>
+> **Razonamiento:** Es una medida básica de la viscosidad a bajas tasas de cizalla, útil para control de calidad de lotes de resina.
+
+### [cal_1] Calidad (Teórico) - 3 pts
+**¿Qué variables determinan principalmente la cantidad de esfuerzo interno (internal stress) residual en una pieza moldeada?**
+
+*   La tasa de llenado y la tasa de enfriamiento
+*   La presión de empaque y la tasa de enfriamiento
+*   Todas las anteriores son correctas
+*   La uniformidad del color
+
+> **Respuesta Correcta:** Todas las anteriores son correctas
+>
+> **Razonamiento:** El esfuerzo interno es el resultado de la orientación molecular 'congelada' (por llenado rápido) y las diferencias térmicas durante la solidificación.
+
+### [cal_2] Calidad (Teórico) - 3 pts
+**Si el enfriamiento del molde es desigual, ¿hacia qué lado tenderá a curvarse (warpage) la pieza?**
+
+*   Hacia el lado más frío
+*   Hacia el lado más caliente
+*   No hay relación entre temperatura y curvatura
+*   Depende de la relación de pared, no de la temperatura
+
+> **Respuesta Correcta:** Hacia el lado más caliente
+>
+> **Razonamiento:** El lado más caliente permanece fundido más tiempo y se contrae más que el lado frío. Esa mayor contracción 'jala' la pieza hacia ese lado.
+
+### [cal_3] Calidad (Práctico) - 3.5 pts
+**Según las tablas SPI/SPE, ¿qué acabado se requiere para una pieza de Policarbonato que debe ser ópticamente transparente?**
+
+*   C - 1
+*   B - 1
+*   A - 1
+*   A - 2
+
+> **Respuesta Correcta:** A - 1
+>
+> **Razonamiento:** El acabado A-1 es un pulido espejo de alto grado (diamante) necesario para la claridad óptica y transparencia.
+
+### [cal_4] Calidad (Teórico) - 3 pts
+**¿Qué es la 'historia térmica' del polímero?**
+
+*   El registro de temperatura del almacén
+*   La suma de todos los procesos de calentamiento y enfriamiento que ha sufrido el material
+*   El manual de usuario de la máquina
+*   El historial del molde
+
+> **Respuesta Correcta:** La suma de todos los procesos de calentamiento y enfriamiento que ha sufrido el material
+>
+> **Razonamiento:** Cada vez que el plástico se funde y enfría, sus cadenas se acortan y sus propiedades mecánicas se degradan gradualmente.
+
+### [cal_5] Calidad (Práctico) - 3.5 pts
+**Si una pieza presenta delaminación (se separa en capas como piel de cebolla), ¿cuál es la causa más probable?**
+
+*   Presión de empaque muy baja
+*   Contaminación con un material incompatible o exceso de desmoldante
+*   Molde demasiado caliente
+*   La velocidad de inyección
+
+> **Respuesta Correcta:** Contaminación con un material incompatible o exceso de desmoldante
+>
+> **Razonamiento:** Materiales con diferentes energías superficiales no se mezclan, creando capas débiles que se desprenden fácilmente.
+
+### [cal_6] Calidad (Práctico) - 3.5 pts
+**Si aparece una mancha de quemado justo en el último punto en llenarse, el problema es:**
+
+*   Material degradado en el barril
+*   Efecto Diesel por atrapamiento de aire (falta de venteo)
+*   Velocidad de inyección muy baja
+*   La presión de cierre es insuficiente
+
+> **Respuesta Correcta:** Efecto Diesel por atrapamiento de aire (falta de venteo)
+>
+> **Razonamiento:** El aire no encuentra salida y se calienta por compresión hasta carbonizar el plástico en esa zona.
+
+### [cal_7] Calidad (Práctico) - 3.5 pts
+**¿Qué indica un valor de CPK de 0.8 en una dimensión crítica?**
+
+*   Que el proceso es muy estable
+*   Que el proceso no es capaz y producirá piezas fuera de tolerancia
+*   Que el molde está perfectamente centrado
+*   Que el proceso parece estable pero no lo es
+
+> **Respuesta Correcta:** Que el proceso no es capaz y producirá piezas fuera de tolerancia
+>
+> **Razonamiento:** Un CPK menor a 1.33 indica que la variabilidad del proceso es mayor que el espacio permitido por las tolerancias.
+
+### [cal_8] Calidad (Práctico) - 3.5 pts
+**Encuentras piezas con 'tiro corto' solo los lunes por la mañana. ¿Qué variable ambiental es la más sospechosa?**
+
+*   La humedad del aire
+*   La temperatura del agua de enfriamiento o del acero del molde (molde frío)
+*   La presión atmosférica
+*   El ciclo de la bomba
+
+> **Respuesta Correcta:** La temperatura del agua de enfriamiento o del acero del molde (molde frío)
+>
+> **Razonamiento:** Si el molde no ha alcanzado el equilibrio térmico tras estar apagado, el plástico se congela antes de llenar.
+
+### [cal_9] Calidad (Práctico) - 3.5 pts
+**¿Cómo influye el uso de masterbatch (colorante) líquido frente a uno sólido en la viscosidad?**
+
+*   No influye
+*   El líquido suele actuar como lubricante, reduciendo ligeramente la viscosidad del polímero
+*   El sólido siempre fluye mejor
+*   El líquido aumenta la presión
+
+> **Respuesta Correcta:** El líquido suele actuar como lubricante, reduciendo ligeramente la viscosidad del polímero
+>
+> **Razonamiento:** El vehículo líquido disminuye la fricción interna, lo que puede requerir ajustes en la presión de inyección.
+
+### [seg_1] Seguridad (Teórico) - 3 pts
+**¿Cuál es la función del sistema de 'Seguridad de Molde' (Low Pressure Close)?**
+
+*   Cerrar el molde más rápido
+*   Detener el cierre si encuentra un obstáculo antes de aplicar la fuerza de tonelaje
+*   Proteger al operador de ruidos
+*   Activar la alarma sin detener el cierre para avisar
+
+> **Respuesta Correcta:** Detener el cierre si encuentra un obstáculo antes de aplicar la fuerza de tonelaje
+>
+> **Razonamiento:** Evita que el molde aplaste piezas pegadas o herramientas, protegiendo la inversión del herramental.
+
+### [seg_2] Seguridad (Práctico) - 3.5 pts
+**Al ajustar la 'protección de molde', ¿cuál es el balance correcto entre velocidad y presión?**
+
+*   Máxima presión y mínima velocidad
+*   Baja presión y velocidad moderada (suficiente para vencer la fricción pero no para dañar obstáculos)
+*   Máxima velocidad para ganar tiempo
+*   Una combinación de alta presión y baja velocidad
+
+> **Respuesta Correcta:** Baja presión y velocidad moderada (suficiente para vencer la fricción pero no para dañar obstáculos)
+>
+> **Razonamiento:** La presión debe ser la mínima necesaria para cerrar; si hay un obstáculo, la máquina debe alarmarse antes de aplastarlo.
+
+### [plast_1] Plásticos (Teórico) - 3 pts
+**En polímeros semicristalinos (Nylon, POM, PET), ¿de qué depende principalmente el grado de cristalinidad y el tamaño de los esferulitos en la pieza final?**
+
+*   De la presión de cavidad
+*   De la tasa de enfriamiento del polímero
+*   De la velocidad de inyección
+*   De la temperatura de la tolva
+
+> **Respuesta Correcta:** De la tasa de enfriamiento del polímero
+>
+> **Razonamiento:** La cristalinidad es un proceso térmico dependiente del tiempo; un enfriamiento lento permite que las cadenas se ordenen más, mientras que uno rápido 'congela' la estructura en un estado más amorfo.
+
+### [plast_2] Plásticos (Teórico) - 3 pts
+**¿Cuál es el efecto técnico de realizar un proceso de Recocido (Annealing) en piezas plásticas?**
+
+*   Aumentar el brillo superficial
+*   Reducir los esfuerzos internos y mejorar la estabilidad dimensional a largo plazo
+*   Eliminar la humedad que no se quitó en el secador
+*   Reducir la presión de cavidad
+
+> **Respuesta Correcta:** Reducir los esfuerzos internos y mejorar la estabilidad dimensional a largo plazo
+>
+> **Razonamiento:** Al calentar la pieza de forma controlada por debajo de su punto de fusión, se permite que las moléculas se relajen, eliminando tensiones residuales de la inyección.
+
+### [plast_3] Plásticos (Teórico) - 3 pts
+**¿Qué es el 'entrelazamiento molecular'?**
+
+*   Cuando las piezas se pegan en la caja
+*   El estado físico de las cadenas de polímero en reposo (como un tazón de fideos)
+*   Un método de soldadura por ultrasonido
+*   La mezcla de dos polímeros diferentes
+
+> **Respuesta Correcta:** El estado físico de las cadenas de polímero en reposo (como un tazón de fideos)
+>
+> **Razonamiento:** Estas uniones físicas determinan la viscosidad. Al fluir, las cadenas se desenredan, bajando la viscosidad (adelgazamiento).
+
+### [plast_4] Plásticos (Teórico) - 3 pts
+**¿Qué es la degradación por 'Hidrólisis'?**
+
+*   Cuando el plástico se rompe por el frío
+*   Ruptura de cadenas químicas causada por procesar material higroscópico con humedad
+*   Mezclar plástico con agua bendita
+*   Procesar a temperatura de congelación
+
+> **Respuesta Correcta:** Ruptura de cadenas químicas causada por procesar material higroscópico con humedad
+>
+> **Razonamiento:** El agua reacciona con el polímero caliente, rompiendo las moléculas y bajando drásticamente las propiedades mecánicas de la pieza.
+
+### [plast_5] Plásticos (Teórico) - 3 pts
+**¿Qué es el 'volumen específico' en un diagrama PVT?**
+
+*   El volumen de la tolva
+*   El volumen ocupado por una unidad de masa de plástico a cierta presión y temperatura
+*   El tamaño de la pieza final
+*   El volumen del barril
+
+> **Respuesta Correcta:** El volumen ocupado por una unidad de masa de plástico a cierta presión y temperatura
+>
+> **Razonamiento:** Es la base para calcular cuánto encogerá el material y cómo compensarlo con presión de empaque.
+
+### [plast_6] Plásticos (Práctico) - 3.5 pts
+**Si el polímero sale con olor a amoniaco o gas picante durante la purga, esto indica:**
+
+*   Que el material está bien seco
+*   Degradación química severa por exceso de calor o tiempo de residencia
+*   Que el colorante es el correcto
+*   Que el material esté vacío
+
+> **Respuesta Correcta:** Degradación química severa por exceso de calor o tiempo de residencia
+>
+> **Razonamiento:** El olor es un subproducto gaseoso de la ruptura de las cadenas poliméricas; la purga es obligatoria y el material no es apto para piezas.
+
+### [op_1] Operaciones (Teórico) - 3 pts
+**¿Qué es un 'Overbuild' en el diseño y ajuste de un molde?**
+
+*   Inyectar más material del necesario
+*   Deformar intencionalmente una dimensión del molde para que, tras la contracción, la pieza cumpla el dibujo
+*   Construir un molde con más cavidades de las pedidas
+*   Incrementar la presión final para compensar
+
+> **Respuesta Correcta:** Deformar intencionalmente una dimensión del molde para que, tras la contracción, la pieza cumpla el dibujo
+>
+> **Razonamiento:** Es una técnica avanzada de ingeniería para compensar deformaciones predecibles por contracción no lineal.
+
+### [op_2] Operaciones (Teórico) - 3 pts
+**¿Cuál es la ventaja de utilizar enfriamiento por impulsos (pulse cooling)?**
+
+*   Ahorrar agua
+*   Mantener una temperatura de acero mucho más precisa y constante
+*   Hacer que el ciclo sea más lento
+*   Sincronizar con el ciclo eléctrico
+
+> **Respuesta Correcta:** Mantener una temperatura de acero mucho más precisa y constante
+>
+> **Razonamiento:** Permite ajustar el flujo de agua solo cuando el sensor detecta una desviación, optimizando el consumo y la estabilidad térmica.
+
+### [op_3] Operaciones (Teórico) - 3 pts
+**¿Qué es el SMED en moldeo?**
+
+*   Un tipo de resina nueva
+*   Técnicas para reducir el tiempo de cambio de molde (Single Minute Exchange of Die)
+*   Un sistema de medición de piezas
+*   Un protocolo de seguridad
+
+> **Respuesta Correcta:** Técnicas para reducir el tiempo de cambio de molde (Single Minute Exchange of Die)
+>
+> **Razonamiento:** Busca maximizar el tiempo productivo mediante la preparación de tareas fuera de la máquina mientras esta aún produce.
+
+### [desp_1] Desperdicios (Práctico) - 3.5 pts
+**Si un proceso tiene un margen de utilidad del 20% basado en el ciclo cotizado, ¿cuál es el impacto de un aumento del 12% en el tiempo de ciclo real?**
+
+*   Una pérdida del 12% en las utilidades
+*   Una pérdida del 20% en las utilidades
+*   Una pérdida del 60% en las utilidades
+*   Una pérdida del 30% en las utilidades
+
+> **Respuesta Correcta:** Una pérdida del 60% en las utilidades
+>
+> **Razonamiento:** Puesto que el costo fijo se mantiene, el 12% de aumento se come directamente el margen. 12/20 = 0.60 o 60% de reducción de la ganancia neta.
+
+### [desp_2] Desperdicios (Práctico) - 3.5 pts
+**¿Cómo impacta una contrapresión excesiva en el desgaste del equipo?**
+
+*   No impacta
+*   Aumenta el desgaste del tornillo y barril debido al mayor esfuerzo mecánico
+*   Limpia el tornillo
+*   Mejora la vida del tornillo
+
+> **Respuesta Correcta:** Aumenta el desgaste del tornillo y barril debido al mayor esfuerzo mecánico
+>
+> **Razonamiento:** Genera mayor carga axial y fricción, reduciendo la vida útil de los componentes de plastificación.
+
