@@ -10,32 +10,35 @@ def generate_markdown(level_name, json_path, output_path, passing_score, max_sco
         f.write(f"# Code Carol: {level_name}\n\n")
         
         # Methodology Section
-        f.write("## Información General\n")
+        f.write("## ℹ️ Información General\n")
         f.write(f"- **Total de preguntas:** {len(questions)}\n")
         f.write(f"- **Puntaje Máximo Posible:** ~{max_score} puntos.\n")
         f.write(f"- **Passing Score:** {passing_score}\n\n")
         
         f.write("---\n\n")
-        f.write("## Banco de Preguntas\n\n")
+        f.write("## 📝 Banco de Preguntas\n\n")
 
-        for q in questions:
+        for i, q in enumerate(questions, 1):
             # Extract localized data
             category = q['category'].get(lang, q['category'].get('es', 'General'))
             question_text = q['question'].get(lang, q['question'].get('es', ''))
+            q_type = q['type']
+            score = q.get('est_score', 1)
             
-            # Metadata Block
-            f.write(f"### ID: [{q['id']}]\n")
-            f.write(f"> **Categoría:** {category} | **Tipo:** {q['type']} | **Puntos:** {q.get('est_score', 1)} pts\n\n")
+            # Card Header
+            f.write(f"### {i}. {question_text}\n\n")
             
-            # Question
-            f.write(f"**{question_text}**\n\n")
+            # Metadata Table (Card-like styling)
+            f.write("| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |\n")
+            f.write("| :--- | :---: | :---: | :---: |\n")
+            f.write(f"| {category} | {q_type} | {score} pts | `{q['id']}` |\n\n")
             
             # Options as Checkboxes
             for opt in q['options']:
                 opt_text = opt['label'].get(lang, opt['label'].get('es', ''))
                 f.write(f"- [ ] {opt_text}\n")
             
-            f.write("\n---\n\n")
+            f.write("\n<br>\n\n---\n\n")
 
     print(f"✅ Generado ({lang}): {output_path}")
 

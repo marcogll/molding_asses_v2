@@ -1,611 +1,761 @@
 # Code Carol: Nivel Básico (Operaciones de Piso)
 
-## Información General
+## ℹ️ Información General
 - **Total de preguntas:** 50
 - **Puntaje Máximo Posible:** ~62.5 puntos.
 - **Passing Score:** 75%
 
 ---
 
-## Banco de Preguntas
+## 📝 Banco de Preguntas
 
-### ID: [mach_1]
-> **Categoría:** Máquina | **Tipo:** Teórico | **Puntos:** 1 pts
+### 1. ¿Qué componente de la máquina transporta y funde el material plástico?
 
-**¿Qué componente de la máquina transporta y funde el material plástico?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Teórico | 1 pts | `mach_1` |
 
 - [ ] La tolva
 - [ ] El tornillo (husillo)
 - [ ] La platina móvil
 - [ ] La bomba hidráulica
 
+<br>
+
 ---
 
-### ID: [mach_2]
-> **Categoría:** Máquina | **Tipo:** Teórico | **Puntos:** 1 pts
+### 2. ¿En qué parte de la máquina se deposita la materia prima (pellets) antes de entrar al barril?
 
-**¿En qué parte de la máquina se deposita la materia prima (pellets) antes de entrar al barril?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Teórico | 1 pts | `mach_2` |
 
 - [ ] En la boquilla
 - [ ] En la unidad de cierre
 - [ ] En la tolva
 - [ ] En el barril
 
+<br>
+
 ---
 
-### ID: [mach_3]
-> **Categoría:** Máquina | **Tipo:** Teórico | **Puntos:** 1 pts
+### 3. ¿Para qué sirven las bandas calefactoras del barril?
 
-**¿Para qué sirven las bandas calefactoras del barril?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Teórico | 1 pts | `mach_3` |
 
 - [ ] Para enfriar el molde
 - [ ] Para ayudar a fundir el plástico y mantener su temperatura
 - [ ] Para mover el tornillo hacia adelante
 - [ ] Regular la presión hidráulica del cierre
 
+<br>
+
 ---
 
-### ID: [mach_4]
-> **Categoría:** Máquina | **Tipo:** Teórico | **Puntos:** 1 pts
+### 4. ¿Qué indica el 'Tonelaje' de una máquina (ej. 200 Ton)?
 
-**¿Qué indica el 'Tonelaje' de una máquina (ej. 200 Ton)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Teórico | 1 pts | `mach_4` |
 
 - [ ] El peso total de la máquina
 - [ ] La fuerza máxima para mantener el molde cerrado durante la inyección
 - [ ] La cantidad de plástico que puede inyectar por segundo
 - [ ] La capacidad de enfriamiento del molde
 
+<br>
+
 ---
 
-### ID: [mach_5]
-> **Categoría:** Máquina | **Tipo:** Teórico | **Puntos:** 1 pts
+### 5. La 'unidad de cierre' se encarga de:
 
-**La 'unidad de cierre' se encarga de:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Teórico | 1 pts | `mach_5` |
 
 - [ ] Inyectar el material
 - [ ] Abrir, cerrar y mantener el molde bajo presión
 - [ ] Calentar el plástico
 - [ ] Medir el tiempo de ciclo
 
+<br>
+
 ---
 
-### ID: [mach_6]
-> **Categoría:** Máquina | **Tipo:** Teórico | **Puntos:** 1 pts
+### 6. ¿Qué es la 'Boquilla' (Nozzle) de la máquina?
 
-**¿Qué es la 'Boquilla' (Nozzle) de la máquina?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Teórico | 1 pts | `mach_6` |
 
 - [ ] El punto donde el plástico sale del barril hacia el molde
 - [ ] La parte que saca las piezas del molde
 - [ ] Donde se ajusta la presión hidráulica
 - [ ] El soporte de la tolva
 
+<br>
+
 ---
 
-### ID: [mach_7]
-> **Categoría:** Máquina | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 7. ¿Cuál es la función del pistón hidráulico de inyección?
 
-**¿Cuál es la función del pistón hidráulico de inyección?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Máquina | Práctico | 1.5 pts | `mach_7` |
 
 - [ ] Girar el tornillo
 - [ ] Empujar el tornillo hacia adelante para llenar el molde
 - [ ] Expulsar las piezas al final del ciclo
 - [ ] Controlar el cierre del molde
 
+<br>
+
 ---
 
-### ID: [molde_1]
-> **Categoría:** Molde | **Tipo:** Teórico | **Puntos:** 1 pts
+### 8. ¿Cómo se llama el canal principal por donde entra el plástico al molde desde la boquilla?
 
-**¿Cómo se llama el canal principal por donde entra el plástico al molde desde la boquilla?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Molde | Teórico | 1 pts | `molde_1` |
 
 - [ ] Compuerta (Gate)
 - [ ] Bebedero (Sprue)
 - [ ] Botador
 - [ ] Canal de enfriamiento
 
+<br>
+
 ---
 
-### ID: [molde_2]
-> **Categoría:** Molde | **Tipo:** Teórico | **Puntos:** 1 pts
+### 9. ¿Cuál es la función de los 'Pernos Extractores' o 'Botadores'?
 
-**¿Cuál es la función de los 'Pernos Extractores' o 'Botadores'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Molde | Teórico | 1 pts | `molde_2` |
 
 - [ ] Enfriar la pieza
 - [ ] Empujar la pieza fuera del molde una vez que está sólida
 - [ ] Inyectar el plástico
 - [ ] Controlar el ciclo de inyección
 
+<br>
+
 ---
 
-### ID: [molde_3]
-> **Categoría:** Molde | **Tipo:** Teórico | **Puntos:** 1 pts
+### 10. ¿Qué es la 'Cavidad' en un molde?
 
-**¿Qué es la 'Cavidad' en un molde?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Molde | Teórico | 1 pts | `molde_3` |
 
 - [ ] El espacio hueco que tiene la forma de la pieza que vamos a fabricar
 - [ ] La parte que sujeta el molde a la platina
 - [ ] El sistema de mangueras de agua
 - [ ] El bloque que sostiene la platina
 
+<br>
+
 ---
 
-### ID: [molde_4]
-> **Categoría:** Molde | **Tipo:** Teórico | **Puntos:** 1 pts
+### 11. ¿Para qué sirve el sistema de enfriamiento (canales de agua) del molde?
 
-**¿Para qué sirve el sistema de enfriamiento (canales de agua) del molde?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Molde | Teórico | 1 pts | `molde_4` |
 
 - [ ] Para que el plástico fluya más rápido
 - [ ] Para endurecer (solidificar) el plástico rápidamente y poder sacar la pieza
 - [ ] Para limpiar el molde por dentro
 - [ ] Para mantener el molde cerrado
 
+<br>
+
 ---
 
-### ID: [molde_5]
-> **Categoría:** Molde | **Tipo:** Teórico | **Puntos:** 1 pts
+### 12. ¿Qué es la 'Compuerta' (Gate)?
 
-**¿Qué es la 'Compuerta' (Gate)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Molde | Teórico | 1 pts | `molde_5` |
 
 - [ ] El lugar por donde sale la pieza
 - [ ] La entrada estrecha de plástico a la cavidad de la pieza
 - [ ] La puerta de seguridad de la máquina
 - [ ] El canal por donde circula el agua
 
+<br>
+
 ---
 
-### ID: [molde_6]
-> **Categoría:** Molde | **Tipo:** Teórico | **Puntos:** 1 pts
+### 13. Un molde de 'Canal Caliente' (Hot Runner) se caracteriza por:
 
-**Un molde de 'Canal Caliente' (Hot Runner) se caracteriza por:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Molde | Teórico | 1 pts | `molde_6` |
 
 - [ ] No generar colada sólida (el plástico en los canales siempre está fundido)
 - [ ] Estar siempre muy sucio
 - [ ] Necesitar más enfriamiento que uno de canal frío
 - [ ] Reduce la presión de cierre necesaria
 
+<br>
+
 ---
 
-### ID: [proc_1]
-> **Categoría:** Procesos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 14. ¿Qué es la 'Viscosidad' del plástico?
 
-**¿Qué es la 'Viscosidad' del plástico?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Procesos | Teórico | 1 pts | `proc_1` |
 
 - [ ] El color del material fundido
 - [ ] La resistencia del plástico a fluir (espesor del líquido)
 - [ ] El peso de la pieza
 - [ ] La cantidad de material inyectado
 
+<br>
+
 ---
 
-### ID: [proc_2]
-> **Categoría:** Procesos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 15. ¿Qué pasa con la viscosidad si aumentamos mucho la temperatura?
 
-**¿Qué pasa con la viscosidad si aumentamos mucho la temperatura?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Procesos | Teórico | 1 pts | `proc_2` |
 
 - [ ] El plástico se vuelve más espeso (más difícil de mover)
 - [ ] El plástico se vuelve más fluido (más fácil de mover)
 - [ ] No pasa nada
 - [ ] El plástico se solidifica a mayor temperatura
 
+<br>
+
 ---
 
-### ID: [proc_3]
-> **Categoría:** Procesos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 16. El ciclo de moldeo consta de 3 fases principales en orden:
 
-**El ciclo de moldeo consta de 3 fases principales en orden:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Procesos | Teórico | 1 pts | `proc_3` |
 
 - [ ] Enfriamiento, Inyección y Empaque
 - [ ] Inyección, Empaque (Sostenimiento) y Enfriamiento
 - [ ] Abrir, Cerrar y Botar
 - [ ] Inyección, Enfriamiento y Empaque
 
+<br>
+
 ---
 
-### ID: [proc_4]
-> **Categoría:** Procesos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 17. ¿Qué es la 'Presión de Sostenimiento' (Hold pressure)?
 
-**¿Qué es la 'Presión de Sostenimiento' (Hold pressure)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Procesos | Teórico | 1 pts | `proc_4` |
 
 - [ ] La presión para abrir el molde
 - [ ] La presión que mantiene el tornillo empujando al final para terminar de llenar y compensar la contracción
 - [ ] La presión del agua de enfriamiento
 - [ ] La presión en el sistema de expulsión
 
+<br>
+
 ---
 
-### ID: [proc_5]
-> **Categoría:** Procesos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 18. La mayor parte del calor para fundir el plástico en máquinas modernas viene de:
 
-**La mayor parte del calor para fundir el plástico en máquinas modernas viene de:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Procesos | Teórico | 1 pts | `proc_5` |
 
 - [ ] Solo de las resistencias eléctricas
 - [ ] De la fricción y el tallado del plástico causado por el giro del tornillo (calor por cizalla)
 - [ ] Del aire caliente de la planta
 - [ ] Del calor del agua de enfriamiento
 
+<br>
+
 ---
 
-### ID: [proc_6]
-> **Categoría:** Procesos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 19. ¿Qué es el 'Cojín' (Cushion) de material?
 
-**¿Qué es el 'Cojín' (Cushion) de material?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Procesos | Teórico | 1 pts | `proc_6` |
 
 - [ ] Una almohada para el operador
 - [ ] La pequeña cantidad de plástico que queda delante del tornillo al final de la inyección para asegurar presión constante
 - [ ] El exceso de plástico en la tolva
 - [ ] La presión final aplicada por la boquilla
 
+<br>
+
 ---
 
-### ID: [cal_1]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 20. ¿Qué es un 'Tiro Corto' (Short Shot)?
 
-**¿Qué es un 'Tiro Corto' (Short Shot)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_1` |
 
 - [ ] Una pieza con exceso de material
 - [ ] Una pieza que no se llenó completamente
 - [ ] Una pieza que salió de otro color
 - [ ] El molde no estaba completamente cerrado
 
+<br>
+
 ---
 
-### ID: [cal_2]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 21. Si una pieza tiene 'Rebaba' (Flash), significa que:
 
-**Si una pieza tiene 'Rebaba' (Flash), significa que:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_2` |
 
 - [ ] Le faltó presión de inyección
 - [ ] Salió plástico fuera de la línea de partición del molde
 - [ ] El material estaba muy frío
 - [ ] El molde estaba demasiado caliente
 
+<br>
+
 ---
 
-### ID: [cal_3]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 22. ¿A qué se debe normalmente un 'Rechupe' (Sink mark)?
 
-**¿A qué se debe normalmente un 'Rechupe' (Sink mark)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_3` |
 
 - [ ] Falta de material o presión para compensar la contracción en zonas gruesas
 - [ ] El molde estaba muy apretado
 - [ ] El operario tocó la pieza antes de tiempo
 - [ ] Temperatura del molde demasiado alta
 
+<br>
+
 ---
 
-### ID: [cal_4]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 23. Una 'Línea de Unión o Soldadura' ocurre cuando:
 
-**Una 'Línea de Unión o Soldadura' ocurre cuando:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_4` |
 
 - [ ] La pieza se rompe a la mitad
 - [ ] Dos frentes de plástico fundido se encuentran dentro del molde
 - [ ] El tornillo se detiene de golpe
 - [ ] El plástico cambia de color durante la inyección
 
+<br>
+
 ---
 
-### ID: [cal_5]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 24. El defecto llamado 'Quemado' (Diesel effect / Burn marks) suele ser causado por:
 
-**El defecto llamado 'Quemado' (Diesel effect / Burn marks) suele ser causado por:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_5` |
 
 - [ ] Falta de temperatura en el barril
 - [ ] Aire atrapado que no pudo salir por los respiraderos y se comprimió
 - [ ] Exceso de agua en el molde
 - [ ] Material quemado en la tolva
 
+<br>
+
 ---
 
-### ID: [cal_6]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 25. Si las piezas salen 'Pandeadas' (Warpage), ¿cuál es la causa física más común?
 
-**Si las piezas salen 'Pandeadas' (Warpage), ¿cuál es la causa física más común?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_6` |
 
 - [ ] Mal enfriamiento o enfriamiento desigual en la pieza
 - [ ] La tolva se quedó sin material
 - [ ] La boquilla estaba goteando
 - [ ] Tonelaje excesivo durante el ciclo
 
+<br>
+
 ---
 
-### ID: [cal_7]
-> **Categoría:** Calidad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 26. ¿Qué debe hacer el operador si detecta un defecto constante en las piezas?
 
-**¿Qué debe hacer el operador si detecta un defecto constante en las piezas?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Calidad | Práctico | 1.5 pts | `cal_7` |
 
 - [ ] Seguir operando y separar las malas
 - [ ] Avisar inmediatamente al técnico o supervisor y segregar el material sospechoso
 - [ ] Cambiar las temperaturas por su cuenta
 - [ ] Limpiar la máquina y seguir operando
 
+<br>
+
 ---
 
-### ID: [seg_1]
-> **Categoría:** Seguridad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 27. ¿Cuál es la regla de oro al trabajar con una máquina de inyección?
 
-**¿Cuál es la regla de oro al trabajar con una máquina de inyección?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Seguridad | Práctico | 1.5 pts | `seg_1` |
 
 - [ ] Sacar las piezas lo más rápido posible
 - [ ] Nunca meter las manos en áreas de movimiento si las guardas están abiertas o el motor encendido
 - [ ] Mantener la temperatura siempre al máximo
 - [ ] Usar herramientas metálicas sin resguardo
 
+<br>
+
 ---
 
-### ID: [seg_2]
-> **Categoría:** Seguridad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 28. ¿Para qué sirve el botón de 'Paro de Emergencia'?
 
-**¿Para qué sirve el botón de 'Paro de Emergencia'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Seguridad | Práctico | 1.5 pts | `seg_2` |
 
 - [ ] Para apagar la máquina al final del turno
 - [ ] Para detener inmediatamente todos los movimientos de la máquina ante un peligro
 - [ ] Para reiniciar el conteo de piezas
 - [ ] Activar la alarma sonora
 
+<br>
+
 ---
 
-### ID: [seg_3]
-> **Categoría:** Seguridad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 29. ¿Qué dispositivo mecánico impide que el molde se cierre si la puerta de seguridad está abierta?
 
-**¿Qué dispositivo mecánico impide que el molde se cierre si la puerta de seguridad está abierta?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Seguridad | Práctico | 1.5 pts | `seg_3` |
 
 - [ ] La boquilla
 - [ ] La barra de seguridad (Drop bar)
 - [ ] El extractor
 - [ ] Sensor de temperatura del molde
 
+<br>
+
 ---
 
-### ID: [seg_4]
-> **Categoría:** Seguridad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 30. Si ves un charco de aceite o agua cerca de la máquina, ¿qué debes hacer?
 
-**Si ves un charco de aceite o agua cerca de la máquina, ¿qué debes hacer?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Seguridad | Práctico | 1.5 pts | `seg_4` |
 
 - [ ] Seguir trabajando y reportarlo al final del turno
 - [ ] Limpiar inmediatamente y avisar para revisar fugas (evitar resbalones)
 - [ ] Poner piezas encima para taparlo
 - [ ] Apagar la máquina y esperar instrucciones
 
+<br>
+
 ---
 
-### ID: [seg_5]
-> **Categoría:** Seguridad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 31. ¿Por qué es peligroso usar herramientas de acero (como desarmadores) para sacar una pieza pegada del molde?
 
-**¿Por qué es peligroso usar herramientas de acero (como desarmadores) para sacar una pieza pegada del molde?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Seguridad | Práctico | 1.5 pts | `seg_5` |
 
 - [ ] Porque el acero puede rayar o dañar permanentemente las cavidades del molde
 - [ ] Porque el acero no conduce el calor
 - [ ] Porque la máquina se puede desprogramar
 - [ ] Puede provocar chispas peligrosas
 
+<br>
+
 ---
 
-### ID: [seg_6]
-> **Categoría:** Seguridad | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 32. Al limpiar el purga caliente del piso o de la máquina, debes:
 
-**Al limpiar el purga caliente del piso o de la máquina, debes:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Seguridad | Práctico | 1.5 pts | `seg_6` |
 
 - [ ] Usar tus manos rápidamente
 - [ ] Usar guantes de protección térmica y herramientas adecuadas
 - [ ] Esperar a que se enfríe 2 horas antes de tocarlo
 - [ ] Usar agua fría para enfriar la purga
 
+<br>
+
 ---
 
-### ID: [plast_1]
-> **Categoría:** Plásticos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 33. ¿Qué significa que una resina sea 'higroscópica'?
 
-**¿Qué significa que una resina sea 'higroscópica'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Plásticos | Teórico | 1 pts | `plast_1` |
 
 - [ ] Que brilla mucho al moldearse
 - [ ] Que absorbe humedad del aire dentro del pellet
 - [ ] Que fluye muy rápido
 - [ ] Tiene un olor fuerte al moldearse
 
+<br>
+
 ---
 
-### ID: [plast_2]
-> **Categoría:** Plásticos | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 34. Si un material tiene humedad y no se seca correctamente, ¿qué defecto es más probable que aparezca?
 
-**Si un material tiene humedad y no se seca correctamente, ¿qué defecto es más probable que aparezca?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Plásticos | Práctico | 1.5 pts | `plast_2` |
 
 - [ ] Rebaba (Flash)
 - [ ] Ráfagas o marcas de plata (Splay)
 - [ ] Pieza pegada
 - [ ] Fragilidad con grietas
 
+<br>
+
 ---
 
-### ID: [plast_3]
-> **Categoría:** Plásticos | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 35. ¿Cuál es la función principal de un secador (de tolva o deshumidificador)?
 
-**¿Cuál es la función principal de un secador (de tolva o deshumidificador)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Plásticos | Práctico | 1.5 pts | `plast_3` |
 
 - [ ] Calentar el material para que se funda antes
 - [ ] Eliminar la humedad de los pellets para evitar defectos
 - [ ] Limpiar el polvo del material
 - [ ] Agregar aditivos al plástico
 
+<br>
+
 ---
 
-### ID: [plast_4]
-> **Categoría:** Plásticos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 36. ¿Qué es el 'pellet' o 'gránulo'?
 
-**¿Qué es el 'pellet' o 'gránulo'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Plásticos | Teórico | 1 pts | `plast_4` |
 
 - [ ] El residuo de la pieza
 - [ ] La forma física de la materia prima plástica
 - [ ] Una herramienta para limpiar moldes
 - [ ] El código de color de la materia prima
 
+<br>
+
 ---
 
-### ID: [plast_5]
-> **Categoría:** Plásticos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 37. ¿Por qué no se deben mezclar dos tipos de plástico diferentes (ej. ABS con Nylon)?
 
-**¿Por qué no se deben mezclar dos tipos de plástico diferentes (ej. ABS con Nylon)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Plásticos | Teórico | 1 pts | `plast_5` |
 
 - [ ] Porque pueden ser incompatibles y la pieza se separará en capas (delaminación)
 - [ ] Porque el color cambia a gris
 - [ ] Porque el molde se puede oxidar
 - [ ] Aumenta la viscosidad general del melt
 
+<br>
+
 ---
 
-### ID: [plast_6]
-> **Categoría:** Plásticos | **Tipo:** Teórico | **Puntos:** 1 pts
+### 38. ¿Qué es el material 'Regenerado' o 'Molido'?
 
-**¿Qué es el material 'Regenerado' o 'Molido'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Plásticos | Teórico | 1 pts | `plast_6` |
 
 - [ ] Material nuevo que viene directo de fábrica
 - [ ] Plástico recuperado de coladas o piezas de rechazo que se vuelve a moler para usarse
 - [ ] Plástico que ya no sirve para nada
 - [ ] Plástico con aditivos frescos
 
+<br>
+
 ---
 
-### ID: [op_1]
-> **Categoría:** Operaciones | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 39. ¿Cuál es el modo de operación donde la máquina hace todo el ciclo solo si el operador abre y cierra la puerta?
 
-**¿Cuál es el modo de operación donde la máquina hace todo el ciclo solo si el operador abre y cierra la puerta?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Operaciones | Práctico | 1.5 pts | `op_1` |
 
 - [ ] Automático
 - [ ] Semiautomático
 - [ ] Manual
 - [ ] Modo de mantenimiento
 
+<br>
+
 ---
 
-### ID: [op_2]
-> **Categoría:** Operaciones | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 40. ¿Para qué se usa el 'Modo Manual'?
 
-**¿Para qué se usa el 'Modo Manual'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Operaciones | Práctico | 1.5 pts | `op_2` |
 
 - [ ] Para producción normal de alta velocidad
 - [ ] Para montajes, pruebas, limpieza o retirar piezas pegadas de forma controlada
 - [ ] No se debe usar nunca
 - [ ] Registrar defectos automáticamente
 
+<br>
+
 ---
 
-### ID: [op_3]
-> **Categoría:** Operaciones | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 41. Al inicio de turno, lo primero que se debe revisar en la máquina es:
 
-**Al inicio de turno, lo primero que se debe revisar en la máquina es:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Operaciones | Práctico | 1.5 pts | `op_3` |
 
 - [ ] Cuántas piezas faltan
 - [ ] Que los dispositivos de seguridad (puertas, paros, sensores) funcionen correctamente
 - [ ] La hora del descanso
 - [ ] Revisar las temperaturas del barril
 
+<br>
+
 ---
 
-### ID: [op_4]
-> **Categoría:** Operaciones | **Tipo:** Teórico | **Puntos:** 1 pts
+### 42. ¿Qué es el 'Tiempo de Ciclo'?
 
-**¿Qué es el 'Tiempo de Ciclo'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Operaciones | Teórico | 1 pts | `op_4` |
 
 - [ ] El tiempo que dura el turno de trabajo
 - [ ] El tiempo total desde que el molde empieza a cerrar hasta que vuelve a cerrar para la siguiente pieza
 - [ ] El tiempo que el operario tarda en comer
 - [ ] El tiempo que se tarda en limpiar el molde
 
+<br>
+
 ---
 
-### ID: [op_5]
-> **Categoría:** Operaciones | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 43. ¿Por qué es importante usar herramientas de bronce o latón para limpiar el molde?
 
-**¿Por qué es importante usar herramientas de bronce o latón para limpiar el molde?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Operaciones | Práctico | 1.5 pts | `op_5` |
 
 - [ ] Porque son más baratas que las de acero
 - [ ] Porque son metales suaves que no rayan el acero del molde
 - [ ] Porque limpian mejor la grasa
 - [ ] Son más ligeras para el operador
 
+<br>
+
 ---
 
-### ID: [op_6]
-> **Categoría:** Operaciones | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 44. ¿Qué significa 'Purga'?
 
-**¿Qué significa 'Purga'?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Operaciones | Práctico | 1.5 pts | `op_6` |
 
 - [ ] Sacar el material viejo o degradado del barril inyectándolo al aire antes de iniciar el proceso
 - [ ] Limpiar las mangueras de agua
 - [ ] El conteo de piezas defectuosas
 - [ ] Calibrar los sensores de presión
 
+<br>
+
 ---
 
-### ID: [desp_1]
-> **Categoría:** Desperdicios | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 45. ¿Cuál es la mejor forma de reducir el desperdicio (scrap) de material?
 
-**¿Cuál es la mejor forma de reducir el desperdicio (scrap) de material?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Desperdicios | Práctico | 1.5 pts | `desp_1` |
 
 - [ ] Tirar las piezas malas a la basura rápido
 - [ ] Mantener un proceso estable y reportar variaciones de inmediato
 - [ ] Apagar los calentadores en la comida
 - [ ] Aumentar la velocidad al máximo
 
+<br>
+
 ---
 
-### ID: [desp_2]
-> **Categoría:** Desperdicios | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 46. ¿Qué sucede si mezclas material virgen con material contaminado (tierra, grasa o papel)?
 
-**¿Qué sucede si mezclas material virgen con material contaminado (tierra, grasa o papel)?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Desperdicios | Práctico | 1.5 pts | `desp_2` |
 
 - [ ] El filtro de la máquina lo limpia
 - [ ] Las piezas saldrán con puntos negros o fallas de resistencia y serán rechazo
 - [ ] El color se vuelve más brillante
 - [ ] Aumenta la presión de inyección
 
+<br>
+
 ---
 
-### ID: [desp_3]
-> **Categoría:** Desperdicios | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 47. Las 'Coladas' o 'Sprus' que sobran de cada tiro deben:
 
-**Las 'Coladas' o 'Sprus' que sobran de cada tiro deben:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Desperdicios | Práctico | 1.5 pts | `desp_3` |
 
 - [ ] Tirarse siempre a la basura general
 - [ ] Recuperarse y molerse (si el proceso lo permite) para ahorrar costos y material
 - [ ] Dejarse en el suelo
 - [ ] Usarlas para rellenar soportes temporales
 
+<br>
+
 ---
 
-### ID: [desp_4]
-> **Categoría:** Desperdicios | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 48. Un exceso de purga durante los arranques se considera:
 
-**Un exceso de purga durante los arranques se considera:**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Desperdicios | Práctico | 1.5 pts | `desp_4` |
 
 - [ ] Una buena práctica
 - [ ] Desperdicio de dinero y material que debe ser controlado
 - [ ] Necesario para calentar la máquina 1 hora
 - [ ] Una consecuencia de mala programación
 
+<br>
+
 ---
 
-### ID: [desp_5]
-> **Categoría:** Desperdicios | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 49. ¿Cómo ayuda el orden y limpieza (5S) a reducir desperdicios?
 
-**¿Cómo ayuda el orden y limpieza (5S) a reducir desperdicios?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Desperdicios | Práctico | 1.5 pts | `desp_5` |
 
 - [ ] Evita que el material se contamine y que las herramientas se pierdan o dañen el molde
 - [ ] Hace que la máquina se vea nueva
 - [ ] No ayuda en nada al desperdicio
 - [ ] Reduce el tiempo de búsqueda de herramientas
 
+<br>
+
 ---
 
-### ID: [desp_6]
-> **Categoría:** Desperdicios | **Tipo:** Práctico | **Puntos:** 1.5 pts
+### 50. Si una pieza cae al suelo lleno de aceite, ¿qué se debe hacer?
 
-**Si una pieza cae al suelo lleno de aceite, ¿qué se debe hacer?**
+| 🏷️ Categoría | ⚙️ Tipo | 💎 Puntos | 🆔 ID |
+| :--- | :---: | :---: | :---: |
+| Desperdicios | Práctico | 1.5 pts | `desp_6` |
 
 - [ ] Limpiarla con un trapo y ponerla en la caja de buenas
 - [ ] Considerarla scrap (desperdicio) porque el aceite contamina el plástico
 - [ ] Meterla al molino así como está
 - [ ] Lavarla con solvente y usarla
+
+<br>
 
 ---
 

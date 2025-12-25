@@ -154,8 +154,8 @@ Por favor, asegúrate de que las nuevas preguntas tengan una respuesta técnica 
 
 Este proyecto ha sido posible gracias a la colaboración multidisciplinaria:
 
-*   **Fortunato Salazar:** Idea original, visión y conceptualización del Assessment.
-*   **Marco Gallegos:** Desarrollo del sistema, automatización y estructuración de los cuestionarios.
+*   **Fortunato Salazar:** Idea original, diseño de cuestionarios y definición de métricas de evaluación.
+*   **Marco Gallegos:** Optimización de cuestionarios, desarrollo del sistema de automatización (formas) y análisis de datos.
 
 ---
 
