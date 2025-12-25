@@ -36,7 +36,7 @@ def transform_to_formbricks(question):
         
     return fb_q
 
-def upload_survey(file_path):
+def upload_survey(file_path, custom_name=None):
     if not API_KEY or not ENVIRONMENT_ID:
         print("Error: FORMBRICKS_API_KEY o FORMBRICKS_ENVIRONMENT_ID no configurados.")
         return
@@ -45,17 +45,18 @@ def upload_survey(file_path):
         data = json.load(f)
 
     questions = [transform_to_formbricks(q) for q in data["questions"]]
+    survey_name = custom_name if custom_name else data["name"]
 
     payload = {
-        "name": data["name"],
+        "name": survey_name,
         "type": "link",
-        "status": "inProgress",
+        "status": "draft",
         "environmentId": ENVIRONMENT_ID,
         "displayOption": "displayOnce",
         "questions": questions,
         "welcomeCard": {
             "enabled": True,
-            "headline": {"default": f"Bienvenido al {data['name']}"},
+            "headline": {"default": f"Bienvenido al {survey_name}"},
             "html": {"default": "Por favor, responde con honestidad para evaluar tu nivel técnico."},
             "buttonLabel": {"default": "Comenzar"}
         },
@@ -80,21 +81,21 @@ def upload_survey(file_path):
     response = requests.post(endpoint, json=payload, headers=headers)
 
     if response.status_code in [200, 201]:
-        print(f"✅ Encuesta '{data['name']}' creada exitosamente.")
+        print(f"✅ Encuesta '{survey_name}' creada exitosamente (Draft).")
         print(f"🔗 URL: {response.json().get('data', {}).get('link', 'Ver en el panel')}")
     else:
         print(f"❌ Error al crear encuesta: {response.status_code}")
         print(response.text)
 
 if __name__ == "__main__":
-    # Sincronizar los 3 niveles
+    # Sincronizar los 3 niveles con nombres formales
     surveys = [
-        "../formbricks/formbricks_basic_ready.json",
-        "../formbricks/formbricks_medium_ready.json",
-        "../formbricks/formbricks_advanced_ready.json"
+        ("../formbricks/formbricks_basic_ready.json", "Basic Assessment"),
+        ("../formbricks/formbricks_medium_ready.json", "Medium Assessment"),
+        ("../formbricks/formbricks_advanced_ready.json", "Advanced Assessment")
     ]
     
-    for s in surveys:
-        if os.path.exists(s):
-            print(f"Subiendo {s}...")
-            upload_survey(s)
+    for path, name in surveys:
+        if os.path.exists(path):
+            print(f"Subiendo {path} como '{name}'...")
+            upload_survey(path, name)
