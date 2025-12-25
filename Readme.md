@@ -74,7 +74,9 @@ Este proyecto utiliza la [Management API de Formbricks](https://formbricks.com/d
 ├── formbricks/                     # JSONs listos para la API de Formbricks
 ├── master_assesment/               # Fuente de verdad de las preguntas (Scoring y Razonamiento)
 ├── src/
-│   └── sync_to_formbricks.py       # Script de carga a la API
+│   ├── generate_docs.py            # Generador de documentación
+│   ├── refactor_i18n.py            # Migración a multilingüe
+│   └── sync_to_formbricks.py       # Sincronización con Formbricks
 ├── .env.example                    # Plantilla de configuración
 └── Readme.md                       # Este archivo
 ```
@@ -124,11 +126,22 @@ El éxito de este assessment se mide a través de indicadores de planta reales.
 
 ---
 
+## 🛠️ Herramientas de Desarrollo
+
+Para facilitar el mantenimiento y la expansión del proyecto, se incluyen scripts de utilidad en la carpeta `src/`:
+
+*   **`src/generate_docs.py`**: Genera automáticamente los archivos Markdown de la carpeta `docs/questions/` a partir de los JSON maestros. Útil cuando se agregan o modifican preguntas.
+*   **`src/refactor_i18n.py`**: Herramienta utilizada para migrar la estructura de los JSONs al formato multilingüe.
+*   **`src/sync_to_formbricks.py`**: Sincroniza las evaluaciones con la instancia de Formbricks.
+
+---
+
 ## 📚 Documentación Vinculada
 
 Para profundizar en áreas específicas, consulta:
 
 *   **[Metodología de Evaluación](docs/metodology.md):** Detalle del sistema de puntos (Score Teórico vs Práctico).
+*   **[Agentes del Sistema](docs/AGENTS.md):** Definición de roles y agentes de IA para la expansión del proyecto.
 *   **[Nivel 1 - Básico](docs/questions/LEVEL_1_BASIC_ASSESSMENT.md):** Temario para operadores.
 *   **[Nivel 2 - Medio](docs/questions/LEVEL_2_MEDIUM_ASSESSMENT.md):** Temario para técnicos.
 *   **[Nivel 3 - Avanzado](docs/questions/LEVEL_3_ADVANCED_ASSESSMENT.md):** Temario para ingeniería.

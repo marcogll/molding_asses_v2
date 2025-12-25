@@ -6,7 +6,9 @@ Este documento describe la metodología de evaluación para el sistema **Code Ca
 ## Estructura del Assessment
 
 ### Datos Maestros (JSON)
-Estos archivos contienen la "fuente de verdad", incluyendo las preguntas, respuestas correctas, razonamientos técnicos y valores de puntuación. Se utilizan para el procesamiento automatizado y la sincronización con la API.
+Estos archivos contienen la "fuente de verdad", incluyendo las preguntas, respuestas correctas, razonamientos técnicos y valores de puntuación. 
+**Actualización:** Estos archivos ahora siguen una estructura multilingüe (i18n) para soportar múltiples idiomas (ES, EN, FR, etc.) en el mismo archivo.
+
 - `master_assesment/json/basic_assesment.json`: Datos maestros del Nivel Básico.
 - `master_assesment/json/medium_assesment.json`: Datos maestros del Nivel Medio.
 - `master_assesment/json/advanced_assesment.json`: Datos maestros del Nivel Avanzado.
