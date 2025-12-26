@@ -35,7 +35,8 @@ Este archivo detalla las tareas secuenciales para evolucionar Code Carol hacia u
 
 - [x] **3.1. Setup del Servidor**
     - [x] Inicializar proyecto (Node.js/Express).
-    - [ ] Configurar base de datos (SQLite para dev, PostgreSQL para prod).
+    - [x] Configurar base de datos (SQLite para dev).
+    - [ ] Configurar base de datos (PostgreSQL para prod).
     
 - [ ] **3.2. Implementación de Modelos de Base de Datos**
     - [ ] Tabla `Participants`: (ID, Nombre, Dept, Rol, Exp, Self_Eval).

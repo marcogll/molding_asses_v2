@@ -35,6 +35,10 @@ app.use('/assessment', assessmentRoutes);
 const errorHandler = require('./middleware/errorHandler');
 app.use(errorHandler);
 
+// --- DATABASE INITIALIZATION ---
+const { initializeDatabase } = require('./services/databaseService');
+initializeDatabase();
+
 // --- SERVER STARTUP ---
 app.listen(PORT, HOST, () => {
   console.log(`CAROL-ws server is running on http://${HOST}:${PORT}`);

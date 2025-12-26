@@ -1,6 +1,0 @@
-employee_id,plant,area,role,active
-101,Tijuana,Molding,Operator,true
-102,Tijuana,Molding,Technician,true
-103,Juarez,Assembly,Operator,false
-104,Juarez,Quality,Inspector,true
-105,Tijuana,Molding,Supervisor,true

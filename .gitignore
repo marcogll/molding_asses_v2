@@ -1,0 +1,23 @@
+# Dependencies
+/node_modules
+/CAROL_ws/node_modules
+
+# Environment Variables
+.env
+CAROL_ws/.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Database
+*.db
+*.db-journal
+/CAROL_ws/data/carol.db
+
+# Build output
+/dist
+/build
