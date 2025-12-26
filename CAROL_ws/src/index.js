@@ -24,6 +24,10 @@ app.get('/health', (req, res) => {
 const surveyRoutes = require('./routes/surveyRoutes');
 app.use('/api/surveys', surveyRoutes);
 
+// Import and use assessment routes
+const assessmentRoutes = require('./routes/assessmentRoutes');
+app.use('/assessment', assessmentRoutes);
+
 // Start the server and listen for incoming connections
 app.listen(PORT, HOST, () => {
   console.log(`CAROL-ws server is running on http://${HOST}:${PORT}`);

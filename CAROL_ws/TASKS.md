@@ -16,7 +16,7 @@ Este archivo define las tareas de desarrollo pendientes para implementar la func
     -   Crear `src/controllers/surveyController.js` y `src/routes/surveyRoutes.js`.
     -   Exponer un endpoint GET `/api/surveys` que devuelva la lista de encuestas.
 
--   [ ] **Tarea 1.3: Implementar el servicio de validación de empleados.**
+-   [x] **Tarea 1.3: Implementar el servicio de validación de empleados.**
     -   Crear el archivo `src/services/employeeService.js`.
     -   Crear una función `validateEmployee(employeeId)` que:
         -   Lea el archivo `data/employees.csv` usando `csv-parser`.
@@ -24,7 +24,7 @@ Este archivo define las tareas de desarrollo pendientes para implementar la func
         -   Devuelva los datos del empleado si se encuentra y está activo, o `null` en caso contrario.
     -   **Nota:** Asegúrate de manejar la lectura asíncrona del archivo CSV.
 
--   [ ] **Tarea 1.3: Crear la ruta y el controlador de la evaluación.**
+-   [x] **Tarea 1.4: Crear la ruta y el controlador de la evaluación.**
     -   Crear el archivo de rutas `src/routes/assessmentRoutes.js`.
     -   Definir una ruta GET `/assessment/:employeeId`.
     -   Crear el archivo del controlador `src/controllers/assessmentController.js`.
