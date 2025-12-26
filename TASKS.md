@@ -38,10 +38,10 @@ Este archivo detalla las tareas secuenciales para evolucionar Code Carol hacia u
     - [x] Configurar base de datos (SQLite para dev).
     - [ ] Configurar base de datos (PostgreSQL para prod).
     
-- [ ] **3.2. Implementación de Modelos de Base de Datos**
-    - [ ] Tabla `Participants`: (ID, Nombre, Dept, Rol, Exp, Self_Eval).
-    - [ ] Tabla `Assessments`: (ID, Idioma, JSON_Ref).
-    - [ ] Tabla `Results`: (Participant_ID, Assessment_ID, Score, Breakdown).
+- [x] **3.2. Implementación de Modelos de Base de Datos**
+    - [x] Tabla `Participants`: (ID, Nombre, Dept, Rol, Exp, Self_Eval).
+    - [x] Tabla `Assessments`: (ID, Idioma, JSON_Ref).
+    - [x] Tabla `Results`: (Participant_ID, Assessment_ID, Score, Breakdown).
 
 - [ ] **3.3. Lógica de Enrutamiento (The Funnel Engine)**
     - [ ] Implementar algoritmo de decisión:

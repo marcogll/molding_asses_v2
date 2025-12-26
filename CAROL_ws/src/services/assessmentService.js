@@ -1,27 +1,49 @@
 /**
  * @file assessmentService.js
- * @description Service for assessment assignment logic.
+ * @description Service for managing assessments in the database.
  */
 
-const surveyMap = {
-  Operator: 'cmjlxk0dg000do501jm3nn416',
-  Technician: 'cmjlxk143000eo501osrugdq1',
-  Supervisor: 'cmjlxk1ye000fo501tdxgk2ls',
-  Inspector: 'cmjlxk0dg000do501jm3nn416',
+const db = require('../config/database');
+
+/**
+ * Creates a new assessment.
+ * @param {object} assessmentData - The data for the new assessment.
+ * @returns {Promise<number>} The ID of the newly created assessment.
+ */
+const createAssessment = (assessmentData) => {
+  return new Promise((resolve, reject) => {
+    const { language, json_ref, participant_id } = assessmentData;
+    const sql = `INSERT INTO Assessments (language, json_ref, participant_id)
+                 VALUES (?, ?, ?)`;
+    db.run(sql, [language, json_ref, participant_id], function (err) {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(this.lastID);
+      }
+    });
+  });
 };
 
 /**
- * Gets the survey ID for an employee based on their role.
- * @param {object} employee - The employee object.
- * @returns {string|null} The survey ID or null.
+ * Gets an assessment by its ID.
+ * @param {number} id - The ID of the assessment.
+ * @returns {Promise<object|null>} The assessment object or null if not found.
  */
-const getSurveyIdForEmployee = (employee) => {
-  if (!employee || !employee.role) {
-    return null;
-  }
-  return surveyMap[employee.role] || null;
+const getAssessmentById = (id) => {
+  return new Promise((resolve, reject) => {
+    const sql = `SELECT * FROM Assessments WHERE id = ?`;
+    db.get(sql, [id], (err, row) => {
+      if (err) {
+        reject(err);
+      } else {
+        resolve(row);
+      }
+    });
+  });
 };
 
 module.exports = {
-  getSurveyIdForEmployee,
+  createAssessment,
+  getAssessmentById,
 };
