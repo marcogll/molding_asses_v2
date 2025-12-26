@@ -1,36 +1,44 @@
-// Import necessary modules
+/**
+ * CAROL-ws - Assessment Gateway Web Server
+ */
+
+// --- DEPENDENCIES ---
 const express = require('express');
 const dotenv = require('dotenv');
+const path = require('path');
 
-// Load environment variables from the root .env file
+// --- INITIALIZATION ---
 dotenv.config();
-
-// Initialize the Express application
 const app = express();
 
-// Define the port and host from environment variables, with defaults
+// --- CONFIGURATION ---
 const PORT = process.env.PORT || 8000;
 const HOST = process.env.HOST || '0.0.0.0';
 
-// Middleware to parse JSON bodies
+// --- MIDDLEWARE ---
 app.use(express.json());
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
-// Health check endpoint to verify server status
+// --- ROUTES ---
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK', message: 'Server is running' });
 });
 
-// Import and use survey routes
 const surveyRoutes = require('./routes/surveyRoutes');
 app.use('/api/surveys', surveyRoutes);
 
-// Import and use assessment routes
 const assessmentRoutes = require('./routes/assessmentRoutes');
 app.use('/assessment', assessmentRoutes);
 
-// Start the server and listen for incoming connections
+// --- ERROR HANDLING ---
+const errorHandler = require('./middleware/errorHandler');
+app.use(errorHandler);
+
+// --- SERVER STARTUP ---
 app.listen(PORT, HOST, () => {
   console.log(`CAROL-ws server is running on http://${HOST}:${PORT}`);
 });
 
-module.exports = app; // Export for potential testing
+// --- EXPORTS ---
+module.exports = app;

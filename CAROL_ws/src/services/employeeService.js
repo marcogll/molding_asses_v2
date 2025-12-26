@@ -1,46 +1,41 @@
-// Import necessary modules
+/**
+ * @file employeeService.js
+ * @description Service for employee data validation.
+ */
+
 const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
 
-// Define the path to the CSV file
 const CSV_PATH = path.join(__dirname, '../../data/employees.csv');
 
 /**
- * Validates an employee by their ID against the CSV data.
- * This function reads the CSV file, searches for the employee,
- * and checks if they are active.
- *
+ * Validates an employee by their ID against CSV data.
  * @param {string} employeeId - The ID of the employee to validate.
- * @returns {Promise<object|null>} A promise that resolves to the employee object if found and active, otherwise null.
+ * @returns {Promise<object|null>} The employee object or null.
  */
 const validateEmployee = (employeeId) => {
   return new Promise((resolve, reject) => {
-    // Check if the CSV file exists
     if (!fs.existsSync(CSV_PATH)) {
-      console.error(`Error: Employee CSV file not found at ${CSV_PATH}`);
-      return reject(new Error('Employee data is not available.'));
+      const error = new Error(`Employee CSV file not found at path: ${CSV_PATH}`);
+      console.error(error.message);
+      return reject(error);
     }
 
-    const results = [];
+    const employees = [];
     fs.createReadStream(CSV_PATH)
       .pipe(csv())
-      .on('data', (data) => results.push(data))
+      .on('data', (row) => employees.push(row))
       .on('end', () => {
-        // Find the employee by their ID
-        const employee = results.find(row => row.employee_id === employeeId);
-
-        // If employee is found and is active, resolve with their data
+        const employee = employees.find(emp => emp.employee_id === employeeId);
         if (employee && employee.active === 'true') {
           resolve(employee);
         } else {
-          // If not found or not active, resolve with null
           resolve(null);
         }
       })
       .on('error', (error) => {
-        // If there's an error reading the file, reject the promise
-        console.error('Error reading or parsing employee CSV:', error);
+        console.error('An error occurred while parsing the employee CSV file:', error);
         reject(error);
       });
   });

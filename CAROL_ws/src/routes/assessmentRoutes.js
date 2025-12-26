@@ -1,13 +1,16 @@
-// Import the Express module to create a router
+/**
+ * @file assessmentRoutes.js
+ * @description Defines the routes for the employee assessment process.
+ */
+
 const express = require('express');
 const router = express.Router();
-
-// Import the assessment controller
 const assessmentController = require('../controllers/assessmentController');
 
-// Define the route for validating an employee for an assessment
-// GET /assessment/:employeeId
+/**
+ * @route GET /assessment/:employeeId
+ * @description Initiates the assessment for a given employee.
+ */
 router.get('/:employeeId', assessmentController.validateForAssessment);
 
-// Export the router to be used in the main application file
 module.exports = router;
