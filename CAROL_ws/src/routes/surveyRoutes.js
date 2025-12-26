@@ -1,13 +1,16 @@
-// Import the Express module to create a router
+/**
+ * @file surveyRoutes.js
+ * @description Defines API routes for Formbricks survey data.
+ */
+
 const express = require('express');
 const router = express.Router();
-
-// Import the survey controller
 const surveyController = require('../controllers/surveyController');
 
-// Define the route for getting all surveys
-// GET /api/surveys
+/**
+ * @route GET /api/surveys
+ * @description Retrieves a list of all available surveys.
+ */
 router.get('/', surveyController.getAllSurveys);
 
-// Export the router to be used in the main application file
 module.exports = router;

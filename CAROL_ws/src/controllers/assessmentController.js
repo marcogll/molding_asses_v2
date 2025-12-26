@@ -1,40 +1,50 @@
-// Import the employee validation service
+/**
+ * @file assessmentController.js
+ * @description Controller for the employee assessment process.
+ */
+
 const employeeService = require('../services/employeeService');
+const assessmentService = require('../services/assessmentService');
 
 /**
- * Controller to handle the employee validation for an assessment.
- * It uses the employee service to validate the employeeId from the URL parameters.
- *
- * @param {object} req - The Express request object, containing the employeeId.
- * @param {object} res - The Express response object.
+ * Validates an employee and renders their assigned assessment.
+ * @param {object} req - Express request object.
+ * @param {object} res - Express response object.
+ * @param {function} next - Express next middleware function.
  */
-const validateForAssessment = async (req, res) => {
+const validateForAssessment = async (req, res, next) => {
   try {
     const { employeeId } = req.params;
-
-    // Validate the employee using the service
     const employee = await employeeService.validateEmployee(employeeId);
 
-    // If the employee is not found or not active, return a 404 Not Found response
     if (!employee) {
-      return res.status(404).json({
-        message: 'Employee not found or not authorized for assessment.',
+      res.status(404);
+      return res.render('error', {
+        title: 'Acceso no Autorizado',
+        message: 'El número de empleado que ingresaste no es válido o no tiene permiso para realizar esta evaluación.',
         employeeId,
       });
     }
 
-    // If the employee is valid, return a 200 OK response with their data
-    // In the future, this will trigger rendering the assessment
-    res.status(200).json({
-      message: 'Employee is authorized.',
-      employee,
+    const surveyId = assessmentService.getSurveyIdForEmployee(employee);
+
+    if (!surveyId) {
+      res.status(404);
+      return res.render('error', {
+        title: 'Evaluación no Asignada',
+        message: 'No se ha encontrado una evaluación asignada para tu rol. Por favor, contacta a tu supervisor.',
+        employeeId: employee.employee_id,
+      });
+    }
+
+    res.render('assessment', {
+      employeeId: employee.employee_id,
+      surveyId,
+      formbricksUrl: process.env.FORMBRICKS_URL,
+      environmentId: process.env.FORMBRICKS_ENVIRONMENT_ID,
     });
   } catch (error) {
-    // If an unexpected error occurs, return a 500 Internal Server Error response
-    res.status(500).json({
-      message: 'An error occurred during employee validation.',
-      error: error.message,
-    });
+    next(error);
   }
 };
 
