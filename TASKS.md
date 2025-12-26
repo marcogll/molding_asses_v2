@@ -33,8 +33,8 @@ Este archivo detalla las tareas secuenciales para evolucionar Code Carol hacia u
 
 ## Fase 3: Desarrollo del Web Server (Backend & Logic)
 
-- [ ] **3.1. Setup del Servidor**
-    - [ ] Inicializar proyecto (FastAPI o Flask).
+- [x] **3.1. Setup del Servidor**
+    - [x] Inicializar proyecto (Node.js/Express).
     - [ ] Configurar base de datos (SQLite para dev, PostgreSQL para prod).
     
 - [ ] **3.2. Implementación de Modelos de Base de Datos**
