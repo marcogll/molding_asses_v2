@@ -4,13 +4,19 @@ Este archivo define las tareas de desarrollo pendientes para implementar la func
 
 ## Fase 1: Configuración Inicial y Validación del Empleado
 
--   [ ] **Tarea 1.1: Configurar el servidor Express básico.**
+-   [x] **Tarea 1.1: Configurar el servidor Express básico.**
     -   Crear el archivo `src/index.js`.
     -   Importar `express` y `dotenv`.
     -   Configurar el servidor para que escuche en el puerto definido en `.env`.
     -   Añadir un endpoint de prueba (ej. `/health`) que devuelva un estado `200 OK`.
 
--   [ ] **Tarea 1.2: Implementar el servicio de validación de empleados.**
+-   [x] **Tarea 1.2: Añadir endpoint para obtener encuestas de Formbricks.**
+    -   Añadir `axios` como dependencia.
+    -   Crear `src/services/formbricksService.js` para obtener las encuestas.
+    -   Crear `src/controllers/surveyController.js` y `src/routes/surveyRoutes.js`.
+    -   Exponer un endpoint GET `/api/surveys` que devuelva la lista de encuestas.
+
+-   [ ] **Tarea 1.3: Implementar el servicio de validación de empleados.**
     -   Crear el archivo `src/services/employeeService.js`.
     -   Crear una función `validateEmployee(employeeId)` que:
         -   Lea el archivo `data/employees.csv` usando `csv-parser`.

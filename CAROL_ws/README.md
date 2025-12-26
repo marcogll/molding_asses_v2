@@ -89,7 +89,7 @@ Las encuestas se crean y mantienen fuera de este servidor.
 
 ### Variables de entorno
 
-Archivo `.env` (ubicado en `CAROL_ws/src`):
+Archivo .env (ubicado en la raíz del proyecto, `CAROL_ws/.env`):
 
 ```
 FORMBRICKS_URL=https://feedback.soul23.cloud
